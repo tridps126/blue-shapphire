@@ -1,0 +1,29 @@
+
+@import './themes/bootstrap-4-3-min7e7a.css?1715757113942';
+@import './themes/swiper.scss7e7a.css?1715757113942';
+@import './themes/main.scss7e7a.css?1715757113942';
+@import './themes/paginate.scss7e7a.css?1715757113942';
+@import './themes/index.scss7e7a.css?1715757113942';
+@import './themes/quickviews_popup_cart.scss7e7a.css?1715757113942';
+@import './themes/ajaxcart.scss7e7a.css?1715757113942';
+@import './themes/style_page.scss7e7a.css?1715757113942';
+@import './themes/style_about.scss7e7a.css';
+@import './themes/breadcrumb_style.scss7e7a.css';
+@import './themes/contact_style.scss7e7a.css';
+@import './themes/blog_article_style.scss7e7a.css';
+@import './themes//collection_style.scss7e7a.css';
+
+
+:root {
+    --mainColor: #f58800;
+    --mainColor2: #266867;
+    --hover: #f58800;
+    --priceColor: #e12c43;
+    --textColor: #02020a;
+    --gradient1: #e8cb9d;
+    --gradient2: #ca9236;
+}
+
+a {
+    text-decoration: none !important;
+}
