@@ -38,8 +38,7 @@
                                         <div class="block-thumb">
 
                                             <a class="thumb" href="vinhome-grand-park.html" title="Vinhome Grand Park">
-                                                <img class="lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
                                                     alt="Vinhome Grand Park">
                                             </a>
@@ -88,8 +87,7 @@
 
                                             <a class="thumb" href="sun-grand-city-hillside-residence.html"
                                                 title="Sun Grand City Hillside Residence">
-                                                <img class="lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/nam-sg-4-10d929efac37408086ae10bac664d3ca-master.jpg?v=1712581912227"
                                                     alt="Sun Grand City Hillside Residence">
                                             </a>
@@ -137,8 +135,7 @@
                                         <div class="block-thumb">
 
                                             <a class="thumb" href="thao-dien-green.html" title="Thảo Điền Green">
-                                                <img class="lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/lucasta-5-1d44651771c34b02869f20722b068d24-master.jpg?v=1712581922387"
                                                     alt="Thảo Điền Green">
                                             </a>
@@ -184,10 +181,8 @@
                                     <div class="item-blog">
                                         <div class="block-thumb">
 
-                                            <a class="thumb" href="khu-can-ho-sunflower.html"
-                                                title="Khu căn hộ Sunflower">
-                                                <img class="lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                            <a class="thumb" href="khu-can-ho-sunflower.html" title="Khu căn hộ Sunflower">
+                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/blooming-park1.jpg?v=1712581435090"
                                                     alt="Khu căn hộ Sunflower">
                                             </a>
@@ -238,8 +233,7 @@
                                         <div class="block-thumb">
 
                                             <a class="thumb" href="hcci-hoang-liet.html" title="HCCI Hoàng Liệt">
-                                                <img class="lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/image-20231026161812-3.jpeg?v=1711980615940"
                                                     alt="HCCI Hoàng Liệt">
                                             </a>
@@ -287,11 +281,9 @@
                                     <div class="item-blog">
                                         <div class="block-thumb">
 
-                                            <a class="thumb"
-                                                href="can-ho-cao-cap-4-phong-ngu-220m2-phong-cach-luxury.html"
+                                            <a class="thumb" href="can-ho-cao-cap-4-phong-ngu-220m2-phong-cach-luxury.html"
                                                 title="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">
-                                                <img class="lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/duan-1.jpg?v=1702970722857"
                                                     alt="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">
                                             </a>
@@ -350,7 +342,7 @@
                                     Dự án tiêu biểu
                                 </div>
                                 <nav class="nav-category">
-                                    <ul class="nav navbar-pills">
+                                    <ul class="navbar-pills">
                                         <li class="nav-item  relative">
                                             <a title="Trang chủ" class="nav-link" href="index.html">Trang chủ</a>
                                         </li>
@@ -362,12 +354,12 @@
                                             <i class="open_mnu down_icon"></i>
                                             <ul class="menu_down" style="display:none;">
                                                 <li class="nav-item">
-                                                    <a title="Dự án biệt thự" class="nav-link"
-                                                        href="du-an-biet-thu.html">Dự án biệt thự</a>
+                                                    <a title="Dự án biệt thự" class="nav-link" href="du-an-biet-thu.html">Dự
+                                                        án biệt thự</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a title="Dự án nhà phố" class="nav-link"
-                                                        href="du-an-nha-pho.html">Dự án nhà phố</a>
+                                                    <a title="Dự án nhà phố" class="nav-link" href="du-an-nha-pho.html">Dự
+                                                        án nhà phố</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a title="Dự án văn phòng" class="nav-link"
@@ -453,8 +445,7 @@
 
                                     <div class="item clearfix">
                                         <div class="post-thumb">
-                                            <a class="image-blog scale_hover"
-                                                href="sun-grand-city-hillside-residence.html"
+                                            <a class="image-blog scale_hover" href="sun-grand-city-hillside-residence.html"
                                                 title="Sun Grand City Hillside Residence">
 
                                                 <img class="img-fluid lazyload"
@@ -519,7 +510,6 @@
             </div>
         </div>
     </div>
-
 </template>
 
 <script>
