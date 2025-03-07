@@ -509,21 +509,36 @@
 
             </div>
         </div>
-        <Product :product="{
-            id: 35278172,
-            title: 'Giường Ngủ Gỗ Tràm',
-            url: 'giuong-ngu-go-tram.html',
-            image: '//bizweb.dktcdn.net/thumb/large/100/503/218/products/pro-nau-noi-that-moho-giuong-ngu-go-dalumd-1m6-1-b6335d3cd4fd4c0f9c891772815100d5-master.jpg?v=1712216559870',
-            placeholderImage: '../bizweb.dktcdn.net/100/503/218/themes/931576/assets/lazy7e7a.png?1715757113942',
-            price: 5490000,
-            variantId: 116125521
-        }" />
     </div>
 </template>
 
 <script>
-import Product from '../views/item/Product.vue'
+import axios from 'axios';
+let consumer_key = "ck_4b3c3b71515a5bde5b088b24f7a0d6385b3883ca";
+let consumer_secret = "cs_4c2853499c8045a0e0c16a46c86c18954c05e157";
 export default {
-    name: 'Products'
+    name: 'Products',
+    data() {
+        return {
+            searchTerm: '',
+            products: [],
+            consumer_key: consumer_key,
+            consumer_secret: consumer_secret
+        };
+    },
+    methods: {
+        async fetchProducts() {
+            try {
+                const response = await axios.get(`https://shop.trialweb.us//wp-json/wc/v3/products?consumer_key=${this.consumer_key}&consumer_secret=${this.consumer_secret}&per_page=6`);
+                this.products = response.data;
+                console.log(this.products);
+            } catch (error) {
+                console.error("Lỗi khi tải sản phẩm:", error);
+            }
+        },
+    },
+    mounted() {
+        this.fetchProducts();
+    },
 }
 </script>
