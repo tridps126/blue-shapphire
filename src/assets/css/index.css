@@ -27,3 +27,21 @@
 a {
     text-decoration: none !important;
 }
+
+p {
+    text-align: justify;
+    word-spacing: -1px;
+    /* Điều chỉnh khoảng cách giữa từ */
+}
+
+.footer {
+    .list-menu {
+        padding-left: 0px;
+    }
+}
+
+.about_service {
+    p {
+        word-spacing: 0px;
+    }
+}

@@ -10,9 +10,10 @@
                                     src="../assets/css/themes/logo-footer7e7a.png?1715757113942" alt="Lofi Construction"
                                     class="img-fluid">
                             </a>
-                            <div class="footer-desc">Với một sứ mệnh không ngừng nâng cao chất lượng cuộc sống thông
-                                qua thiết kế nội thất, chúng tôi là địa chỉ đáng tin cậy cho mọi người cần tạo ra
-                                không gian sống và làm việc lý tưởng.</div>
+                            <div class="footer-desc">
+                                <p>"Tạo Dựng Các Giải Pháp Công Nghệ, Nhân Sự Và Marketing Hiệu Quả, Giúp Doanh Nghiệp Đổi Mới Và Tăng Cường Sự Tương Tác Với Khách Hàng." Chúng tôi hướng tới việc cung cấp các công cụ và chiến lược giúp doanh nghiệp tăng cường sự hiện diện và kết nối sâu sắc hơn với khách hàng.
+                                </p>
+                            </div>
                             <div class="contacts-list">
                                 <div class="item">
                                     <a href="https://maps.app.goo.gl/6YaHB8o1a5qNSJkM7"
