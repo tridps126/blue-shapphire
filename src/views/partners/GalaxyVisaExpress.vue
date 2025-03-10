@@ -82,7 +82,7 @@
                                     của khách hàng trở nên dễ dàng hơn bao giờ hết.
                                 </p>
                                 <p><strong>Thông tin doanh nghiệp</strong></p>
-                                <p>Website: <a href="https://galaxyvisaexpress.us/">https://galaxyvisaexpress.us/</a></p>
+                                <p>Website: <a href="https://galaxyvisaexpress.us/" target="_blank">https://galaxyvisaexpress.us/</a></p>
 
                                 <p>Điện thoại: (470) 912-0024</p>
 

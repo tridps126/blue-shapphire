@@ -85,7 +85,7 @@
                                 </p>
 
                                 <p><strong>Thông tin doanh nghiệp</strong></p>
-                                <p>Website: <a href="https://galaxyaccess.us/">https://galaxyaccess.us/</a></p>
+                                <p>Website: <a href="https://galaxyaccess.us/" target="_blank">https://galaxyaccess.us/</a></p>
 
                                 <p>Điện thoại: (770) 284-8888</p>
 
