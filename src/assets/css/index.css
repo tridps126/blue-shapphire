@@ -45,3 +45,7 @@ p {
         word-spacing: 0px;
     }
 }
+
+.page_services .nav-item a {
+    font-weight: 400 !important;
+}

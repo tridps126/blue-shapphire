@@ -47,14 +47,13 @@
                                                 src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
-                                    <h3><a href="thiet-ke-noi-that.html" title="Thiết kế nội thất">Thiết kế nội
-                                            thất</a>
+                                    <h3><a href="thiet-ke-noi-that.html" title="Thiết kế nội thất">Telesale &
+                                            Chăm sóc Khách Hàng</a>
                                     </h3>
-                                    <p>Chúng tôi có đội ngũ kiến trúc sư và nhà thiết kế nội thất tài năng, sẵn
-                                        lòng
-                                        lắng nghe ý kiến của bạn và biến những ý tưởng thành những không gian
-                                        sống đẹp
-                                        mắt và tiện nghi.</p>
+                                    <p>Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi giúp doanh
+                                        nghiệp tạo dựng mối quan hệ bền vững với khách hàng thông qua dịch vụ
+                                        chăm sóc khách hàng và telesale hiệu quả.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -75,17 +74,17 @@
                                                 src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
-                                    <h3><a href="tu-van-du-an.html" title="Tư vấn dự án">Tư vấn dự án</a></h3>
-                                    <p>Với kinh nghiệm rộng lớn trong lĩnh vực xây dựng và thiết kế, chúng tôi
-                                        có thể
-                                        cung cấp cho bạn sự tư vấn chuyên nghiệp và chiến lược hiệu quả cho
-                                        mọi dự án
-                                        của bạn.</p>
+                                    <h3><a href="tu-van-du-an.html" title="Tư vấn dự án">Các giải pháp phát
+                                            triển website</a></h3>
+                                    <p>Blue Sapphire cung cấp các giải pháp thiết kế và phát triển website chất
+                                        lượng cao, dễ sử dụng, tối ưu cho cả người dùng và doanh nghiệp, giúp
+                                        nâng cao sự hiện diện trực tuyến của bạn.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 service-pad">
+                    <div class="col-lg-6 col-md-6 col-12 mx-auto service-pad">
                         <div class="service-item">
                             <div class="image">
                                 <div class="image_thumb">
@@ -101,48 +100,48 @@
                                                 src="../assets/css/themes/service_icon_37e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
-                                    <h3><a href="cai-tao-nha-cua.html" title="Cải tạo nhà cửa">Cải tạo nhà
-                                            cửa</a></h3>
-                                    <p>Chúng tôi không chỉ tập trung vào việc tạo ra những không gian mới mẻ và
-                                        tinh tế
-                                        mà còn có khả năng tái sử dụng và cải tạo nhà cửa hiện có, giúp bạn
-                                        tiết kiệm
-                                        thời gian và chi phí.</p>
+                                    <h3><a href="cai-tao-nha-cua.html" title="Cải tạo nhà cửa">Chiến lược
+                                            Marketing tối ưu</a></h3>
+                                    <p>Chúng tôi thực hiện các chiến dịch marketing tối ưu giúp doanh nghiệp
+                                        tiếp cận đúng đối tượng khách hàng và tăng trưởng bền vững, đồng thời
+                                        tối đa hóa hiệu quả chi phí.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 service-pad">
-                        <div class="service-item">
-                            <div class="image">
-                                <div class="image_thumb">
-                                    <img class="img-fluid" width="800" height="563"
-                                        src="../assets/css/themes/service_image_47e7a.jpg?1715757113942"
-                                        alt="Lofi Construction">
-                                </div>
-                            </div>
-                            <div class="main">
-                                <div class="main-body">
-                                    <div class="icon">
-                                        <span><img class="img-fluid"
-                                                src="../assets/css/themes/service_icon_47e7a.png?1715757113942"
-                                                alt="Lofi Construction" width="65" height="65"></span>
-                                    </div>
-                                    <h3><a href="son-sua-cong-trinh.html" title="Sơn sửa công trình">Sơn sửa
-                                            công
-                                            trình</a></h3>
-                                    <p>Đội ngũ kỹ thuật viên của chúng tôi sẽ mang lại cho bạn các dịch vụ sơn
-                                        công
-                                        trình chất lượng cao, từ việc lựa chọn vật liệu phù hợp đến quy trình
-                                        thi công
-                                        chuyên nghiệp.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- <div class="col-lg-6 col-md-6 col-12 service-pad">
+                              <div class="service-item">
+                                   <div class="image">
+                                        <div class="image_thumb">
+                                             <img class="img-fluid" width="800" height="563"
+                                                  src="../assets/css/themes/service_image_47e7a.jpg?1715757113942"
+                                                  alt="Lofi Construction">
+                                        </div>
+                                   </div>
+                                   <div class="main">
+                                        <div class="main-body">
+                                             <div class="icon">
+                                                  <span><img class="img-fluid"
+                                                            src="../assets/css/themes/service_icon_47e7a.png?1715757113942"
+                                                            alt="Lofi Construction" width="65" height="65"></span>
+                                             </div>
+                                             <h3><a href="son-sua-cong-trinh.html" title="Sơn sửa công trình">Sơn sửa
+                                                       công
+                                                       trình</a></h3>
+                                             <p>Đội ngũ kỹ thuật viên của chúng tôi sẽ mang lại cho bạn các dịch vụ sơn
+                                                  công
+                                                  trình chất lượng cao, từ việc lựa chọn vật liệu phù hợp đến quy trình
+                                                  thi công
+                                                  chuyên nghiệp.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div> -->
                 </div>
                 <div class="service-ctas">
-                    <router-link to="/projects" class="btn-viewmore" title="Xem thêm">Xem thêm</router-link>
+                    <router-link to="/service/contact-center" class="btn-viewmore" title="Xem thêm">Xem
+                        thêm</router-link>
                 </div>
             </div>
         </section>
@@ -163,12 +162,10 @@
                             <div class="block-title">
                                 <span class="top-title">Đội ngũ chuyên nghiệp</span>
                                 <h2>Hiệu quả của công ty chúng tôi</h2>
-                                <p>Chúng tôi cam kết mang đến cho khách hàng những giải pháp tối ưu và hoàn hảo
-                                    nhất cho
-                                    không gian sống của bạn.</p>
+                                <p>Chúng Tôi Tạo Dựng Trải Nghiệm Khách Hàng Tuyệt Vời, Đảm Bảo Mỗi Cuộc Gọi Là
+                                    Một Cơ Hội Để Doanh Nghiệp Vươn Tới Thành Công</p>
                             </div>
                         </div>
-
                         <div class="all-skill-bar">
                             <div class="progress skill-bar">
                                 <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
@@ -176,24 +173,21 @@
                                     95%
                                 </div>
                             </div>
-                            <div class="progress-title line-clamp line-clamp-1" title="Máy móc công ty">Máy móc
-                                công ty
+                            <div class="progress-title line-clamp line-clamp-1" title="Máy móc công ty">
+                                Công nghệ tối ưu
                             </div>
                         </div>
-
                         <div class="all-skill-bar">
                             <div class="progress skill-bar">
                                 <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
                                     aria-valuemin="0" aria-valuemax="100">
-                                    85%
+                                    90%
                                 </div>
                             </div>
-                            <div class="progress-title line-clamp line-clamp-1" title="Kỹ sư có trình độ">Kỹ sư
-                                có trình
-                                độ</div>
+                            <div class="progress-title line-clamp line-clamp-1" title="Kỹ sư có trình độ">
+                                Nhân viên có trình độ
+                            </div>
                         </div>
-
-
                         <div class="all-skill-bar">
                             <div class="progress skill-bar">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
@@ -201,21 +195,9 @@
                                     100%
                                 </div>
                             </div>
-                            <div class="progress-title line-clamp line-clamp-1" title="Sự hài lòng của khách hàng">Sự
-                                hài lòng của khách hàng</div>
-                        </div>
-
-
-                        <div class="all-skill-bar">
-                            <div class="progress skill-bar">
-                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    90%
-                                </div>
+                            <div class="progress-title line-clamp line-clamp-1" title="Sự hài lòng của khách hàng">
+                                Sự hài lòng của khách hàng
                             </div>
-                            <div class="progress-title line-clamp line-clamp-1" title="Thiết kế xây dựng">Thiết
-                                kế xây
-                                dựng</div>
                         </div>
                     </div>
                 </div>
@@ -231,6 +213,7 @@
                             <p>Chúng tôi luôn nỗ lực để mang đến cho khách hàng những dịch vụ tốt nhất.</p>
                         </div>
                         <div class="whychoose-content">
+
                             <div class="why-box">
                                 <div class="box-icon">
                                     <img class="img-fluid"
@@ -238,11 +221,12 @@
                                         alt="Lofi Construction" width="50" height="50" />
                                 </div>
                                 <div class="box-content">
-                                    <h3>Chuyên nghiệp</h3>
-                                    <p>Đội ngũ của chúng tôi được đào tạo chuyên sâu và có kinh nghiệm trong
-                                        ngành.</p>
+                                    <h3>Kinh nghiệm và chuyên môn</h3>
+                                    <p>Với nhiều năm kinh nghiệm, Blue Sapphire cung cấp giải pháp phù hợp cho các ngành
+                                        nghề khác nhau, giúp doanh nghiệp đạt hiệu quả tối ưu.</p>
                                 </div>
                             </div>
+
                             <div class="why-box">
                                 <div class="box-icon">
                                     <img class="img-fluid"
@@ -250,10 +234,9 @@
                                         alt="Lofi Construction" width="50" height="50" />
                                 </div>
                                 <div class="box-content">
-                                    <h3>Tận tâm</h3>
-                                    <p>Chúng tôi luôn lắng nghe và hiểu rõ nhu cầu của khách hàng để mang lại
-                                        sự hài
-                                        lòng tối đa.</p>
+                                    <h3>Giải pháp toàn diện</h3>
+                                    <p>Cung cấp dịch vụ thiết kế website, bộ nhận diện thương hiệu, sản xuất video, quản
+                                        lý mạng xã hội và quảng cáo trực tuyến.</p>
                                 </div>
                             </div>
 
@@ -264,10 +247,22 @@
                                         alt="Lofi Construction" width="50" height="50" />
                                 </div>
                                 <div class="box-content">
-                                    <h3>Sáng tạo</h3>
-                                    <p>Chúng tôi không ngừng nỗ lực để tạo ra những ý tưởng mới mẻ và sáng tạo
-                                        trong mọi
-                                        dự án.</p>
+                                    <h3>Tùy chỉnh theo nhu cầu</h3>
+                                    <p>Các giải pháp được thiết kế riêng biệt, phù hợp với mục tiêu và đặc thù của từng
+                                        doanh nghiệp</p>
+                                </div>
+                            </div>
+
+                            <div class="why-box">
+                                <div class="box-icon">
+                                    <img class="img-fluid"
+                                        src="../assets/css/themes/why_choose_icon_37e7a.png?1715757113942"
+                                        alt="Lofi Construction" width="50" height="50" />
+                                </div>
+                                <div class="box-content">
+                                    <h3>Chất lượng dịch vụ cao</h3>
+                                    <p>Đội ngũ nhân viên và kỹ thuật giàu kinh nghiệm, đảm bảo dịch vụ chất lượng và đạt
+                                        kết quả vượt trội.</p>
                                 </div>
                             </div>
 

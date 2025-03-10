@@ -157,8 +157,12 @@
                                         <router-link to="/about">Giới thiệu</router-link>
                                     </li>
 
+                                    <li class="nav-item" :class="{ active: $route.path === '/partner' }">
+                                        <router-link to="/partner">Đối Tác</router-link>
+                                    </li>
 
-                                    <li class="nav-item" :class="{ active: $route.path === '/projects' }">
+
+                                    <!-- <li class="nav-item" :class="{ active: $route.path === '/projects' }">
                                         <router-link to="/projects">Dự án</router-link>
                                         <i class="fa fa-caret-down"></i>
 
@@ -187,7 +191,7 @@
                                             </li>
                                         </ul>
 
-                                    </li>
+                                    </li> -->
 
 
                                     <li class="nav-item  " :class="{ active: $route.path === '/services' }">
@@ -198,37 +202,26 @@
 
                                         <ul class="item_small">
                                             <li>
-                                                <a class="" href="thiet-ke-noi-that.html" title="Thiết kế nội thất">
-                                                    Thiết kế nội thất
-                                                </a>
+                                                <router-link to="/service/contact-center">Contact Center</router-link>
                                             </li>
                                             <li>
-                                                <a class="" href="tu-van-du-an.html" title="Tư vấn dự án">
-                                                    Tư vấn dự án
-                                                </a>
+                                                <router-link to="/service/website">Phát triển website</router-link>
                                             </li>
                                             <li>
-                                                <a class="" href="cai-tao-nha-cua.html" title="Cải tạo nhà cửa">
-                                                    Cải tạo nhà cửa
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="" href="son-sua-cong-trinh.html" title="Sơn sửa công trình">
-                                                    Sơn sửa công trình
-                                                </a>
+                                                <router-link to="/service/marketing">Chiến lược Marketing</router-link>
                                             </li>
                                         </ul>
 
                                     </li>
 
                                     <li class="nav-item " :class="{ active: $route.path === '/products' }">
-                                        <router-link to="/products">Sản phẩm</router-link>
+                                        <router-link to="/products">Tuyển Dụng</router-link>
 
                                     </li>
 
-                                    <li class="nav-item ">
+                                    <!-- <li class="nav-item ">
                                         <router-link to="/team">Đội ngũ</router-link>
-                                    </li>
+                                    </li> -->
 
                                     <li class="nav-item ">
                                         <router-link to="/news">Tin tức</router-link>

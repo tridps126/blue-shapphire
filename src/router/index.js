@@ -9,6 +9,12 @@ import Products from '@/views/Products.vue';
 import Team from '@/views/Team.vue';
 import News from '@/views/News.vue';
 import Contact from '@/views/Contact.vue';
+import ContactCenter from '@/views/Service/ContactCenter.vue';
+import Marketing from '@/views/Service/Marketing.vue';
+import Website from '@/views/Service/Website.vue';
+import Partner from '@/views/Partners.vue';
+import GalaxyAccess from '@/views/partners/GalaxyAccess.vue';
+import GalaxyVisaExpress from '@/views/partners/GalaxyVisaExpress.vue';
 
 Vue.use(Router);
 
@@ -23,6 +29,13 @@ export default new Router({
     { path: '/team', name: 'Team', component: Team },
     { path: '/news', name: 'News', component: News },
     { path: '/contact', name: 'Contact', component: Contact },
+    { path: '/service/contact-center', name: 'ContactCenter', component: ContactCenter },
+    { path: '/service/marketing', name: 'Marketing', component: Marketing },
+    { path: '/service/website', name: 'Website', component: Website },
+    { path: '/partner', name: 'Partner', component: Partner },
+    { path: '/partners/galaxy-access', name: 'GalaxyAccess', component: GalaxyAccess },
+    { path: '/partners/galaxy-visa-express', name: 'GalaxyVisaExpress', component: GalaxyVisaExpress },
+    { path: '/partner', name: 'Partner', component: Partner },
     { path: '*', redirect: '/' } // Redirect nếu không tìm thấy trang
   ]
 });

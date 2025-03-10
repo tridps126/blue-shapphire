@@ -59,11 +59,12 @@
                             <div class="about-content">
                                 <span class="top-title">Chúng tôi là ai</span>
                                 <h2 class="title">Cam kết chất lượng và kết quả vượt trội</h2>
-                                <p class="desc">Chúng tôi là những người giải quyết vấn Chúng tôi cam kết mang đến cho
-                                    khách hàng những sản phẩm và dịch vụ tốt nhất, đáp ứng và vượt qua mong đợi của
-                                    họbằng sự tập trung. Người quản lý dự án có mục đích. Những người trong nhóm có một
-                                    mục tiêu chung: Thực hiện dự án của bạn đúng thời hạn, đúng ngân sách và tầm nhìn.
-                                </p>
+                                <p class="desc">Với hơn 10 năm kinh nghiệm hoạt động tại thị trường Việt Nam, Blue
+                                    Sapphire đã trở thành đối tác chiến lược đáng tin cậy của nhiều doanh nghiệp
+                                    trong việc cung cấp các giải pháp công nghệ và nhân sự. Chúng tôi chuyên cung
+                                    cấp các dịch vụ mang tính sáng tạo và chất lượng cao, được thiết kế riêng biệt
+                                    để giúp doanh nghiệp tối ưu hóa hiệu quả công việc và gia tăng lợi thế cạnh
+                                    tranh. </p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="single-about">
@@ -71,8 +72,10 @@
                                                     src="../assets/css/themes/quality7e7a.png?1715757113942"
                                                     alt="Lofi Construction" width="50" height="50"></span>
                                             <h3>Đảm bảo chất lượng</h3>
-                                            <p>Chúng tôi cam kết mang đến cho khách hàng những sản phẩm và dịch vụ tốt
-                                                nhất, đáp ứng và vượt qua mong đợi của khách hàng.</p>
+                                            <p>Đội ngũ kỹ sư phần mềm, kỹ sư hệ thống và nhân viên tổng đài của
+                                                chúng tôi không chỉ có chuyên môn sâu rộng mà còn luôn sáng tạo
+                                                và nỗ lực hết mình để mang đến những sản phẩm và dịch vụ đột phá.
+                                            </p>
 
                                         </div>
                                     </div>
@@ -81,9 +84,11 @@
                                             <span class="icon"><img
                                                     src="../assets/css/themes/responsibility7e7a.png?1715757113942"
                                                     alt="Lofi Construction" width="50" height="50"></span>
-                                            <h3>Trách nhiệm xã hội</h3>
-                                            <p>Chúng tôi cam kết đóng góp tích cực vào cộng đồng và xã hội xung quanh
-                                                thông qua các hoạt động từ thiện và các chương trình hỗ trợ cộng đồng.
+                                            <h3>Trách nhiệm</h3>
+                                            <p>Chúng tôi hiểu rằng mỗi doanh nghiệp đều có những yêu cầu và thách
+                                                thức riêng biệt, vì vậy các giải pháp mà <Strong>Blue
+                                                    Sapphire</Strong> cung cấp đều được điều chỉnh và thiết kế
+                                                sao cho phù hợp nhất với từng khách hàng.
                                             </p>
                                         </div>
                                     </div>
@@ -96,12 +101,6 @@
             <section class="section_statistic">
                 <div class="container">
                     <div class="row">
-
-
-
-
-
-
                         <div class="col-lg-3 col-md-6 col-xs-6">
                             <div class="item">
                                 <div class="icon">
@@ -111,20 +110,13 @@
                                 </div>
                                 <div class="content">
                                     <div class="counter-number-wrapper">
-                                        <span class="counter-number">765</span>
+                                        <span ref="counter" class="counter-number">10</span>
                                         <span class="suffix">+</span>
                                     </div>
-                                    <div class="static-title">Dự án hoàn thành</div>
+                                    <div class="static-title">Hình thành & phát triển</div>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
                         <div class="col-lg-3 col-md-6 col-xs-6">
                             <div class="item">
                                 <div class="icon">
@@ -134,20 +126,13 @@
                                 </div>
                                 <div class="content">
                                     <div class="counter-number-wrapper">
-                                        <span class="counter-number">999</span>
+                                        <span ref="counter" class="counter-number">100</span>
                                         <span class="suffix">+</span>
                                     </div>
-                                    <div class="static-title">Khách hàng hạnh phúc</div>
+                                    <div class="static-title">Quy mô nhân sự</div>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
                         <div class="col-lg-3 col-md-6 col-xs-6">
                             <div class="item">
                                 <div class="icon">
@@ -157,20 +142,13 @@
                                 </div>
                                 <div class="content">
                                     <div class="counter-number-wrapper">
-                                        <span class="counter-number">21</span>
+                                        <span ref="counter" class="counter-number">10</span>
                                         <span class="suffix">+</span>
                                     </div>
                                     <div class="static-title">Năm kinh nghiệm</div>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
                         <div class="col-lg-3 col-md-6 col-xs-6">
                             <div class="item">
                                 <div class="icon">
@@ -180,15 +158,13 @@
                                 </div>
                                 <div class="content">
                                     <div class="counter-number-wrapper">
-                                        <span class="counter-number">380</span>
+                                        <span ref="counter" class="counter-number">1000</span>
                                         <span class="suffix">+</span>
                                     </div>
-                                    <div class="static-title">Đội ngũ chuyên nghiệp</div>
+                                    <div class="static-title">Dự án thành công</div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
@@ -255,12 +231,6 @@
                         <div class="swiper-container swiper-about-service">
                             <div class="swiper-wrapper">
 
-
-
-
-
-
-
                                 <div class="swiper-slide">
                                     <div class="item">
                                         <div class="image">
@@ -269,10 +239,11 @@
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
-                                            <h3>Thiết kế nội thất</h3>
-                                            <p>Chúng tôi có đội ngũ kiến trúc sư và nhà thiết kế nội thất tài năng, sẵn
-                                                lòng lắng nghe ý kiến của bạn và biến những ý tưởng thành những không
-                                                gian sống đẹp mắt và tiện nghi.</p>
+                                            <h3>Telesale & Chăm sóc Khách Hàng</h3>
+                                            <p>Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi giúp doanh
+                                                nghiệp tạo dựng mối quan hệ bền vững với khách hàng thông qua dịch vụ
+                                                chăm sóc khách hàng và telesale hiệu quả.
+                                            </p>
                                             <div class="ctas">
                                                 <a class="btn-viewmore" href="thiet-ke-noi-that.html"
                                                     title="Xem thêm">Xem thêm</a>
@@ -280,14 +251,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
                                 <div class="swiper-slide">
                                     <div class="item">
                                         <div class="image">
@@ -296,10 +259,11 @@
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
-                                            <h3>Tư vấn dự án</h3>
-                                            <p>Với kinh nghiệm rộng lớn trong lĩnh vực xây dựng và thiết kế, chúng tôi
-                                                có thể cung cấp cho bạn sự tư vấn chuyên nghiệp và chiến lược hiệu quả
-                                                cho mọi dự án của bạn.</p>
+                                            <h3>Các giải pháp phát triển website</h3>
+                                            <p>Blue Sapphire cung cấp các giải pháp thiết kế và phát triển website chất
+                                                lượng cao, dễ sử dụng, tối ưu cho cả người dùng và doanh nghiệp, giúp
+                                                nâng cao sự hiện diện trực tuyến của bạn.
+                                            </p>
                                             <div class="ctas">
                                                 <a class="btn-viewmore" href="tu-van-du-an.html" title="Xem thêm">Xem
                                                     thêm</a>
@@ -307,14 +271,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
                                 <div class="swiper-slide">
                                     <div class="item">
                                         <div class="image">
@@ -323,10 +279,11 @@
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
-                                            <h3>Cải tạo nhà cửa</h3>
-                                            <p>Chúng tôi không chỉ tập trung vào việc tạo ra những không gian mới mẻ và
-                                                tinh tế mà còn có khả năng tái sử dụng và cải tạo nhà cửa hiện có, giúp
-                                                bạn tiết kiệm thời gian và chi phí.</p>
+                                            <h3>Chiến lược Marketing tối ưu</h3>
+                                            <p>Chúng tôi thực hiện các chiến dịch marketing tối ưu giúp doanh nghiệp
+                                                tiếp cận đúng đối tượng khách hàng và tăng trưởng bền vững, đồng thời
+                                                tối đa hóa hiệu quả chi phí.
+                                            </p>
                                             <div class="ctas">
                                                 <a class="btn-viewmore" href="cai-tao-nha-cua.html" title="Xem thêm">Xem
                                                     thêm</a>
@@ -334,49 +291,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img class="img-fluid"
-                                                src="../assets/css/themes/service_image_47e7a.jpg?1715757113942"
-                                                alt="Lofi Construction">
-                                        </div>
-                                        <div class="main">
-                                            <h3>Sơn sửa công trình</h3>
-                                            <p>Đội ngũ kỹ thuật viên của chúng tôi sẽ mang lại cho bạn các dịch vụ sơn
-                                                công trình chất lượng cao, từ việc lựa chọn vật liệu phù hợp đến quy
-                                                trình thi công chuyên nghiệp.</p>
-                                            <div class="ctas">
-                                                <a class="btn-viewmore" href="son-sua-cong-trinh.html"
-                                                    title="Xem thêm">Xem thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
