@@ -1,6 +1,7 @@
 <template>
     <div class="bg-home">
-        <section class="bread-crumb" style="background-image: url('../assets/css/themes/breadcrumb-bg.webp')">
+        <section class="bread-crumb"
+            :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Sản Phẩm
@@ -36,21 +37,25 @@
                                 <nav class="nav-category">
                                     <ul class="navbar-pills">
                                         <li class="nav-item  relative">
-                                            <a title="Trang chủ" class="nav-link" href="index.html">Trang chủ</a>
+                                            <router-link title="Trang chủ" class="nav-link" to="/">Trang
+                                                chủ</router-link>
                                         </li>
                                         <li class="nav-item  relative">
-                                            <a title="Giới thiệu" class="nav-link" href="gioi-thieu.html">Giới thiệu</a>
+                                            <router-link to="/about" title="Giới thiệu" class="nav-link">Giới
+                                                thiệu</router-link>
                                         </li>
-                                        <li class="nav-item active relative">
-                                            <a title="Dự án" href="du-an.html" class="nav-link pr-5">Dự án</a>
+                                        <li class="nav-item relative">
+                                            <router-link to="/projects" class="nav-link pr-5">Dự án</router-link>
                                             <i class="open_mnu down_icon"></i>
                                             <ul class="menu_down" style="display:none;">
                                                 <li class="nav-item">
-                                                    <a title="Dự án biệt thự" class="nav-link" href="du-an-biet-thu.html">Dự
+                                                    <a title="Dự án biệt thự" class="nav-link"
+                                                        href="du-an-biet-thu.html">Dự
                                                         án biệt thự</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a title="Dự án nhà phố" class="nav-link" href="du-an-nha-pho.html">Dự
+                                                    <a title="Dự án nhà phố" class="nav-link"
+                                                        href="du-an-nha-pho.html">Dự
                                                         án nhà phố</a>
                                                 </li>
                                                 <li class="nav-item">
@@ -65,7 +70,7 @@
                                             </ul>
                                         </li>
                                         <li class="nav-item  relative">
-                                            <a title="Dịch vụ" href="dich-vu.html" class="nav-link pr-5">Dịch vụ</a>
+                                            <router-link to="/services" class="nav-link pr-5">Dịch vụ</router-link>
                                             <i class="open_mnu down_icon"></i>
                                             <ul class="menu_down" style="display:none;">
                                                 <li class="nav-item">
@@ -86,18 +91,17 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item  relative">
-                                            <a title="Sản phẩm" class="nav-link" href="collections/all.html">Sản
-                                                phẩm</a>
+                                        <li class="nav-item active relative">
+                                            <router-link to="/products" class="nav-link">Sản phẩm</router-link>
                                         </li>
                                         <li class="nav-item  relative">
-                                            <a title="Đội ngũ" class="nav-link" href="doi-ngu.html">Đội ngũ</a>
+                                            <router-link to="/team" class="nav-link">Đội ngũ</router-link>
                                         </li>
                                         <li class="nav-item  relative">
-                                            <a title="Tin tức" class="nav-link" href="tin-tuc.html">Tin tức</a>
+                                            <router-link to="/news" class="nav-link">Tin tức</router-link>
                                         </li>
                                         <li class="nav-item  relative">
-                                            <a title="Liên hệ" class="nav-link" href="lien-he.html">Liên hệ</a>
+                                            <router-link to="/contact" class="nav-link">Liên hệ</router-link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -107,396 +111,87 @@
 									$(this).toggleClass('active').next().slideToggle();
 								});
 							</script> -->
-                            <div class="blog_noibat">
-
-
-
-                                <h2 class="h2_sidebar_blog">
-                                    <a href="tin-tuc.html" title="Dự án nổi bật">Dự án nổi bật</a>
-                                </h2>
-                                <div class="blog_content">
-
-                                    <div class="item clearfix">
-                                        <div class="post-thumb">
-                                            <a class="image-blog scale_hover" href="vinhome-grand-park.html"
-                                                title="Vinhome Grand Park">
-
-                                                <img class="img-fluid lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
-                                                    alt="Vinhome Grand Park">
-
-                                            </a>
-                                        </div>
-                                        <div class="contentright">
-                                            <h3><a title="Vinhome Grand Park" href="vinhome-grand-park.html">Vinhome
-                                                    Grand Park</a></h3>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="item clearfix">
-                                        <div class="post-thumb">
-                                            <a class="image-blog scale_hover" href="sun-grand-city-hillside-residence.html"
-                                                title="Sun Grand City Hillside Residence">
-
-                                                <img class="img-fluid lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/nam-sg-4-10d929efac37408086ae10bac664d3ca-master.jpg?v=1712581912227"
-                                                    alt="Sun Grand City Hillside Residence">
-
-                                            </a>
-                                        </div>
-                                        <div class="contentright">
-                                            <h3><a title="Sun Grand City Hillside Residence"
-                                                    href="sun-grand-city-hillside-residence.html">Sun Grand City
-                                                    Hillside Residence</a></h3>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="item clearfix">
-                                        <div class="post-thumb">
-                                            <a class="image-blog scale_hover" href="thao-dien-green.html"
-                                                title="Thảo Điền Green">
-
-                                                <img class="img-fluid lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/lucasta-5-1d44651771c34b02869f20722b068d24-master.jpg?v=1712581922387"
-                                                    alt="Thảo Điền Green">
-
-                                            </a>
-                                        </div>
-                                        <div class="contentright">
-                                            <h3><a title="Thảo Điền Green" href="thao-dien-green.html">Thảo Điền
-                                                    Green</a></h3>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="item clearfix">
-                                        <div class="post-thumb">
-                                            <a class="image-blog scale_hover" href="khu-can-ho-sunflower.html"
-                                                title="Khu căn hộ Sunflower">
-
-                                                <img class="img-fluid lazyload"
-                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/blooming-park1.jpg?v=1712581435090"
-                                                    alt="Khu căn hộ Sunflower">
-
-                                            </a>
-                                        </div>
-                                        <div class="contentright">
-                                            <h3><a title="Khu căn hộ Sunflower" href="khu-can-ho-sunflower.html">Khu căn
-                                                    hộ Sunflower</a></h3>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="right-content col-lg-9 col-12">
-
                         <div class="list-blogs">
-
                             <div class="row row-fix">
-
-                                <div class="col-12 col-md-6 col-lg-4 col-fix">
-                                    <div class="item-blog">
-                                        <div class="block-thumb">
-
-                                            <a class="thumb" href="vinhome-grand-park.html" title="Vinhome Grand Park">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
-                                                    alt="Vinhome Grand Park">
-                                            </a>
-
-                                        </div>
-                                        <div class="block-content">
-                                            <div class="time-post">
-                                                <div class="author-post">
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                        data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                            class=""></path>
+                                <div v-if="products.length > 0" v-for="product in products" :key="product.id"
+                                    class="col-6 col-xl-4 col-lg-4 col-md-4">
+                                    <div class="item_product_main">
+                                        <form action="https://lofi-company.mysapo.net/cart/add" method="post"
+                                            class="variants product-action " data-cart-form
+                                            data-id="product-actions-35278172" enctype="multipart/form-data">
+                                            <div class="product-thumbnail">
+                                                <a class="image_thumb" href="giuong-ngu-go-tram.html"
+                                                    title="Giường Ngủ Gỗ Tràm">
+                                                    <img class="lazyload" width="480" height="480"
+                                                        :src="product.images[0].src"
+                                                        data-src="../assets//css//themes/pro-nau-noi-that-moho-giuong-ngu-go-dalumd-1m6-1-b6335d3cd4fd4c0f9c891772815100d5-master.webp"
+                                                        alt="Giường Ngủ Gỗ Tr&#224;m" />
+                                                </a>
+                                                <a href="javascript:void(0)"
+                                                    class="btn-compare js-btn-wishlist setWishlist btn-views"
+                                                    data-wish="giuong-ngu-go-tram" tabindex="0"
+                                                    title="Thêm vào yêu thích">
+                                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                        fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path
+                                                            d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402m5.726-20.583c-2.203 0-4.446 1.042-5.726 3.238-1.285-2.206-3.522-3.248-5.719-3.248-3.183 0-6.281 2.187-6.281 6.191 0 4.661 5.571 9.429 12 15.809 6.43-6.38 12-11.148 12-15.809 0-4.011-3.095-6.181-6.274-6.181" />
                                                     </svg>
-                                                    <span>Team Lofi</span>
-                                                </div>
-                                                <div class="date-post f">
+                                                </a>
 
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fal"
-                                                        data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512" class="svg-inline--fa fa-clock fa-w-16">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    08/04/2024
-                                                </div>
+                                                <!-- <div class="action">
+                                                    <div class="actions-secondary">
+                                                        <div class="actions-primary">
+                                                            <input class="hidden" type="hidden" name="variantId"
+                                                                value="116125521" />
+                                                            <button class="btn-cart" title="Tùy chọn" type="button"
+                                                                onclick="window.location.href='giuong-ngu-go-tram.html'">
+                                                                <span class="icon icon-settings">
+                                                                    <svg style="enable-background:new 0 0 50 50;"
+                                                                        version="1.1" viewBox="0 0 50 50"
+                                                                        xml:space="preserve"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                                        <g id="Layer_1">
+                                                                            <path
+                                                                                d="M44,19.09V1h-2v18.09c-2.833,0.478-5,2.942-5,5.91s2.167,5.431,5,5.91V49h2V30.91c2.833-0.478,5-2.942,5-5.91   S46.833,19.569,44,19.09z M43,29c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S45.206,29,43,29z" />
+                                                                            <path
+                                                                                d="M6,1v7.09C3.167,8.569,1,11.033,1,14s2.167,5.431,5,5.91V49h2V19.91c2.833-0.478,5-2.942,5-5.91s-2.167-5.431-5-5.91V1H6z    M11,14c0,2.206-1.794,4-4,4s-4-1.794-4-4s1.794-4,4-4S11,11.794,11,14z" />
+                                                                            <path
+                                                                                d="M24,1v30.09c-2.833,0.478-5,2.942-5,5.91s2.167,5.431,5,5.91V49h2v-6.09c2.833-0.478,5-2.942,5-5.91s-2.167-5.431-5-5.91V1   H24z M29,37c0,2.206-1.794,4-4,4s-4-1.794-4-4s1.794-4,4-4S29,34.794,29,37z" />
+                                                                        </g>
+                                                                        <g />
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                        <a title="Xem nhanh" href="giuong-ngu-go-tram.html"
+                                                            data-handle="giuong-ngu-go-tram"
+                                                            class="quick-view btn-views">
+                                                            <svg width="24" height="24"
+                                                                xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                                                                clip-rule="evenodd">
+                                                                <path
+                                                                    d="M12.01 20c-5.065 0-9.586-4.211-12.01-8.424 2.418-4.103 6.943-7.576 12.01-7.576 5.135 0 9.635 3.453 11.999 7.564-2.241 4.43-6.726 8.436-11.999 8.436zm-10.842-8.416c.843 1.331 5.018 7.416 10.842 7.416 6.305 0 10.112-6.103 10.851-7.405-.772-1.198-4.606-6.595-10.851-6.595-6.116 0-10.025 5.355-10.842 6.584zm10.832-4.584c2.76 0 5 2.24 5 5s-2.24 5-5 5-5-2.24-5-5 2.24-5 5-5zm0 1c2.208 0 4 1.792 4 4s-1.792 4-4 4-4-1.792-4-4 1.792-4 4-4z" />
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div> -->
                                             </div>
-                                            <h3><a href="vinhome-grand-park.html" title="Vinhome Grand Park">Vinhome
-                                                    Grand Park</a></h3>
-
-                                            <div class="article-content">Dự án&nbsp;Vinhomes Grand Park&nbsp;Quận 9 của
-                                                chủ đầu tư VinGroup đã mở bán ra thị trường vào quý II.2019 với quy
-                                                mô...
+                                            <div class="product-info">
+                                                <h3 class="product-name"><a href="giuong-ngu-go-tram.html"
+                                                        title="Giường Ngủ Gỗ Tràm">{{ product.name }}</a></h3>
+                                                <div class="price-box">
+                                                    ${{ product.price }} </div>
                                             </div>
-
-                                        </div>
+                                        </form>
                                     </div>
                                 </div>
-
-
-                                <div class="col-12 col-md-6 col-lg-4 col-fix">
-                                    <div class="item-blog">
-                                        <div class="block-thumb">
-
-                                            <a class="thumb" href="sun-grand-city-hillside-residence.html"
-                                                title="Sun Grand City Hillside Residence">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/nam-sg-4-10d929efac37408086ae10bac664d3ca-master.jpg?v=1712581912227"
-                                                    alt="Sun Grand City Hillside Residence">
-                                            </a>
-
-                                        </div>
-                                        <div class="block-content">
-                                            <div class="time-post">
-                                                <div class="author-post">
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                        data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    <span>Team Lofi</span>
-                                                </div>
-                                                <div class="date-post f">
-
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fal"
-                                                        data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512" class="svg-inline--fa fa-clock fa-w-16">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    08/04/2024
-                                                </div>
-                                            </div>
-                                            <h3><a href="sun-grand-city-hillside-residence.html"
-                                                    title="Sun Grand City Hillside Residence">Sun Grand City Hillside
-                                                    Residence</a></h3>
-
-                                            <div class="article-content">Sun Grand City Hillside Residence là dự án căn
-                                                hộ, shophouse tọa lạc tại trung tâm An Thới, nằm trong quy hoạch...
-                                            </div>
-
-                                        </div>
-                                    </div>
+                                <div v-if="products.length === 0">
+                                    <p style="text-align: center;">loading...</p>
                                 </div>
-
-
-                                <div class="col-12 col-md-6 col-lg-4 col-fix">
-                                    <div class="item-blog">
-                                        <div class="block-thumb">
-
-                                            <a class="thumb" href="thao-dien-green.html" title="Thảo Điền Green">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/lucasta-5-1d44651771c34b02869f20722b068d24-master.jpg?v=1712581922387"
-                                                    alt="Thảo Điền Green">
-                                            </a>
-
-                                        </div>
-                                        <div class="block-content">
-                                            <div class="time-post">
-                                                <div class="author-post">
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                        data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    <span>Team Lofi</span>
-                                                </div>
-                                                <div class="date-post f">
-
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fal"
-                                                        data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512" class="svg-inline--fa fa-clock fa-w-16">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    08/04/2024
-                                                </div>
-                                            </div>
-                                            <h3><a href="thao-dien-green.html" title="Thảo Điền Green">Thảo Điền
-                                                    Green</a></h3>
-
-                                            <div class="article-content">Tọa lạc ngay góc đường Nguyễn Văn Hưởng, phường
-                                                Thảo Điền, TP Thủ Đức (192 Nguyễn Văn Hưởng, Phường Thảo Điền), Thảo...
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-12 col-md-6 col-lg-4 col-fix">
-                                    <div class="item-blog">
-                                        <div class="block-thumb">
-
-                                            <a class="thumb" href="khu-can-ho-sunflower.html" title="Khu căn hộ Sunflower">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/blooming-park1.jpg?v=1712581435090"
-                                                    alt="Khu căn hộ Sunflower">
-                                            </a>
-
-                                        </div>
-                                        <div class="block-content">
-                                            <div class="time-post">
-                                                <div class="author-post">
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                        data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    <span>Team Lofi</span>
-                                                </div>
-                                                <div class="date-post f">
-
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fal"
-                                                        data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512" class="svg-inline--fa fa-clock fa-w-16">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    08/04/2024
-                                                </div>
-                                            </div>
-                                            <h3><a href="khu-can-ho-sunflower.html" title="Khu căn hộ Sunflower">Khu căn
-                                                    hộ Sunflower</a></h3>
-
-                                            <div class="article-content">Tổng quan
-                                                - Chủ đầu tư: INVESKIA&nbsp;
-                                                - Nhà thầu chính: BYUCKSAN E&amp;C&nbsp;
-                                                - Thiết kế: DONG WOO Co.&nbsp;
-                                                - Giám sát thi công: NAGECCO&nbsp;
-                                                - Diện...
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-12 col-md-6 col-lg-4 col-fix">
-                                    <div class="item-blog">
-                                        <div class="block-thumb">
-
-                                            <a class="thumb" href="hcci-hoang-liet.html" title="HCCI Hoàng Liệt">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/image-20231026161812-3.jpeg?v=1711980615940"
-                                                    alt="HCCI Hoàng Liệt">
-                                            </a>
-
-                                        </div>
-                                        <div class="block-content">
-                                            <div class="time-post">
-                                                <div class="author-post">
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                        data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    <span>Team Lofi</span>
-                                                </div>
-                                                <div class="date-post f">
-
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fal"
-                                                        data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512" class="svg-inline--fa fa-clock fa-w-16">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    01/04/2024
-                                                </div>
-                                            </div>
-                                            <h3><a href="hcci-hoang-liet.html" title="HCCI Hoàng Liệt">HCCI Hoàng
-                                                    Liệt</a></h3>
-
-                                            <div class="article-content">Tổng quan HCCI Hoàng Liệt
-                                                &nbsp;
-                                                Dự án HCCI Hoàng Liệt&nbsp;(Khu nhà ở thấp tầng Hoàng Liệt) là khu nhà ở
-                                                gồm 16 căn...
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-12 col-md-6 col-lg-4 col-fix">
-                                    <div class="item-blog">
-                                        <div class="block-thumb">
-
-                                            <a class="thumb" href="can-ho-cao-cap-4-phong-ngu-220m2-phong-cach-luxury.html"
-                                                title="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
-                                                    data-src="https://bizweb.dktcdn.net/100/503/218/articles/duan-1.jpg?v=1702970722857"
-                                                    alt="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">
-                                            </a>
-
-                                        </div>
-                                        <div class="block-content">
-                                            <div class="time-post">
-                                                <div class="author-post">
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                        data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    <span>Team Lofi</span>
-                                                </div>
-                                                <div class="date-post f">
-
-                                                    <svg aria-hidden="true" focusable="false" data-prefix="fal"
-                                                        data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512" class="svg-inline--fa fa-clock fa-w-16">
-                                                        <path fill="var(--mainColor)"
-                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                            class=""></path>
-                                                    </svg>
-                                                    19/12/2023
-                                                </div>
-                                            </div>
-                                            <h3><a href="can-ho-cao-cap-4-phong-ngu-220m2-phong-cach-luxury.html"
-                                                    title="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">Căn
-                                                    hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury</a></h3>
-
-                                            <div class="article-content">Khu vực sảnh chờ
-                                                Khi di chuyển từ thang máy riêng lên căn hộ, bạn sẽ đặt chân đến với khu
-                                                vực sảnh...
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
                             </div>
                             <div class="text-center">
 
@@ -531,7 +226,7 @@ export default {
             try {
                 const response = await axios.get(`https://shop.trialweb.us//wp-json/wc/v3/products?consumer_key=${this.consumer_key}&consumer_secret=${this.consumer_secret}&per_page=6`);
                 this.products = response.data;
-                console.log(this.products);
+                // console.log(this.products);
             } catch (error) {
                 console.error("Lỗi khi tải sản phẩm:", error);
             }

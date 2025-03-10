@@ -1,7 +1,7 @@
 <template>
     <div class="bg-home">
         <section class="bread-crumb"
-            style="background-image: url('../assets/css/themes/breadcrumb-bg.webp')">
+            :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Giới thiệu
@@ -700,13 +700,6 @@
                     <div class="testimonials-content">
                         <div class="testimonials-swiper swiper-container">
                             <div class="swiper-wrapper">
-
-
-
-
-
-
-
                                 <div class="swiper-slide">
                                     <div class="testimonials">
                                         <div class="icon">
@@ -810,22 +803,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             </div>
 
                             <div class="swiper-pagination"></div>
@@ -843,6 +820,7 @@ import Swiper from 'swiper';
 
 import 'swiper/swiper-bundle.css';
 import $ from "jquery";
+import counterUp from "counterup2";
 export default {
     name: 'About',
     mounted() {
@@ -901,10 +879,16 @@ export default {
             $(".block_video_play").lightGallery();
         });
         this.$nextTick(() => {
-            $(".counter-number").counterUp({
-                delay: 10,
-                time: 1000
-            });
+            setTimeout(() => {
+                if (typeof $.fn.counterUp !== "undefined") {
+                $(".counter-number").counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            } else {
+                console.error("Không tìm thấy phần tử .counter!");
+            }
+            }, 500);
         });
     }
 }

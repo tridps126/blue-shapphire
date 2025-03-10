@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <div class="backdrop__body-backdrop___1rvky" :class="{ active: isSearchActive}" @click="closeCart"></div>
+    <div class="opacity_menu"></div>
+    <Header :isSearchActive="isSearchActive" :openSearch="openSearch"></Header>
     <main>
       <router-view />
     </main>
@@ -21,7 +23,23 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
+  data() {
+    return {
+      isCartOpen: false,  // Trạng thái giỏ hàng
+      isSearchActive: false // Trạng thái tìm kiếm
+    };
+  },
+  methods: {
+    closeCart() {
+      this.isCartOpen = false;
+      this.isSearchActive = false;
+      document.body.classList.remove("search-active"); // Xóa class trên body
+    },
+    openSearch() {
+      this.isSearchActive = !this.isSearchActive;
+    }
+  },
 }
 </script>
 

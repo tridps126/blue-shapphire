@@ -1,6 +1,6 @@
 <template>
     <div class="bg-home">
-        <section class="bread-crumb" style="background-image: url('../assets/css/themes/breadcrumb-bg.webp')">
+        <section class="bread-crumb" :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Đội Ngũ

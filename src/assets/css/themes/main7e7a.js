@@ -24,11 +24,11 @@ $(window).on('scroll mousemove touchstart',function(){
 
 			var wDWs = $(window).width();
 
-			$('.button-search').on('click', function(){
-				$('.search-wrap-popup').addClass('active');
-				$('body').addClass('search-active');
-				$('.backdrop__body-backdrop___1rvky').addClass('active');
-			})
+			// $('.button-search').on('click', function(){
+			// 	$('.search-wrap-popup').addClass('active');
+			// 	$('body').addClass('search-active');
+			// 	$('.backdrop__body-backdrop___1rvky').addClass('active');
+			// })
 
 			
 

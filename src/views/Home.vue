@@ -989,6 +989,7 @@ import Swiper from 'swiper';
 
 import 'swiper/swiper-bundle.css';
 import $ from "jquery";
+import counterUp from "counterup2";
 export default {
      name: 'Home',
      mounted() {
@@ -1021,12 +1022,18 @@ export default {
                $(".block_video_play").lightGallery();
           });
           this.$nextTick(() => {
-               $(".counter-number").counterUp({
-                    delay: 10,
-                    time: 1000
-               });
+               setTimeout(() => {
+                    if (typeof $.fn.counterUp !== "undefined") {
+                         $(".counter-number").counterUp({
+                              delay: 10,
+                              time: 1000
+                         });
+                    } else {
+                         console.error("Không tìm thấy phần tử .counter!");
+                    }
+               }, 500);
           });
-     }
+     },
 }
 
 
