@@ -816,11 +816,11 @@
 </template>
 
 <script>
-import Swiper from 'swiper';
+import Swiper from "swiper/bundle";
 
 import 'swiper/swiper-bundle.css';
 import $ from "jquery";
-import counterUp from "counterup2";
+// import counterUp from "counterup2";
 export default {
     name: 'About',
     mounted() {
@@ -850,30 +850,92 @@ export default {
             },
         });
         new Swiper('.swiper-about-service', {
-            slidesPerView: 4, // Số slide hiển thị
-            spaceBetween: 20, // Khoảng cách giữa các slide
-            loop: true, // Cho phép lặp vô hạn
+            slidesPerView: 3,
+            loop: false,
+            grabCursor: true,
+            spaceBetween: 30,
+            slidesPerColumn: 1,
+            slidesPerColumnFill: 'row',
+            roundLengths: true,
+            slideToClickedSlide: false,
+            autoplay: false,
+            navigation: {
+                nextEl: '.swiper-about-service .swiper-button-next',
+                prevEl: '.swiper-about-service .swiper-button-prev',
+            },
             pagination: {
-                el: ".swiper-pagination",
+                el: '.swiper-about-service .swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                500: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 15
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
         });
         new Swiper('.testimonials-swiper', {
-            slidesPerView: 3, // Số slide hiển thị
-            spaceBetween: 20, // Khoảng cách giữa các slide
-            loop: true, // Cho phép lặp vô hạn
+            slidesPerView: 3,
+            loop: false,
+            grabCursor: true,
+            spaceBetween: 30,
+            roundLengths: true,
+            slideToClickedSlide: false,
+            autoplay: false,
             pagination: {
-                el: ".swiper-pagination",
+                el: '.testimonials-swiper .swiper-pagination',
                 clickable: true,
             },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: '.testimonials-swiper .swiper-button-next',
+                prevEl: '.testimonials-swiper .swiper-button-prev',
             },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
         });
         $(document).ready(function () {
             $(".block_video_play").lightGallery();
@@ -881,13 +943,13 @@ export default {
         this.$nextTick(() => {
             setTimeout(() => {
                 if (typeof $.fn.counterUp !== "undefined") {
-                $(".counter-number").counterUp({
-                    delay: 10,
-                    time: 1000
-                });
-            } else {
-                console.error("Không tìm thấy phần tử .counter!");
-            }
+                    $(".counter-number").counterUp({
+                        delay: 10,
+                        time: 1000
+                    });
+                } else {
+                    console.error("Không tìm thấy phần tử .counter!");
+                }
             }, 500);
         });
     }

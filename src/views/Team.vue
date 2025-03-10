@@ -1,6 +1,7 @@
 <template>
     <div class="bg-home">
-        <section class="bread-crumb" :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
+        <section class="bread-crumb"
+            :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Đội Ngũ
@@ -321,25 +322,57 @@
 </template>
 
 <script>
-import Swiper from 'swiper';
+import Swiper from "swiper/bundle";
 
 import 'swiper/swiper-bundle.css';
 export default {
     name: 'Teams',
     mounted() {
         new Swiper('.swiper-team', {
-               slidesPerView: 4, // Số slide hiển thị
-               spaceBetween: 20, // Khoảng cách giữa các slide
-               loop: true, // Cho phép lặp vô hạn
-               pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-               },
-               navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-               },
-          });
+            slidesPerView: 4,
+            loop: false,
+            grabCursor: true,
+            spaceBetween: 30,
+            slidesPerColumn: 1,
+            slidesPerColumnFill: 'row',
+            roundLengths: true,
+            slideToClickedSlide: false,
+            autoplay: false,
+            navigation: {
+                nextEl: '.swiper-team .swiper-button-next',
+                prevEl: '.swiper-team .swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-team .swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                500: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 15
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            }
+        });
     }
 }
 </script>
