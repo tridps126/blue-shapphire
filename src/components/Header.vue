@@ -214,18 +214,21 @@
 
                                     </li>
 
-                                    <li class="nav-item " :class="{ active: $route.path === '/products' }">
-                                        <router-link to="/products">Tuyển Dụng</router-link>
+                                    <!-- <li class="nav-item " :class="{ active: $route.path === '/products' }">
+                                        <router-link to="/products">Sản Phẩm</router-link>
+                                    </li> -->
 
+                                    <li class="nav-item " :class="{ active: $route.path === '/recruitment' }">
+                                        <router-link to="/recruitment">Tuyển dụng</router-link>
                                     </li>
-
+                                    
                                     <!-- <li class="nav-item ">
                                         <router-link to="/team">Đội ngũ</router-link>
                                     </li> -->
 
-                                    <li class="nav-item ">
+                                    <!-- <li class="nav-item ">
                                         <router-link to="/news">Tin tức</router-link>
-                                    </li>
+                                    </li> -->
 
                                     <li class="nav-item ">
                                         <router-link to="/contact">Liên hệ</router-link>

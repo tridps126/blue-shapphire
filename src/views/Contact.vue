@@ -1,6 +1,7 @@
 <template>
     <div class="bg-home">
-        <section class="bread-crumb" :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
+        <section class="bread-crumb"
+            :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Liên Hệ
@@ -27,14 +28,14 @@
                     <div class="col-lg-6 col-12">
                         <div id="contact_map" class="map">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.904149430962!2d105.8133027759182!3d21.036520887510726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab1946cc7e23%3A0x87ab3917166a0cd5!2zUGjhuqduIG3hu4FtIHF14bqjbiBsw70gYsOhbiBow6BuZyAtIFNhcG8gUE9T!5e0!3m2!1svi!2s!4v1694162431115!5m2!1svi!2s"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4797.768287108518!2d109.1834898758504!3d12.238888530517116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31705d87a0a01bf9%3A0x6f53ba6ab5318a9c!2zVMOyYSBOaMOgIDIzOCBOZ8O0IEdpYSBU4bux!5e1!3m2!1svi!2s!4v1741704991918!5m2!1svi!2s"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="contact">
-                            <h4>LOFI Construction</h4>
+                            <h4>Blue Shapphire</h4>
                             <div class="time_work">
                                 <div class="item">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas"
@@ -46,8 +47,14 @@
                                     </svg>
                                     <b>Địa chỉ:</b>
 
-                                    266 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội
-
+                                    <ul>
+                                        <li><strong>Trụ Sở Chính </strong> Lầu 2-3, Tòa nhà Xuân Hòa Group, 238 Ngô Gia
+                                            Tự, P Tân Tiến, Nha Trang</li>
+                                        <li><strong>Chi nhánh 1: </strong> 29 – 31 Bình Minh 1, Bình Thuận, Hải Châu, Đà
+                                            Nẵng
+                                        </li>
+                                        <li><Strong>Chi nhánh 2: </Strong> TP Quy Nhơn </li>
+                                    </ul>
                                 </div>
                                 <div class="item">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"

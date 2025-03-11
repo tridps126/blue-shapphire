@@ -15,6 +15,7 @@ import Website from '@/views/Service/Website.vue';
 import Partner from '@/views/Partners.vue';
 import GalaxyAccess from '@/views/partners/GalaxyAccess.vue';
 import GalaxyVisaExpress from '@/views/partners/GalaxyVisaExpress.vue';
+import Recruitment from '@/views/Recruitment.vue';
 
 Vue.use(Router);
 
@@ -28,6 +29,7 @@ export default new Router({
     { path: '/products', name: 'Products', component: Products },
     { path: '/team', name: 'Team', component: Team },
     { path: '/news', name: 'News', component: News },
+    { path: '/recruitment', name: 'Recruitment', component: Recruitment },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/service/contact-center', name: 'ContactCenter', component: ContactCenter },
     { path: '/service/marketing', name: 'Marketing', component: Marketing },

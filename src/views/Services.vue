@@ -47,8 +47,8 @@
                                                 src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
-                                    <h3><a href="thiet-ke-noi-that.html" title="Thiết kế nội thất">Telesale &
-                                            Chăm sóc Khách Hàng</a>
+                                    <h3><router-link to="/service/contact-center">Telesale &
+                                            Chăm sóc Khách Hàng</router-link>
                                     </h3>
                                     <p>Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi giúp doanh
                                         nghiệp tạo dựng mối quan hệ bền vững với khách hàng thông qua dịch vụ
@@ -74,8 +74,8 @@
                                                 src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
-                                    <h3><a href="tu-van-du-an.html" title="Tư vấn dự án">Các giải pháp phát
-                                            triển website</a></h3>
+                                    <h3><router-link to="/service/website">Các giải pháp phát
+                                            triển website</router-link></h3>
                                     <p>Blue Sapphire cung cấp các giải pháp thiết kế và phát triển website chất
                                         lượng cao, dễ sử dụng, tối ưu cho cả người dùng và doanh nghiệp, giúp
                                         nâng cao sự hiện diện trực tuyến của bạn.
@@ -100,8 +100,8 @@
                                                 src="../assets/css/themes/service_icon_37e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
-                                    <h3><a href="cai-tao-nha-cua.html" title="Cải tạo nhà cửa">Chiến lược
-                                            Marketing tối ưu</a></h3>
+                                    <h3><router-link to="/service/marketing">Chiến lược
+                                            Marketing tối ưu</router-link></h3>
                                     <p>Chúng tôi thực hiện các chiến dịch marketing tối ưu giúp doanh nghiệp
                                         tiếp cận đúng đối tượng khách hàng và tăng trưởng bền vững, đồng thời
                                         tối đa hóa hiệu quả chi phí.

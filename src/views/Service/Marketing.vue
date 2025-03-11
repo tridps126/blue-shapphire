@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Các giải pháp phát triển website</h1>
+                                <h1 class="title-head">Chiến Lược Marketing</h1>
                             </div>
                             <div class="content-page rte">
                                 <h4><strong>Giải Pháp Marketing Cho Doanh Nghiệp Của Blue Sapphire</strong></h4>
@@ -81,14 +81,20 @@
                                 </div>
                                 <nav class="nav-category">
                                     <ul class="navbar-pills">
-                                        <li class="nav-item relative" :class="{ active: $route.path === '/service/contact-center' }">
-                                            <router-link to="/service/contact-center" class="nav-link">Contact Center</router-link>
+                                        <li class="nav-item relative"
+                                            :class="{ active: $route.path === '/service/contact-center' }">
+                                            <router-link to="/service/contact-center" class="nav-link">Contact
+                                                Center</router-link>
                                         </li>
-                                        <li class="nav-item  relative" :class="{ active: $route.path === '/service/marketing' }">
-                                            <router-link to="/service/marketing" class="nav-link">Phát triển website</router-link>
+                                        <li class="nav-item  relative"
+                                            :class="{ active: $route.path === '/service/website' }">
+                                            <router-link to="/service/website" class="nav-link">Phát triển
+                                                website</router-link>
                                         </li>
-                                        <li class="nav-item  relative" :class="{ active: $route.path === '/service/website' }">
-                                            <router-link to="/service/website" class="nav-link">Chiến lược Marketing</router-link>
+                                        <li class="nav-item  relative"
+                                            :class="{ active: $route.path === '/service/marketing' }">
+                                            <router-link to="/service/marketing" class="nav-link">Chiến lược
+                                                Marketing</router-link>
                                         </li>
                                     </ul>
                                 </nav>

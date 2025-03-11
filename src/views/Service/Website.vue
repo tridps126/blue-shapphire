@@ -163,13 +163,13 @@
                                                 Center</router-link>
                                         </li>
                                         <li class="nav-item  relative"
-                                            :class="{ active: $route.path === '/service/marketing' }">
-                                            <router-link to="/service/marketing" class="nav-link">Phát triển
+                                            :class="{ active: $route.path === '/service/website' }">
+                                            <router-link to="/service/website" class="nav-link">Phát triển
                                                 website</router-link>
                                         </li>
                                         <li class="nav-item  relative"
-                                            :class="{ active: $route.path === '/service/website' }">
-                                            <router-link to="/service/website" class="nav-link">Chiến lược
+                                            :class="{ active: $route.path === '/service/marketing' }">
+                                            <router-link to="/service/marketing" class="nav-link">Chiến lược
                                                 Marketing</router-link>
                                         </li>
                                     </ul>
@@ -344,3 +344,6 @@ export default {
     name: 'Website'
 }
 </script>
+
+
+

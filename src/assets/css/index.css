@@ -15,13 +15,17 @@
 
 
 :root {
-    --mainColor: #f58800;
+    --mainColor: #ec8d20;
     --mainColor2: #266867;
-    --hover: #f58800;
+    --hover: #ec8d20;
     --priceColor: #e12c43;
-    --textColor: #02020a;
+    --textColor: #191919;
     --gradient1: #e8cb9d;
     --gradient2: #ca9236;
+}
+
+body {
+    font-family: "gf_Lexend variant0", Tofu !important;
 }
 
 a {
