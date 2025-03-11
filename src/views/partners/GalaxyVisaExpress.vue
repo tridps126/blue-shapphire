@@ -5,11 +5,11 @@
             >
             <div class="container">
                 <div class="title-breadcrumb">
-                    Contact Center
+                    Galaxy Visa Express
                 </div>
                 <ul class="breadcrumb">
                     <li class="home">
-                        <a href="index.html"><span>Trang chủ</span></a>
+                        <router-link to="/">Trang chủ</router-link>
                         <span class="mr_lr">&nbsp;<svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512" class="svg-inline--fa fa-chevron-right fa-w-10">
@@ -19,8 +19,18 @@
                             </svg>&nbsp;</span>
                     </li>
 
-                    <li><strong><span>Contact Center</span></strong></li>
+                    <li class="home">
+                        <router-link to="/partner">Đối Tác</router-link>
+                        <span class="mr_lr">&nbsp;<svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 320 512" class="svg-inline--fa fa-chevron-right fa-w-10">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                                    class=""></path>
+                            </svg>&nbsp;</span>
+                    </li>
 
+                    <li><strong><span>Galaxy Visa Express</span></strong></li>
                 </ul>
             </div>
         </section>
@@ -31,10 +41,9 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Contact Center (Telesales & Chăm Sóc Khách Hàng)</h1>
+                                <h1 class="title-head">Galaxy Visa Express</h1>
                             </div>
                             <div class="content-page rte">
-                                <h4><strong>Galaxy Visa Express</strong></h4>
                                 <p>
                                     Galaxy Visa Express là công ty hàng đầu tại Mỹ, chuyên cung cấp dịch vụ tư vấn và hỗ
                                     trợ làm visa cho khách hàng có nhu cầu định cư tại Mỹ, đặc biệt là chương trình thẻ
@@ -82,7 +91,8 @@
                                     của khách hàng trở nên dễ dàng hơn bao giờ hết.
                                 </p>
                                 <p><strong>Thông tin doanh nghiệp</strong></p>
-                                <p>Website: <a href="https://galaxyvisaexpress.us/" target="_blank">https://galaxyvisaexpress.us/</a></p>
+                                <p>Website: <a href="https://galaxyvisaexpress.us/"
+                                        target="_blank">https://galaxyvisaexpress.us/</a></p>
 
                                 <p>Điện thoại: (470) 912-0024</p>
 
@@ -120,7 +130,6 @@
 
 
     </div>
-
 </template>
 
 

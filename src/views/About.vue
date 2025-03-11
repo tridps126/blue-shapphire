@@ -37,8 +37,8 @@
                                     data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
                                     alt="Lofi Construction" />
                                 <div class="block_video_play">
-                                    <a href="https://www.youtube.com/watch?v=jf2fmaKutLQ"
-                                        class="video_play popup-youtube" title="Lofi Construction">
+                                    <a href="https://www.youtube.com/watch?v=jf2fmaKutLQ" class="video_play popup-youtube"
+                                        title="Lofi Construction">
                                         <span class="video-icon">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play"
                                                 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -68,8 +68,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="single-about">
-                                            <span class="icon"><img
-                                                    src="../assets/css/themes/quality7e7a.png?1715757113942"
+                                            <span class="icon"><img src="../assets/css/themes/quality7e7a.png?1715757113942"
                                                     alt="Lofi Construction" width="50" height="50"></span>
                                             <h3>Đảm bảo chất lượng</h3>
                                             <p>Đội ngũ kỹ sư phần mềm, kỹ sư hệ thống và nhân viên tổng đài của
@@ -245,8 +244,8 @@
                                                 chăm sóc khách hàng và telesale hiệu quả.
                                             </p>
                                             <div class="ctas">
-                                                <a class="btn-viewmore" href="thiet-ke-noi-that.html"
-                                                    title="Xem thêm">Xem thêm</a>
+                                                <a class="btn-viewmore" href="thiet-ke-noi-that.html" title="Xem thêm">Xem
+                                                    thêm</a>
                                             </div>
                                         </div>
                                     </div>
@@ -331,8 +330,7 @@
                                         <div class="social">
                                             <ul>
                                                 <li>
-                                                    <a href="https://www.facebook.com/" target="_blank"
-                                                        title="Facebook">
+                                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_facebook7e7a.png?1715757113942"
                                                             alt="Facebook" />
@@ -350,8 +348,7 @@
 
 
                                                 <li>
-                                                    <a href="https://www.instagram.com/" target="_blank"
-                                                        title="Instagram">
+                                                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_instagram7e7a.png?1715757113942"
                                                             alt="Instagram" />
@@ -360,8 +357,7 @@
 
 
                                                 <li>
-                                                    <a href="https://www.linkedin.com/" target="_blank"
-                                                        title="Linkedin">
+                                                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_linkedin7e7a.png?1715757113942"
                                                             alt="Linkedin" />
@@ -406,8 +402,7 @@
                                         <div class="social">
                                             <ul>
                                                 <li>
-                                                    <a href="https://www.facebook.com/" target="_blank"
-                                                        title="Facebook">
+                                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_facebook7e7a.png?1715757113942"
                                                             alt="Facebook" />
@@ -425,8 +420,7 @@
 
 
                                                 <li>
-                                                    <a href="https://www.instagram.com/" target="_blank"
-                                                        title="Instagram">
+                                                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_instagram7e7a.png?1715757113942"
                                                             alt="Instagram" />
@@ -435,8 +429,7 @@
 
 
                                                 <li>
-                                                    <a href="https://www.linkedin.com/" target="_blank"
-                                                        title="Linkedin">
+                                                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_linkedin7e7a.png?1715757113942"
                                                             alt="Linkedin" />
@@ -481,8 +474,7 @@
                                         <div class="social">
                                             <ul>
                                                 <li>
-                                                    <a href="https://www.facebook.com/" target="_blank"
-                                                        title="Facebook">
+                                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_facebook7e7a.png?1715757113942"
                                                             alt="Facebook" />
@@ -496,16 +488,14 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.instagram.com/" target="_blank"
-                                                        title="Instagram">
+                                                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_instagram7e7a.png?1715757113942"
                                                             alt="Instagram" />
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.linkedin.com/" target="_blank"
-                                                        title="Linkedin">
+                                                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_linkedin7e7a.png?1715757113942"
                                                             alt="Linkedin" />
@@ -548,8 +538,7 @@
                                         <div class="social">
                                             <ul>
                                                 <li>
-                                                    <a href="https://www.facebook.com/" target="_blank"
-                                                        title="Facebook">
+                                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_facebook7e7a.png?1715757113942"
                                                             alt="Facebook" />
@@ -567,8 +556,7 @@
 
 
                                                 <li>
-                                                    <a href="https://www.instagram.com/" target="_blank"
-                                                        title="Instagram">
+                                                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_instagram7e7a.png?1715757113942"
                                                             alt="Instagram" />
@@ -577,8 +565,7 @@
 
 
                                                 <li>
-                                                    <a href="https://www.linkedin.com/" target="_blank"
-                                                        title="Linkedin">
+                                                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin">
                                                         <img class="img-fluid"
                                                             src="../assets/css/themes/ic_linkedin7e7a.png?1715757113942"
                                                             alt="Linkedin" />
@@ -751,17 +738,49 @@ export default {
             },
         });
         new Swiper('.swiper-team', {
-            slidesPerView: 4, // Số slide hiển thị
-            spaceBetween: 20, // Khoảng cách giữa các slide
-            loop: true, // Cho phép lặp vô hạn
+            slidesPerView: 4,
+            loop: false,
+            grabCursor: true,
+            spaceBetween: 30,
+            slidesPerColumn: 1,
+            slidesPerColumnFill: 'row',
+            roundLengths: true,
+            slideToClickedSlide: false,
+            autoplay: false,
+            navigation: {
+                nextEl: '.swiper-team .swiper-button-next',
+                prevEl: '.swiper-team .swiper-button-prev',
+            },
             pagination: {
-                el: ".swiper-pagination",
+                el: '.swiper-team .swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                500: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 15
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            }
         });
         new Swiper('.swiper-about-service', {
             slidesPerView: 3,
