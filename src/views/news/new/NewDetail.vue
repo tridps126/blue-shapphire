@@ -31,7 +31,7 @@
                     </li>
 
                     <li v-if="post"><strong><span v-html="post.title.rendered"></span></strong></li>
-
+                    <li v-else><strong><span>đang tải...</span></strong></li>
                 </ul>
             </div>
         </section>

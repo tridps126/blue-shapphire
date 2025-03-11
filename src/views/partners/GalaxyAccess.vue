@@ -41,12 +41,12 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Galaxy Access</h1>
+                                <h1 class="title-head" style="color: #006ac0;">Galaxy Access</h1>
                             </div>
                             <div class="content-page rte">
-                                <h4><strong>Các Dịch Vụ Hợp Tác Cụ Thể</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Các Dịch Vụ Hợp Tác Cụ Thể</strong></h4>
 
-                                <p><strong>Dịch Vụ Chăm Sóc Khách Hàng & Telesales:</strong></p>
+                                <p class="mt-4"><strong style="color: #006ac0;">Dịch Vụ Chăm Sóc Khách Hàng & Telesales:</strong></p>
                                 <p>Blue Sapphire đã hỗ trợ
                                     Galaxy Access trong việc xây dựng và triển khai dịch vụ chăm sóc
                                     khách hàng và telesales, giúp tạo dựng mối quan hệ bền vững với khách hàng. Đội
@@ -58,7 +58,7 @@
                                     cao tỷ lệ chuyển đổi.</p>
 
 
-                                <p><strong>Thiết Kế Website Chuyên Nghiệp & Thiết Kế Hình Ảnh Cho Hệ Thống POS, Máy Cà
+                                <p><strong style="color: #006ac0;">Thiết Kế Website Chuyên Nghiệp & Thiết Kế Hình Ảnh Cho Hệ Thống POS, Máy Cà
                                         Thẻ:</strong></p>
                                 <p>Blue Sapphire đã thiết kế một <strong>website chuyên nghiệp</strong> cho Galaxy
                                     Access, giúp khách
@@ -71,7 +71,7 @@
                                 </p>
 
 
-                                <P><strong>Quản Lý Mạng Xã Hội Facebook Page: </strong></P>
+                                <P><strong style="color: #006ac0;">Quản Lý Mạng Xã Hội Facebook Page: </strong></P>
                                 <p>
                                     Blue Sapphire hỗ trợ Galaxy Access trong việc <strong>quản lý mạng xã hội</strong>,
                                     đặc biệt là
@@ -94,7 +94,7 @@
                                     phát triển trong lĩnh vực thanh toán qua máy POS và dịch vụ máy cà thẻ.
                                 </p>
 
-                                <p><strong>Thông tin doanh nghiệp</strong></p>
+                                <p><strong style="color: #006ac0;">Thông tin doanh nghiệp</strong></p>
                                 <p>Website: <a href="https://galaxyaccess.us/" target="_blank">https://galaxyaccess.us/</a>
                                 </p>
 

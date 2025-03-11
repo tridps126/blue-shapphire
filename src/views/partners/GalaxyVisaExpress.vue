@@ -41,7 +41,7 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Galaxy Visa Express</h1>
+                                <h1 class="title-head" style="color: #006ac0;">Galaxy Visa Express</h1>
                             </div>
                             <div class="content-page rte">
                                 <p>
@@ -57,10 +57,10 @@
                                     chỉ cải thiện bộ nhận diện thương hiệu mà còn tối ưu hóa các dịch vụ truyền thông và
                                     tiếp thị, giúp mở rộng tầm ảnh hưởng và tiếp cận khách hàng mục tiêu hiệu quả hơn.
                                 </p>
-                                <h4><strong>Các Dịch Vụ Hợp Tác Cụ Thể</strong></h4>
+                                <h4><strong style="color: #006ac0;">Các Dịch Vụ Hợp Tác Cụ Thể</strong></h4>
                                 <ul>
                                     <li>
-                                        <p><strong>Thiết Kế Website Chuyên Nghiệp</strong></p>
+                                        <p><strong style="color: #006ac0;">Thiết Kế Website Chuyên Nghiệp</strong></p>
                                         <p>Blue Sapphire đã thiết kế một website hiện đại và chuyên nghiệp cho Galaxy
                                             Visa Express, giúp khách hàng dễ dàng tìm hiểu các dịch vụ tư vấn visa, quy
                                             trình làm hồ sơ và các chương trình định cư. Website không chỉ thân thiện
@@ -69,7 +69,7 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <p><strong>Bộ Hình Ảnh Thương Hiệu</strong></p>
+                                        <p><strong style="color: #006ac0;">Bộ Hình Ảnh Thương Hiệu</strong></p>
                                         <p>Blue Sapphire đã phát triển một bộ nhận diện thương hiệu hoàn chỉnh cho
                                             Galaxy Visa Express, bao gồm logo, bảng màu, phông chữ, và các yếu tố đồ họa
                                             đặc trưng cho dịch vụ xử lý di trú. Bộ nhận diện này giúp củng cố hình ảnh
@@ -77,7 +77,7 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <p><strong>Sản Xuất Video Quảng Cáo</strong></p>
+                                        <p><strong style="color: #006ac0;">Sản Xuất Video Quảng Cáo</strong></p>
                                         <p>Blue Sapphire đã hỗ trợ Galaxy Visa Express trong việc sản xuất video quảng
                                             cáo, giúp giới thiệu các dịch vụ visa, quy trình làm hồ sơ và những lợi ích
                                             mà khách hàng nhận được khi sử dụng dịch vụ của công ty. Các video này không
@@ -90,7 +90,7 @@
                                     hiệu và tiếp cận khách hàng hiệu quả hơn, giúp hành trình thực hiện ước mơ định cư
                                     của khách hàng trở nên dễ dàng hơn bao giờ hết.
                                 </p>
-                                <p><strong>Thông tin doanh nghiệp</strong></p>
+                                <p><strong style="color: #006ac0;">Thông tin doanh nghiệp</strong></p>
                                 <p>Website: <a href="https://galaxyvisaexpress.us/"
                                         target="_blank">https://galaxyvisaexpress.us/</a></p>
 
