@@ -209,7 +209,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="block-title">
                             <span class="top-title">Lý do lựa chọn chúng tôi</span>
-                            <h2>Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
+                            <h2 style="color: #006ac0;">Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
                             <p>Chúng tôi luôn nỗ lực để mang đến cho khách hàng những dịch vụ tốt nhất.</p>
                         </div>
                         <div class="whychoose-content">

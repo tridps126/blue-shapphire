@@ -339,7 +339,7 @@
                         <div class="position-sticky">
                             <div class="aside-content-menu aside-content-blog">
                                 <div class="title">
-                                    Dự án tiêu biểu
+                                    Tin tức tiêu biểu
                                 </div>
                                 <nav class="nav-category">
                                     <ul class="navbar-pills">
@@ -420,7 +420,7 @@
 
 
                                 <h2 class="h2_sidebar_blog">
-                                    <a href="tin-tuc.html" title="Dự án nổi bật">Dự án nổi bật</a>
+                                    <a href="tin-tuc.html" title="Dự án nổi bật">Tin Tức nổi bật</a>
                                 </h2>
                                 <div class="blog_content">
 

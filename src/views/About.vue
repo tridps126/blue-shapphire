@@ -58,7 +58,7 @@
                         <div class="col-lg-6 col-12 col-right">
                             <div class="about-content">
                                 <span class="top-title">Chúng tôi là ai</span>
-                                <h2 class="title">Cam kết chất lượng và kết quả vượt trội</h2>
+                                <h2 class="title" style="color: #006ac0;">Cam kết chất lượng và kết quả vượt trội</h2>
                                 <p class="desc">Với hơn 10 năm kinh nghiệm hoạt động tại thị trường Việt Nam, Blue
                                     Sapphire đã trở thành đối tác chiến lược đáng tin cậy của nhiều doanh nghiệp
                                     trong việc cung cấp các giải pháp công nghệ và nhân sự. Chúng tôi chuyên cung
@@ -227,10 +227,10 @@
                 <div class="container">
                     <div class="block-title">
                         <span class="top-title">Chúng tôi làm gì</span>
-                        <h2><a href="dich-vu.html">Cung cấp dịch vụ chất lượng</a></h2>
+                        <h2 style="color: #006ac0;"><a href="dich-vu.html">Cung cấp dịch vụ chất lượng</a></h2>
                     </div>
                     <div class="block-content">
-                        <div class="swiper-container swiper-about-service">
+                        <div class="swiper-container swiper-about-service cus-swiper">
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
@@ -241,15 +241,13 @@
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
-                                            <h3>Telesale & Chăm sóc Khách Hàng</h3>
+                                            <h3>Contact Center</h3>
                                             <p>Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi giúp doanh
                                                 nghiệp tạo dựng mối quan hệ bền vững với khách hàng thông qua dịch vụ
                                                 chăm sóc khách hàng và telesale hiệu quả.
                                             </p>
                                             <div class="ctas">
-                                                <a class="btn-viewmore" href="thiet-ke-noi-that.html"
-                                                    title="Xem thêm">Xem
-                                                    thêm</a>
+                                                <router-link to="/service/contact-content" class="btn-viewmore">Xem Thêm</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -262,14 +260,13 @@
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
-                                            <h3>Các giải pháp phát triển website</h3>
+                                            <h3>Phát triển website</h3>
                                             <p>Blue Sapphire cung cấp các giải pháp thiết kế và phát triển website chất
                                                 lượng cao, dễ sử dụng, tối ưu cho cả người dùng và doanh nghiệp, giúp
                                                 nâng cao sự hiện diện trực tuyến của bạn.
                                             </p>
                                             <div class="ctas">
-                                                <a class="btn-viewmore" href="tu-van-du-an.html" title="Xem thêm">Xem
-                                                    thêm</a>
+                                                <router-link to="/service/website" class="btn-viewmore">Xem Thêm</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -282,14 +279,13 @@
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
-                                            <h3>Chiến lược Marketing tối ưu</h3>
+                                            <h3>Chiến lược Marketing</h3>
                                             <p>Chúng tôi thực hiện các chiến dịch marketing tối ưu giúp doanh nghiệp
                                                 tiếp cận đúng đối tượng khách hàng và tăng trưởng bền vững, đồng thời
                                                 tối đa hóa hiệu quả chi phí.
                                             </p>
                                             <div class="ctas">
-                                                <a class="btn-viewmore" href="cai-tao-nha-cua.html" title="Xem thêm">Xem
-                                                    thêm</a>
+                                                <router-link to="/service/marketing" class="btn-viewmore">Xem Thêm</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -612,7 +608,7 @@
                 <div class="container">
                     <div class="block-title">
                         <span class="top-title">Nhận xét của khách hàng</span>
-                        <h2 class="title">Khách hàng của chúng tôi nói gì?</h2>
+                        <h2 class="title" style="color: #006ac0;">Khách hàng của chúng tôi nói gì?</h2>
                     </div>
                     <div class="testimonials-content">
                         <div class="testimonials-swiper swiper-container">
@@ -738,6 +734,7 @@ import Swiper from "swiper/bundle";
 import 'swiper/swiper-bundle.css';
 import $ from "jquery";
 // import counterUp from "counterup2";
+import "counterup/jquery.counterup.min.js";
 export default {
     name: 'About',
     mounted() {
@@ -889,15 +886,23 @@ export default {
         $(document).ready(function () {
             $(".block_video_play").lightGallery();
         });
+        if ($(".counter-number").length === 0) {
+            console.error("❌ Không tìm thấy .counter-number!");
+            return;
+        }
         this.$nextTick(() => {
             setTimeout(() => {
-                if (typeof $.fn.counterUp !== "undefined") {
-                    $(".counter-number").counterUp({
-                        delay: 10,
-                        time: 1000
-                    });
+                if ($(".counter-number").length > 0) {
+                    if (typeof $.fn.counterUp !== "undefined") {
+                        $(".counter-number").counterUp({
+                            delay: 10,
+                            time: 1000
+                        });
+                    } else {
+                        console.error("Không tìm thấy phần tử .counter!");
+                    }
                 } else {
-                    console.error("Không tìm thấy phần tử .counter!");
+                    console.error("❌ Không tìm thấy phần tử .counter-number!");
                 }
             }, 500);
         });
@@ -906,3 +911,33 @@ export default {
 
 
 </script>
+
+<style scoped>
+.cus-swiper {
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        background: #fff;
+
+        /* text-align: center; */
+        p {
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 25px;
+            -webkit-line-clamp: 3;
+            height: 75px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+</style>

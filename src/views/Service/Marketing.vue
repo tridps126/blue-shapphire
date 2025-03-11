@@ -31,10 +31,10 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Chiến Lược Marketing</h1>
+                                <h1 class="title-head" style="color: #006ac0;">Chiến Lược Marketing</h1>
                             </div>
                             <div class="content-page rte">
-                                <h4><strong>Giải Pháp Marketing Cho Doanh Nghiệp Của Blue Sapphire</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Giải Pháp Marketing Cho Doanh Nghiệp Của Blue Sapphire</strong></h4>
                                 <ul>
                                     <li>
                                         <p><strong>Thiết Kế Website Chuyên Nghiệp</strong></p>
@@ -55,7 +55,7 @@
                                             mọi hoạt động marketing.</p>
                                     </li>
                                     <li>
-                                        <p><strong></strong>Quản Lý Mạng Xã Hội (Social Media Management)</p>
+                                        <p><strong>Quản Lý Mạng Xã Hội (Social Media Management)</strong></p>
                                         <p>Chúng tôi giúp doanh nghiệp xây dựng và duy trì sự hiện diện mạnh mẽ trên các
                                             nền tảng mạng xã hội như Facebook, Instagram và Google. Dịch vụ quản lý mạng
                                             xã hội của Blue Sapphire bao gồm việc xây dựng chiến lược nội dung, đăng bài
@@ -189,7 +189,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="block-title">
                             <span class="top-title">Lý do lựa chọn chúng tôi</span>
-                            <h2>Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
+                            <h2 style="color: #006ac0;">Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
                             <p>Chúng tôi luôn nỗ lực để mang đến cho khách hàng những dịch vụ tốt nhất.</p>
                         </div>
                         <div class="whychoose-content">

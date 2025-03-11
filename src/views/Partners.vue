@@ -28,7 +28,7 @@
             <div class="container-fluid">
                 <div class="block-title">
                     <span class="top-title">Dịch vụ của chúng tôi</span>
-                    <h2><a href="dich-vu.html" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</a>
+                    <h2 style="color: #006ac0;"><a href="dich-vu.html" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</a>
                     </h2>
                 </div>
                 <div class="row">

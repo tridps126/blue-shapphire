@@ -31,10 +31,10 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Các giải pháp phát triển website</h1>
+                                <h1 class="title-head" style="color: #006ac0;">Các giải pháp phát triển website</h1>
                             </div>
                             <div class="content-page rte">
-                                <h4><strong>Tại sao bạn nên thiết kế website?</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Tại sao bạn nên thiết kế website?</strong></h4>
                                 <p><strong>Xây dựng thương hiệu mạnh mẽ: </strong>Website là nơi để bạn giới thiệu câu
                                     chuyện thương hiệu, giá trị cốt lõi và thông điệp mà doanh nghiệp muốn truyền tải.
                                     Nó không chỉ là nơi bán hàng mà còn là công cụ mạnh mẽ để xây dựng và duy trì mối
@@ -56,7 +56,7 @@
                                     địa mà còn có thể giúp doanh nghiệp vươn ra toàn cầu. Bằng cách thiết kế website đa
                                     ngôn ngữ và tích hợp các công cụ bán hàng trực tuyến, doanh nghiệp có thể mở rộng
                                     thị trường và tiếp cận khách hàng quốc tế một cách dễ dàng.</p>
-                                <h4><strong>Những tiêu chí cần thiết để xây dựng một website chuyên nghiệp</strong>
+                                <h4 style="color: #006ac0;"><strong>Những tiêu chí cần thiết để xây dựng một website chuyên nghiệp</strong>
                                 </h4>
                                 <ul>
                                     <li>
@@ -122,7 +122,7 @@
                                             cầu hỗ trợ.</p>
                                     </li>
                                 </ul>
-                                <h4><strong>Tại sao nên chọn dịch vụ thiết kế website tại Blue Sapphire</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Tại sao nên chọn dịch vụ thiết kế website tại Blue Sapphire</strong></h4>
                                 <p><strong>Kinh nghiệm và chuyên môn cao: </strong>Với nhiều năm kinh nghiệm trong ngành
                                     thiết kế website, Blue Sapphire đã hoàn thiện hàng trăm dự án cho khách hàng từ
                                     nhiều lĩnh vực khác nhau. Đội ngũ thiết kế và kỹ thuật lập trình web nhiều kinh
@@ -264,8 +264,8 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="block-title">
-                            <span class="top-title">Lý do lựa chọn chúng tôi</span>
-                            <h2>Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
+                            <span class="top-title" >Lý do lựa chọn chúng tôi</span>
+                            <h2 style="color: #006ac0;">Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
                             <p>Chúng tôi luôn nỗ lực để mang đến cho khách hàng những dịch vụ tốt nhất.</p>
                         </div>
                         <div class="whychoose-content">

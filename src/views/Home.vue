@@ -91,7 +91,8 @@
                          <div class="col-lg-6 col-12 col-right">
                               <div class="about-content">
                                    <span class="top-title">Chúng tôi là ai</span>
-                                   <h2 class="title">Cam kết chất lượng và kết quả vượt trội</h2>
+                                   <h2 class="title" style="color: #006ac0;">Cam kết chất lượng và kết quả vượt trội
+                                   </h2>
                                    <p class="desc">Với hơn 10 năm kinh nghiệm hoạt động tại thị trường Việt Nam, Blue
                                         Sapphire đã trở thành đối tác chiến lược đáng tin cậy của nhiều doanh nghiệp
                                         trong việc cung cấp các giải pháp công nghệ và nhân sự. Chúng tôi chuyên cung
@@ -235,8 +236,8 @@
                                                             src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
                                                             alt="Lofi Construction" width="65" height="65"></span>
                                              </div>
-                                             <h3><a href="thiet-ke-noi-that.html" title="Thiết kế nội thất">Telesale &
-                                                       Chăm sóc Khách Hàng</a>
+                                             <h3><router-link to="/service/contact-center">Telesale &
+                                                       Chăm sóc Khách Hàng</router-link>
                                              </h3>
                                              <p>Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi giúp doanh
                                                   nghiệp tạo dựng mối quan hệ bền vững với khách hàng thông qua dịch vụ
@@ -262,8 +263,8 @@
                                                             src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
                                                             alt="Lofi Construction" width="65" height="65"></span>
                                              </div>
-                                             <h3><a href="tu-van-du-an.html" title="Tư vấn dự án">Các giải pháp phát
-                                                       triển website</a></h3>
+                                             <h3><router-link to="/service/website">Các giải pháp phát
+                                                       triển website</router-link></h3>
                                              <p>Blue Sapphire cung cấp các giải pháp thiết kế và phát triển website chất
                                                   lượng cao, dễ sử dụng, tối ưu cho cả người dùng và doanh nghiệp, giúp
                                                   nâng cao sự hiện diện trực tuyến của bạn.
@@ -288,8 +289,8 @@
                                                             src="../assets/css/themes/service_icon_37e7a.png?1715757113942"
                                                             alt="Lofi Construction" width="65" height="65"></span>
                                              </div>
-                                             <h3><a href="cai-tao-nha-cua.html" title="Cải tạo nhà cửa">Chiến lược
-                                                       Marketing tối ưu</a></h3>
+                                             <h3><router-link to="/service/marketing">Chiến lược
+                                                       Marketing tối ưu</router-link></h3>
                                              <p>Chúng tôi thực hiện các chiến dịch marketing tối ưu giúp doanh nghiệp
                                                   tiếp cận đúng đối tượng khách hàng và tăng trưởng bền vững, đồng thời
                                                   tối đa hóa hiệu quả chi phí.
@@ -328,7 +329,8 @@
                          </div> -->
                     </div>
                     <div class="service-ctas">
-                         <router-link to="/projects" class="btn-viewmore" title="Xem thêm">Xem thêm</router-link>
+                         <router-link to="/service/contact-center" class="btn-viewmore" title="Xem thêm">Xem
+                              thêm</router-link>
                     </div>
                </div>
           </section>
@@ -398,7 +400,7 @@
                          <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                               <div class="block-title">
                                    <span class="top-title">Lý do lựa chọn chúng tôi</span>
-                                   <h2>Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
+                                   <h2 style="color: #006ac0;">Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
                                    <p>Chúng tôi luôn nỗ lực để mang đến cho khách hàng những dịch vụ tốt nhất.</p>
                               </div>
                               <div class="whychoose-content">
@@ -411,7 +413,8 @@
                                         </div>
                                         <div class="box-content">
                                              <h3>Kinh nghiệm và chuyên môn</h3>
-                                             <p>Với nhiều năm kinh nghiệm, Blue Sapphire cung cấp giải pháp phù hợp cho các ngành nghề khác nhau, giúp doanh nghiệp đạt hiệu quả tối ưu.</p>
+                                             <p>Với nhiều năm kinh nghiệm, Blue Sapphire cung cấp giải pháp phù hợp cho
+                                                  các ngành nghề khác nhau, giúp doanh nghiệp đạt hiệu quả tối ưu.</p>
                                         </div>
                                    </div>
 
@@ -423,7 +426,8 @@
                                         </div>
                                         <div class="box-content">
                                              <h3>Giải pháp toàn diện</h3>
-                                             <p>Cung cấp dịch vụ thiết kế website, bộ nhận diện thương hiệu, sản xuất video, quản lý mạng xã hội và quảng cáo trực tuyến.</p>
+                                             <p>Cung cấp dịch vụ thiết kế website, bộ nhận diện thương hiệu, sản xuất
+                                                  video, quản lý mạng xã hội và quảng cáo trực tuyến.</p>
                                         </div>
                                    </div>
 
@@ -435,7 +439,8 @@
                                         </div>
                                         <div class="box-content">
                                              <h3>Tùy chỉnh theo nhu cầu</h3>
-                                             <p>Các giải pháp được thiết kế riêng biệt, phù hợp với mục tiêu và đặc thù của từng doanh nghiệp</p>
+                                             <p>Các giải pháp được thiết kế riêng biệt, phù hợp với mục tiêu và đặc thù
+                                                  của từng doanh nghiệp</p>
                                         </div>
                                    </div>
 
@@ -447,7 +452,8 @@
                                         </div>
                                         <div class="box-content">
                                              <h3>Chất lượng dịch vụ cao</h3>
-                                             <p>Đội ngũ nhân viên và kỹ thuật giàu kinh nghiệm, đảm bảo dịch vụ chất lượng và đạt kết quả vượt trội.</p>
+                                             <p>Đội ngũ nhân viên và kỹ thuật giàu kinh nghiệm, đảm bảo dịch vụ chất
+                                                  lượng và đạt kết quả vượt trội.</p>
                                         </div>
                                    </div>
 
@@ -941,6 +947,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import 'swiper/swiper-bundle.css';
 import $ from "jquery";
+import "counterup/jquery.counterup.min.js";
 // import counterUp from "counterup2";
 export default {
      name: 'Home',
@@ -1005,16 +1012,25 @@ export default {
           $(document).ready(function () {
                $(".block_video_play").lightGallery();
           });
+          if ($(".counter-number").length === 0) {
+               console.error("❌ Không tìm thấy .counter-number!");
+               return;
+          }
           this.$nextTick(() => {
                setTimeout(() => {
-                    if (typeof $.fn.counterUp !== "undefined") {
-                         $(".counter-number").counterUp({
-                              delay: 10,
-                              time: 1000
-                         });
+                    if ($(".counter-number").length > 0) {
+                         if (typeof $.fn.counterUp !== "undefined") {
+                              $(".counter-number").counterUp({
+                                   delay: 10,
+                                   time: 1000
+                              });
+                         } else {
+                              console.error("Không tìm thấy phần tử .counter!");
+                         }
                     } else {
-                         console.error("Không tìm thấy phần tử .counter!");
+                         console.error("❌ Không tìm thấy phần tử .counter-number!");
                     }
+
                }, 500);
           });
      },

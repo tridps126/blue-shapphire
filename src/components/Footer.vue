@@ -7,7 +7,7 @@
                         <div class="footer-contact">
                             <a href="index.html" class="footer-logo">
                                 <img width="198" height="50"
-                                    src="../assets/css/themes/logo-footer7e7a.png?1715757113942" alt="Lofi Construction"
+                                    src="../assets/css/themes/fd25f9d6-3896-4b19-8b34-e0e99be8bdb5.png" alt="Lofi Construction"
                                     class="img-fluid">
                             </a>
                             <div class="footer-desc">

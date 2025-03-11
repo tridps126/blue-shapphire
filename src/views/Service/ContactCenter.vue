@@ -31,10 +31,10 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12">
                             <div class="page-title category-title">
-                                <h1 class="title-head">Contact Center (Telesales & Chăm Sóc Khách Hàng)</h1>
+                                <h1 class="title-head" style="color: #006ac0;">Contact Center (Telesales & Chăm Sóc Khách Hàng)</h1>
                             </div>
                             <div class="content-page rte">
-                                <h4><strong>Giới thiệu chung</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Giới thiệu chung</strong></h4>
                                 <p>Dịch vụ Contact Center là một giải pháp tổng thể giúp các doanh nghiệp kết nối, giao
                                     tiếp và duy trì mối quan hệ hiệu quả với khách hàng thông qua nhiều kênh liên lạc
                                     khác nhau như điện thoại, email, chat trực tuyến, và các mạng xã hội. Trong đó, hai
@@ -53,7 +53,7 @@
                                             và lòng trung thành của khách hàng đối với sản phẩm hoặc dịch vụ.</p>
                                     </li>
                                 </ul>
-                                <h4><strong>Lợi ích khi thuê ngoài dịch vụ Contact Center</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Lợi ích khi thuê ngoài dịch vụ Contact Center</strong></h4>
                                 <p><strong>Tối ưu chi phí: </strong>Thuê ngoài dịch vụ Contact Center giúp doanh nghiệp
                                     tiết kiệm chi phí đáng kể so với việc duy trì một đội ngũ nhân viên nội bộ. Không
                                     cần đầu tư vào cơ sở vật chất, công nghệ, hay đào tạo nhân sự, doanh nghiệp chỉ cần
@@ -78,7 +78,7 @@
                                     giao tiếp giúp nâng cao sự hài lòng và trải nghiệm của khách hàng, từ đó tạo dựng
                                     lòng trung thành và nâng cao giá trị lâu dài cho doanh nghiệp.
                                 </p>
-                                <h4><strong>Cam kết và giá trị của Blue Sapphire mang lại cho doanh nghiệp</strong></h4>
+                                <h4 style="color: #006ac0;"><strong>Cam kết và giá trị của Blue Sapphire mang lại cho doanh nghiệp</strong></h4>
                                 <p><strong>Chất lượng nhân sự: </strong>Blue Sapphire cam kết cung cấp đội ngũ nhân sự
                                     chất lượng cao, được tuyển chọn kỹ lưỡng và đào tạo chuyên nghiệp. Chúng tôi đảm bảo
                                     rằng nhân viên của mình luôn có chuyên môn vững vàng, kỹ năng giao tiếp tốt, và thái
@@ -233,7 +233,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="block-title">
                             <span class="top-title">Lý do lựa chọn chúng tôi</span>
-                            <h2>Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
+                            <h2 style="color: #006ac0;">Với phương châm "Chuyên nghiệp - Tận tâm - Sáng tạo"</h2>
                             <p>Chúng tôi luôn nỗ lực để mang đến cho khách hàng những dịch vụ tốt nhất.</p>
                         </div>
                         <div class="whychoose-content">

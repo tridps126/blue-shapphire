@@ -127,7 +127,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2 col-6">
                         <router-link to="/" class="logo" title="Logo">
-                            <img src="../assets/css/themes/logo7e7a.png?1715757113942" alt="Lofi Construction"
+                            <img src="../assets/css/themes/fd25f9d6-3896-4b19-8b34-e0e99be8bdb5.png" alt="Lofi Construction"
                                 class="img-fluid" width="187" height="47">
                         </router-link>
                     </div>
@@ -226,9 +226,9 @@
                                         <router-link to="/team">Đội ngũ</router-link>
                                     </li> -->
 
-                                    <!-- <li class="nav-item ">
+                                    <li class="nav-item ">
                                         <router-link to="/news">Tin tức</router-link>
-                                    </li> -->
+                                    </li>
 
                                     <li class="nav-item ">
                                         <router-link to="/contact">Liên hệ</router-link>

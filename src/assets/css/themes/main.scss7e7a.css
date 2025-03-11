@@ -391,12 +391,12 @@ button.close {
 }
 
 .block-title h2 a {
-    color: var(--textColor)
+    color: #006ac0
 }
 
-.block-title h2 a:hover {
+/* .block-title h2 a:hover {
     color: var(--mainColor)
-}
+} */
 
 @media (max-width: 767px) {
     .block-title h2 {
@@ -1581,7 +1581,7 @@ button.close {
 }
 
 .section_mailchimp #mc-form button {
-    color: var(--textColor);
+    color: var(--bgColorButton);
     font-size: 18px;
     height: 50px;
     min-width: 170px;
