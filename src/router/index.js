@@ -7,7 +7,7 @@ import Projects from '@/views/Projects.vue';
 import Services from '@/views/Services.vue';
 import Products from '@/views/Products.vue';
 import Team from '@/views/Team.vue';
-import News from '@/views/News.vue';
+import News from '@/views/news/News.vue';
 import Contact from '@/views/Contact.vue';
 import ContactCenter from '@/views/Service/ContactCenter.vue';
 import Marketing from '@/views/Service/Marketing.vue';
@@ -16,6 +16,7 @@ import Partner from '@/views/Partners.vue';
 import GalaxyAccess from '@/views/partners/GalaxyAccess.vue';
 import GalaxyVisaExpress from '@/views/partners/GalaxyVisaExpress.vue';
 import Recruitment from '@/views/Recruitment.vue';
+import NewDetail from '@/views/news/new/NewDetail.vue';
 
 Vue.use(Router);
 
@@ -29,6 +30,7 @@ export default new Router({
     { path: '/products', name: 'Products', component: Products },
     { path: '/team', name: 'Team', component: Team },
     { path: '/news', name: 'News', component: News },
+    { path: '/new/:id', component: NewDetail },
     { path: '/recruitment', name: 'Recruitment', component: Recruitment },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/service/contact-center', name: 'ContactCenter', component: ContactCenter },
