@@ -28,7 +28,7 @@
                     <div class="col-lg-6 col-12">
                         <div id="contact_map" class="map">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4797.768287108518!2d109.1834898758504!3d12.238888530517116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31705d87a0a01bf9%3A0x6f53ba6ab5318a9c!2zVMOyYSBOaMOgIDIzOCBOZ8O0IEdpYSBU4bux!5e1!3m2!1svi!2s!4v1741704991918!5m2!1svi!2s"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4822.620084909919!2d106.6845365!3d10.785581099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f07b3a24645%3A0x8190331668205de4!2zVMOyYSBuaMOgIEhNIFRvd24!5e1!3m2!1svi!2s!4v1741802777502!5m2!1svi!2s"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
@@ -48,12 +48,15 @@
                                     <b>Địa chỉ:</b>
 
                                     <ul>
-                                        <li><strong>Trụ Sở Chính </strong> Lầu 2-3, Tòa nhà Xuân Hòa Group, 238 Ngô Gia
-                                            Tự, P Tân Tiến, Nha Trang</li>
-                                        <li><strong>Chi nhánh 1: </strong> 29 – 31 Bình Minh 1, Bình Thuận, Hải Châu, Đà
-                                            Nẵng
+                                        <li><strong>Trụ Sở Chính </strong>Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị Minh
+                                            Khai, Phường 05, Quận 3, TP. Hồ Chí Minh</li>
+                                        <li><strong>VPĐD Nha Trang: </strong> 238 Ngô Gia Tự, P. Phước Tiến, TP. Nha
+                                            Trang, Khánh Hòa
                                         </li>
-                                        <li><Strong>Chi nhánh 2: </Strong> TP Quy Nhơn </li>
+                                        <li><Strong>VPĐD Đà Nẵng: </Strong> 29-31 Bình Minh 1, Phường Bình Thuận, Quận
+                                            Hải Châu, Thành phố Đà Nẵng</li>
+                                        <li><Strong>VPĐD Quy Nhơn: </Strong> 2307 Nguyễn Thị Minh Khai, P. Nguyễn Văn
+                                            Cừ, TP. Quy Nhơn, Bình Định</li>
                                     </ul>
                                 </div>
                                 <div class="item">
@@ -86,30 +89,11 @@
                                 với bạn sớm nhất có thể .
                             </span>
                             <div id="pagelogin">
-                                <form @submit.prevent="submitForm" id="contact">
-                                    <input type="hidden" name="FormType" value="contact" />
-                                    <input type="hidden" name="utf8" value="true" />
-                                    <input type="hidden" v-model="formData.token" name="Token" />
-
+                                <div id="contact">
                                     <div class="group_contact">
-                                        <input v-model="formData.name" placeholder="Họ và tên" type="text"
-                                            class="form-control form-control-lg" required name="contact[Name]" />
-
-                                        <input v-model="formData.email" placeholder="Email" type="email"
-                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required
-                                            class="form-control form-control-lg" name="contact[email]" />
-
-                                        <input v-model="formData.phone" type="number" placeholder="Điện thoại*"
-                                            class="form-control form-control-lg" required name="contact[phone]" />
-
-                                        <textarea v-model="formData.message" placeholder="Nội dung"
-                                            class="form-control content-area form-control-lg" rows="5" required
-                                            name="contact[body]"></textarea>
-
-                                        <button type="submit" class="btn-lienhe" :disabled="loading">Gửi thông
-                                            tin</button>
+                                        <a class="btn-lienhe" style="padding: 10px 20px;" href="mailTo:support@sapo.vn">Gửi Thông tin</a>
                                     </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
                     </div>

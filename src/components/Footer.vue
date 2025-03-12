@@ -7,8 +7,8 @@
                         <div class="footer-contact">
                             <a href="index.html" class="footer-logo">
                                 <img width="198" height="50"
-                                    src="../assets/css/themes/fd25f9d6-3896-4b19-8b34-e0e99be8bdb5.png" alt="Lofi Construction"
-                                    class="img-fluid">
+                                    src="../assets/css/themes/fd25f9d6-3896-4b19-8b34-e0e99be8bdb5.png"
+                                    alt="Lofi Construction" class="img-fluid">
                             </a>
                             <div class="footer-desc">
                                 <p>Tạo Dựng Các Giải Pháp Công Nghệ, Nhân Sự Và Marketing Hiệu Quả, Giúp Doanh Nghiệp
@@ -19,7 +19,7 @@
                             </div>
                             <div class="contacts-list">
                                 <div class="item">
-                                    <a href="https://maps.app.goo.gl/67misFyTJnSeizj9A"
+                                    <a href="https://maps.app.goo.gl/GpDTyC7nzg8JTtUT6"
                                         title="266 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội" target="_blank">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
@@ -30,13 +30,13 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>Trụ Sở chính: </strong> Lầu 2-3, Tòa nhà Xuân Hòa Group, 238 Ngô
-                                            Gia Tự, P Tân Tiến, Nha Trang
+                                        <span><strong>Trụ Sở chính: </strong> Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị
+                                            Minh Khai, Phường 05, Quận 3, TP. Hồ Chí Minh
                                         </span>
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="https://maps.app.goo.gl/yJbTvRSLADAzVsXo7"
+                                    <a href="https://maps.app.goo.gl/TnCVBtxyWUFcKxSq5"
                                         title="266 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội" target="_blank">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
@@ -47,13 +47,13 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>Chi nhánh 1: </strong> 29 – 31 Bình Minh 1, Bình Thuận, Hải Châu,
-                                            Đà Nẵng
+                                        <span><strong>VPĐD Nha Trang: </strong> 238 Ngô Gia Tự, P. Phước Tiến, TP. Nha
+                                            Trang, Khánh Hòa
                                         </span>
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="https://maps.app.goo.gl/yJZuhS8yajVjSGHE7"
+                                    <a href="https://maps.app.goo.gl/RDaF25WfD9U5GPz9A"
                                         title="266 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội" target="_blank">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
@@ -64,7 +64,25 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>Chi nhánh 2: </strong> TP Quy Nhơn
+                                        <span><strong>VPĐD Đà Nẵng: </strong> 9-31 Bình Minh 1, Phường Bình Thuận, Quận
+                                            Hải Châu, Thành phố Đà Nẵng
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="https://maps.app.goo.gl/tpqyv9tdtiiewKd67"
+                                        title="266 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội" target="_blank">
+                                        <span class="icon">
+                                            <svg width="20" height="20" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="none" stroke="#fff" stroke-width="1.01"
+                                                    d="M10,0.5 C6.41,0.5 3.5,3.39 3.5,6.98 C3.5,11.83 10,19 10,19 C10,19 16.5,11.83 16.5,6.98 C16.5,3.39 13.59,0.5 10,0.5 L10,0.5 Z">
+                                                </path>
+                                                <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
+                                            </svg>
+                                        </span>
+                                        <span><strong>VPĐD Quy Nhơn: </strong> 307 Nguyễn Thị Minh Khai, P. Nguyễn Văn
+                                            Cừ, TP. Quy Nhơn, Bình Định
                                         </span>
                                     </a>
                                 </div>
@@ -110,11 +128,13 @@
 
                                     <ul class="list-menu">
 
-                                        <li><router-link to="/" title="Chính sách giao hàng">Senior Sales</router-link></li>
+                                        <li><router-link to="/" title="Chính sách giao hàng">Senior Sales</router-link>
+                                        </li>
 
                                         <li><router-link to="/" title="Chính sách đổi trả">Marketing</router-link></li>
 
-                                        <li><router-link to="/" title="Hướng dẫn mua hàng">Sales Admin</router-link></li>
+                                        <li><router-link to="/" title="Hướng dẫn mua hàng">Sales Admin</router-link>
+                                        </li>
 
                                     </ul>
 
@@ -153,13 +173,9 @@
                                         tin tức hoặc thông tin chi tiết.</div>
                                     <div class="mailchimp">
                                         <div class="email">
-                                            <form id="mc-form" class="newsletter-form" data-toggle="validator">
-                                                <input aria-label="Địa chỉ Email" type="email" class="form-control"
-                                                    placeholder="Nhập email của bạn" name="EMAIL" required
-                                                    autocomplete="off" />
-                                                <button class="btn btn-default" type="submit"
-                                                    aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</button>
-                                            </form>
+                                            <a class="btn btn-default" type="submit" href="mailTo:support@sapo.vn"
+                                                    aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</a>
+                                            
                                             <div class="mailchimp-alerts ">
                                                 <div class="mailchimp-submitting"></div>
                                                 <!-- mailchimp-submitting end -->

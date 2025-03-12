@@ -1,6 +1,7 @@
 <template>
     <div class="bg-home">
-        <section class="bread-crumb" :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
+        <section class="bread-crumb"
+            :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Tuyển Dụng
@@ -20,6 +21,170 @@
                 </ul>
             </div>
         </section>
+        <section class="section_whychoose">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-12 mt-auto mb-auto">
+                        <div class="block-title">
+                            <span class="top-title">Tuyển Dụng</span>
+                            <h2 style="color: #006ac0;text-align: left;">Quy trình tuyển dụng</h2>
+                            <p>Chúng tôi luôn tìm kiếm “hiền tài”, những người không chỉ giỏi ở lĩnh vực họ làm mà còn
+                                có những phẩm chất, giá trị phù hợp với công ty.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+                        <div class="ent-container">
+                            <div class="ent-flex bannerdtfx-flex">
+                                <div class="right-bannerdtfx-flex ent-flex">
+                                    <div class="item-bannerdtfx ent-flex" @click="clickActivethqt(1)"
+                                        :class="{ activethqt: activethqt === 1 }">
+                                        <div class="item-bannerdtfx-ll ent-flex">
+                                            <div class="obd"></div>
+                                            <div class="ocd"></div>
+                                        </div>
+                                        <div class="item-bannerdtfx-rl">
+                                            <h4><strong>Nộp đơn trực tuyến</strong></h4>
+                                            <p><span style="font-weight: 400;">Mỗi CV, chúng tôi đều dành thời gian xem
+                                                    xét một cách cẩn thận. Vì vậy, bạn hãy chú ý tới mô tả công việc và
+                                                    chỉ nộp đơn cho những vị trí bạn thực sự quan tâm hoặc phù hợp với
+                                                    kinh nghiệm bản thân. </span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item-bannerdtfx ent-flex ">
+                                        <div class="item-bannerdtfx-ll ent-flex" @click="clickActivethqt(2)"
+                                            :class="{ activethqt: activethqt === 2 }">
+                                            <div class="obd"></div>
+                                            <div class="ocd"></div>
+                                        </div>
+                                        <div class="item-bannerdtfx-rl">
+                                            <h4><strong>Tham dự phỏng vấn</strong></h4>
+                                            <p><span style="font-weight: 400;">Hãy tìm hiểu kỹ về công ty, mô tả công
+                                                    việc và đặt câu hỏi cho chúng tôi. Chúng tôi trân trọng sự trung
+                                                    thực vì phỏng vẫn tìm kiếm sự phù hợp từ hai phía.</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item-bannerdtfx ent-flex ">
+                                        <div class="item-bannerdtfx-ll ent-flex" @click="clickActivethqt(3)"
+                                            :class="{ activethqt: activethqt === 3 }">
+                                            <div class="obd"></div>
+                                            <div class="ocd"></div>
+                                        </div>
+                                        <div class="item-bannerdtfx-rl">
+                                            <h4><span style="font-weight: 400;"><strong>Nhận thư mời nhận việc</strong>
+                                                </span></h4>
+                                            <p><span style="font-weight: 400;">Nếu bạn thích môi trường làm việc và công
+                                                    ty có cảm nhận tốt về bạn, thì chúng tôi sẽ chính thức mời bạn gia
+                                                    nhập đội ngũ</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item-bannerdtfx ent-flex ">
+                                        <div class="item-bannerdtfx-ll ent-flex" @click="clickActivethqt(4)"
+                                            :class="{ activethqt: activethqt === 4 }">
+                                            <div class="obd"></div>
+                                            <div class="ocd"></div>
+                                        </div>
+                                        <div class="item-bannerdtfx-rl">
+                                            <h4><strong>Chào đón thành viên mới</strong></h4>
+                                            <p><span style="font-weight: 400;">Chúng tôi sẽ có các hoạt động hỗ trợ giúp
+                                                    nhân viên mới để giúp họ hiểu rõ hơn về vị trí, công việc và văn hóa
+                                                    công ty.</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_whychoose" style="background-color: #5aa3fc;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-6 col-md-12 col-12">
+                        <div class="ent-container fullcdtd-ct">
+                            <div class="ent-flex fullcdtdflex">
+                                <div class="topfuldff ent-flex">
+                                    <h2>Chế độ tuyển dụng</h2>
+                                    <div class="ulxd">
+                                        <a data-img="https://mpt.com.vn/wp-content/uploads/2023/11/Asset-4@72x.png"
+                                            data-l="aamtlv0"  :class="{activeth: activethqtcd == 1}" @click="clickActivethqtCĐ(1)" style="cursor: pointer;">Môi trường làm việc</a>
+                                        <a data-img="https://mpt.com.vn/wp-content/uploads/2023/11/Asset-4@72x.png"
+                                            data-l="aamtlv1" :class="{activeth: activethqtcd == 2}" @click="clickActivethqtCĐ(2)" style="cursor: pointer;">Quyền lợi</a>
+                                        <a data-img="https://mpt.com.vn/wp-content/uploads/2023/11/Asset-4@72x.png"
+                                            data-l="aamtlv2" :class="{activeth: activethqtcd == 3}" @click="clickActivethqtCĐ(3)" style="cursor: pointer;">Hoạt động</a>
+                                    </div>
+                                </div>
+                                <div class="botfuldff"
+                                    :style="{ backgroundImage: `url(${require('@/assets/css/themes/Asset-4@72x.png')})` }">
+                                    <div id="aamtlv0" class="contenthjk" :style="{ display: activethqtcd == 1 ? 'block' : 'none' }">
+                                        <h3>Môi trường làm việc</h3>
+                                        <p><span style="font-weight: 400;">Đồng nghiệp cởi mở, thân thiện, đoàn
+                                                kết.</span>
+                                        </p>
+                                        <p><span style="font-weight: 400;">Khuyến khích việc suy nghĩ độc lập, chủ động
+                                                trong công
+                                                việc.</span></p>
+                                        <p><span style="font-weight: 400;">Được ghi nhận, đánh giá thường xuyên trên kết
+                                                quả
+                                                công
+                                                việc,
+                                                sẵn sàng trao </span><span style="font-weight: 400;">cơ hội.</span></p>
+                                        <p><span style="font-weight: 400;">Làm việc với doanh nghiệp, nhân sự trẻ, năng
+                                                động
+                                                và tiêu
+                                                chuẩn cao.</span></p>
+                                        <p><span style="font-weight: 400;">Có cơ hội phát triển theo đúng năng
+                                                lực.</span>
+                                        </p>
+                                        <p><span style="font-weight: 400;">Có cơ hội được tham gia các khóa đào tạo nâng
+                                                cao
+                                                năng
+                                                lực
+                                                chuyên môn.</span></p>
+                                        <p><a href="mailTo:support@sapo.vn">Ứng tuyển ngay</a></p>
+
+                                    </div>
+                                    <div id="aamtlv1" class="contenthjk" :style="{ display: activethqtcd == 2 ? 'block' : 'none' }">
+                                        <h3>Quyền lợi</h3>
+                                        <p><span style="font-weight: 400;">Thu nhập hấp dẫn</span></p>
+                                        <p><span style="font-weight: 400;">Nhiều cơ hội học hỏi và phát triển bản
+                                                thân.</span></p>
+                                        <p><span style="font-weight: 400;">Hưởng đầy đủ các chế độ BHXH, BHYT và các
+                                                phúc
+                                                lợi
+                                                khác.</span></p>
+                                        <p><span style="font-weight: 400;">Môi trường làm việc chuyên nghiệp, năng
+                                                động</span></p>
+                                        <p><span style="font-weight: 400;">Công việc ổn định, lâu dài.</span></p>
+                                        <p><span style="font-weight: 400;">Lộ trình thăng tiến nghề nghiệp rõ
+                                                ràng.</span>
+                                        </p>
+                                        <p><a href="mailTo:support@sapo.vn">Ứng tuyển ngay</a></p>
+
+                                    </div>
+                                    <div id="aamtlv2" class="contenthjk" :style="{ display: activethqtcd == 3 ? 'block' : 'none' }">
+                                        <h3>Hoạt động</h3>
+                                        <p><span style="font-weight: 400;">Các dịp lễ.</span></p>
+                                        <p><span style="font-weight: 400;">Tổ chức sinh nhật.</span></p>
+                                        <p><span style="font-weight: 400;">Các hoạt động thường niên như team
+                                                building,nghỉ
+                                                mát
+                                                thường
+                                                niên, sinh nhật Công ty, 08/03, 20/10…</span></p>
+                                        <p><span style="font-weight: 400;">Các hoạt động đào tạo nội bộ và bên
+                                                ngoài.</span>
+                                        </p>
+                                        <p><a href="mailTo:support@sapo.vn">Ứng tuyển ngay</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <div class="blog_wrapper layout-blog" itemscope itemtype="https://schema.org/Blog">
             <meta itemprop="name" content="Dự án">
             <meta itemprop="description" content="">
@@ -29,7 +194,8 @@
                     <span class="top-title"></span>
                     <h2><a href="dich-vu.html" title="Cung cấp dịch vụ chất lượng">Vị Trí Tuyển Dụng</a>
                     </h2>
-                    <p style="text-align: center;">Đội ngũ tuyệt vời bắt đầu từ những con người xuất sắc. Vì vậy, hãy ứng tuyển ngay ngày hôm nay để cùng nhau tạo nên sự khác biệt!</p>
+                    <p style="text-align: center;">Đội ngũ tuyệt vời bắt đầu từ những con người xuất sắc. Vì vậy, hãy
+                        ứng tuyển ngay ngày hôm nay để cùng nhau tạo nên sự khác biệt!</p>
                 </div>
                 <div class="row">
                     <div class="right-content col-lg-12 col-12">
@@ -43,7 +209,8 @@
                                         <div class="block-thumb">
 
                                             <a class="thumb" href="vinhome-grand-park.html" title="Vinhome Grand Park">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload"
+                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
                                                     alt="Vinhome Grand Park">
                                             </a>
@@ -92,7 +259,8 @@
 
                                             <a class="thumb" href="sun-grand-city-hillside-residence.html"
                                                 title="Sun Grand City Hillside Residence">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload"
+                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/nam-sg-4-10d929efac37408086ae10bac664d3ca-master.jpg?v=1712581912227"
                                                     alt="Sun Grand City Hillside Residence">
                                             </a>
@@ -140,7 +308,8 @@
                                         <div class="block-thumb">
 
                                             <a class="thumb" href="thao-dien-green.html" title="Thảo Điền Green">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload"
+                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/lucasta-5-1d44651771c34b02869f20722b068d24-master.jpg?v=1712581922387"
                                                     alt="Thảo Điền Green">
                                             </a>
@@ -186,8 +355,10 @@
                                     <div class="item-blog">
                                         <div class="block-thumb">
 
-                                            <a class="thumb" href="khu-can-ho-sunflower.html" title="Khu căn hộ Sunflower">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                            <a class="thumb" href="khu-can-ho-sunflower.html"
+                                                title="Khu căn hộ Sunflower">
+                                                <img class="lazyload"
+                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/blooming-park1.jpg?v=1712581435090"
                                                     alt="Khu căn hộ Sunflower">
                                             </a>
@@ -238,7 +409,8 @@
                                         <div class="block-thumb">
 
                                             <a class="thumb" href="hcci-hoang-liet.html" title="HCCI Hoàng Liệt">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload"
+                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/image-20231026161812-3.jpeg?v=1711980615940"
                                                     alt="HCCI Hoàng Liệt">
                                             </a>
@@ -286,9 +458,11 @@
                                     <div class="item-blog">
                                         <div class="block-thumb">
 
-                                            <a class="thumb" href="can-ho-cao-cap-4-phong-ngu-220m2-phong-cach-luxury.html"
+                                            <a class="thumb"
+                                                href="can-ho-cao-cap-4-phong-ngu-220m2-phong-cach-luxury.html"
                                                 title="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">
-                                                <img class="lazyload" src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                <img class="lazyload"
+                                                    src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/duan-1.jpg?v=1702970722857"
                                                     alt="Căn hộ cao cấp 4 phòng ngủ - 220m2 - phong cách Luxury">
                                             </a>
@@ -348,6 +522,40 @@
 
 <script>
 export default {
-    name: 'Recruitment'
+    name: 'Recruitment',
+    data() {
+        return {
+            activethqt: 1,
+            activethqtcd: 1,
+            items: [
+                { name: "Item 1" },
+                { name: "Item 2" },
+                { name: "Item 3" }
+            ],
+            itemsCĐ: [
+                { name: "Item 1" },
+                { name: "Item 2" },
+                { name: "Item 3" }
+            ],
+        };
+    },
+    methods: {
+        clickActivethqt(index) {
+            this.activethqt = index;
+        },
+        clickActivethqtCĐ(index) {
+            this.activethqtcd = index;
+        }
+    }
 }
 </script>
+
+<style scoped>
+.ulxd a {
+    color: #fff;
+}
+
+.ulxd a:hover {
+    color: #006ac0;
+}
+</style>
