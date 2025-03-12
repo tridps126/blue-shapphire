@@ -125,19 +125,12 @@
                                     <span class="Collapsible__Plus"></span>
                                 </h4>
                                 <div class="hidden-mobile">
-
                                     <ul class="list-menu">
-
-                                        <li><router-link to="/" title="Chính sách giao hàng">Senior Sales</router-link>
+                                        <li v-for="job in otherJobs">
+                                            <router-link :to="`/recruitment/${job.id}`" class="nav-link">{{
+                                                job.title.rendered }}</router-link>
                                         </li>
-
-                                        <li><router-link to="/" title="Chính sách đổi trả">Marketing</router-link></li>
-
-                                        <li><router-link to="/" title="Hướng dẫn mua hàng">Sales Admin</router-link>
-                                        </li>
-
                                     </ul>
-
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-12 link_list col-footer">
@@ -174,8 +167,8 @@
                                     <div class="mailchimp">
                                         <div class="email">
                                             <a class="btn btn-default" type="submit" href="mailTo:support@sapo.vn"
-                                                    aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</a>
-                                            
+                                                aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</a>
+
                                             <div class="mailchimp-alerts ">
                                                 <div class="mailchimp-submitting"></div>
                                                 <!-- mailchimp-submitting end -->
@@ -210,7 +203,25 @@
 
 <script>
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    data() {
+        return {
+            otherJobs: []
+        }
+    },
+    methods: {
+        fetchOtherJobs() {
+            fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?categories=5`)
+                .then(response => response.json())
+                .then(data => {
+                    this.otherJobs = data;
+                })
+                .catch(error => console.error('Lỗi:', error));
+        },
+    },
+    mounted() {
+        this.fetchOtherJobs()
+    }
 }
 
 </script>

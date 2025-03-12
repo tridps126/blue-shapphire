@@ -24,8 +24,8 @@
                                         <div class="slider-content">
                                              <span class="sup-title">Blue Shapphire</span>
                                              <h2 class="title">Công Nghệ Đổi Mới, Nhân Sự Tạo Dựng Thành Công</h2>
-                                             <a class="button" href="collections/all.html" title="Xem chi tiết">Xem chi
-                                                  tiết</a>
+                                             <router-link class="button" to="/" title="Xem chi tiết">Xem chi
+                                                  tiết</router-link>
                                         </div>
                                    </div>
                               </div>
@@ -216,7 +216,7 @@
                <div class="container-fluid">
                     <div class="block-title">
                          <span class="top-title">Dịch vụ của chúng tôi</span>
-                         <h2><a href="dich-vu.html" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</a>
+                         <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</router-link>
                          </h2>
                     </div>
                     <div class="row">
@@ -476,7 +476,7 @@
                               <p>Các sản phẩm/dịch vụ chúng tôi đang cung cấp</p>
                          </div>
                          <div class="col-lg-3 col-md-3 col-12 col-right">
-                              <a href="collections/all.html" target="_blank">Xem thêm</a>
+                              <router-link to="/" target="_blank">Xem thêm</router-link>
                          </div>
                     </div>
                </div>
@@ -485,7 +485,7 @@
                <div class="container-fluid">
                     <div class="block-title">
                          <span class="top-title">Tận tâm, chuyên nghiệp</span>
-                         <h2><a href="doi-ngu.html">Đội ngũ của chúng tôi</a></h2>
+                         <h2><router-link to="/">Đội ngũ của chúng tôi</router-link></h2>
                     </div>
                     <div class="block-content">
                          <div class="swiper-container swiper-team">
@@ -493,7 +493,7 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="le-gia-long.html" title="Lê Gia Long" class="thumb">
+                                                  <a href="/" title="Lê Gia Long" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/css/themes/team-image-1.webp?v=1702523936450"
@@ -503,7 +503,7 @@
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
-                                                       <a class="line-clamp line-clamp-1" href="le-gia-long.html"
+                                                       <a class="line-clamp line-clamp-1" href="/"
                                                             title="Lê Gia Long">Lê Gia Long</a>
                                                   </div>
                                                   <div class="department">
@@ -571,7 +571,7 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="luu-phuong-huyen.html" title="Lưu Phương Huyền"
+                                                  <a href="/" title="Lưu Phương Huyền"
                                                        class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
@@ -583,7 +583,7 @@
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
-                                                       <a class="line-clamp line-clamp-1" href="luu-phuong-huyen.html"
+                                                       <a class="line-clamp line-clamp-1" href="/"
                                                             title="Lưu Phương Huyền">Lưu Phương Huyền</a>
                                                   </div>
                                                   <div class="department">
@@ -648,7 +648,7 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="le-thi-huong.html" title="Lê Thị Hương" class="thumb">
+                                                  <a href="/" title="Lê Thị Hương" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/css/themes/team-image-3.webp?v=1702524418773"
@@ -659,7 +659,7 @@
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
-                                                       <a class="line-clamp line-clamp-1" href="le-thi-huong.html"
+                                                       <a class="line-clamp line-clamp-1" href="/"
                                                             title="Lê Thị Hương">Lê Thị Hương</a>
                                                   </div>
                                                   <div class="department">
@@ -716,7 +716,7 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="dao-van-hieu.html" title="Đào Văn Hiếu" class="thumb">
+                                                  <a href="/" title="Đào Văn Hiếu" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/css/themes/team-image-4.webp?v=1702524176197"
@@ -727,7 +727,7 @@
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
-                                                       <a class="line-clamp line-clamp-1" href="dao-van-hieu.html"
+                                                       <a class="line-clamp line-clamp-1" href="/"
                                                             title="Đào Văn Hiếu">Đào Văn Hiếu</a>
                                                   </div>
                                                   <div class="department">
@@ -802,25 +802,21 @@
                <div class="container">
                     <div class="block-title">
                          <span class="top-title">Tin tức</span>
-                         <h2 class="title"><a href="tin-tuc.html" title="Bài viết mới nhất">Bài viết mới nhất</a></h2>
+                         <h2 class="title"><router-link to="/" title="Bài viết mới nhất">Bài viết mới nhất</router-link></h2>
                     </div>
                     <div class="block-blog relative">
                          <div class="row">
-                              <div class="col-lg-6 col-md-12 col-12">
+                              <div v-for="post in posts" :key="post.id" class="col-lg-6 col-md-12 col-12">
                                    <div class="item-blog">
                                         <div class="article-card row">
                                              <div class="col-md-6 col-12">
                                                   <div class="block-thumb">
-
-                                                       <a class="thumb"
-                                                            href="nhung-mau-son-se-loi-thoi-nam-2024-va-nhung-loi-ich-khi-son-nha-mau-trang.html"
-                                                            title="Những màu sơn sẽ lỗi thời năm 2024 và những lợi ích khi sơn nhà màu trắng">
+                                                       <router-link class="thumb" :to="`/new/${post.id}`">
                                                             <img class="lazyload"
                                                                  src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                                  data-src="//bizweb.dktcdn.net/thumb/large/100/503/218/articles/nhung-mau-son-du-kien-tro-nen-loi-thoi-vao-nam-2023-265-16841272761201703310274-ezgif-com-webp-to-jpg-converter.jpg?v=1711979548457"
                                                                  alt="Những màu sơn sẽ lỗi thời năm 2024 và những lợi ích khi sơn nhà màu trắng">
-                                                       </a>
-
+                                                       </router-link>
                                                   </div>
                                              </div>
                                              <div class="col-md-6 col-12">
@@ -836,7 +832,7 @@
                                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
                                                                            class=""></path>
                                                                  </svg>
-                                                                 <span>Team Lofi</span>
+                                                                 <span>Team Blue Shapphire</span>
                                                             </div>
                                                             <div class="date-post f">
 
@@ -849,83 +845,16 @@
                                                                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
                                                                            class=""></path>
                                                                  </svg>
-                                                                 01/04/2024
+                                                                 {{ formatDate(post.date) }}
                                                             </div>
                                                        </div>
-                                                       <h3><a href="nhung-mau-son-se-loi-thoi-nam-2024-va-nhung-loi-ich-khi-son-nha-mau-trang.html"
-                                                                 title="Những màu sơn sẽ lỗi thời năm 2024 và những lợi ích khi sơn nhà màu trắng">Những
-                                                                 màu sơn sẽ lỗi thời năm 2024 và những lợi ích khi sơn
-                                                                 nhà màu
-                                                                 trắng</a></h3>
+                                                       <h3><router-link :to="`/new/${post.id}`"
+                                                                 v-html="post.title.rendered">
+                                                            </router-link>
+                                                       </h3>
 
-                                                       <div class="article-content">Xu hướng màu sắc dự đoán rằng các
-                                                            tông màu
-                                                            trầm, xám và nhạt đang dần nhường chỗ cho các tông màu sáng
-                                                            hơn.
-                                                            Những...</div>
-
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                              <div class="col-lg-6 col-md-12 col-12">
-                                   <div class="item-blog">
-                                        <div class="article-card row">
-                                             <div class="col-md-6 col-12">
-                                                  <div class="block-thumb">
-
-                                                       <a class="thumb"
-                                                            href="cach-bo-tri-giuong-lon-cho-phong-ngu-nho.html"
-                                                            title="Cách bố trí giường lớn cho phòng ngủ nhỏ">
-                                                            <img class="lazyload"
-                                                                 src="../assets/css/themes/photo-3-16913756844811009877347-ezgif-com-webp-to-jpg-converter.webp"
-                                                                 data-src="../assets/css/themes/photo-3-16913756844811009877347-ezgif-com-webp-to-jpg-converter.webp?v=1711979189837"
-                                                                 alt="Cách bố trí giường lớn cho phòng ngủ nhỏ">
-                                                       </a>
-
-                                                  </div>
-                                             </div>
-                                             <div class="col-md-6 col-12">
-                                                  <div class="block-content">
-                                                       <div class="time-post">
-                                                            <div class="author-post">
-                                                                 <svg aria-hidden="true" focusable="false"
-                                                                      data-prefix="fas" data-icon="user" role="img"
-                                                                      xmlns="http://www.w3.org/2000/svg"
-                                                                      viewBox="0 0 448 512"
-                                                                      class="svg-inline--fa fa-user fa-w-14">
-                                                                      <path fill="var(---mainColor)"
-                                                                           d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                                                                           class=""></path>
-                                                                 </svg>
-                                                                 <span>Team Lofi</span>
-                                                            </div>
-                                                            <div class="date-post f">
-
-                                                                 <svg aria-hidden="true" focusable="false"
-                                                                      data-prefix="fal" data-icon="clock" role="img"
-                                                                      xmlns="http://www.w3.org/2000/svg"
-                                                                      viewBox="0 0 512 512"
-                                                                      class="svg-inline--fa fa-clock fa-w-16">
-                                                                      <path fill="var(---mainColor)"
-                                                                           d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216zm-148.9 88.3l-81.2-59c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v146.3l70.5 51.3c5.4 3.9 6.5 11.4 2.6 16.8l-8.2 11.3c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                                                                           class=""></path>
-                                                                 </svg>
-                                                                 01/04/2024
-                                                            </div>
+                                                       <div class="article-content" v-html="post.excerpt.rendered">
                                                        </div>
-                                                       <h3><a href="cach-bo-tri-giuong-lon-cho-phong-ngu-nho.html"
-                                                                 title="Cách bố trí giường lớn cho phòng ngủ nhỏ">Cách
-                                                                 bố trí giường
-                                                                 lớn cho phòng ngủ nhỏ</a></h3>
-
-                                                       <div class="article-content">Không phải ngôi nhà nào cũng có
-                                                            phòng ngủ đủ
-                                                            rộng phù hợp cho giường to. Tuy nhiên, vẫn có nhiều cách để
-                                                            giường
-                                                            lớn...</div>
-
                                                   </div>
                                              </div>
                                         </div>
@@ -948,9 +877,36 @@ import "swiper/css/pagination";
 import 'swiper/swiper-bundle.css';
 import $ from "jquery";
 import "counterup/jquery.counterup.min.js";
+import axios from 'axios';
 // import counterUp from "counterup2";
 export default {
      name: 'Home',
+     data() {
+          return {
+               posts: [],
+          }
+     },
+     methods: {
+          async fetchPosts(categoryId = 4) {
+               this.isLoading = true;
+               let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts"
+               if (categoryId) {
+                    url += `?categories=${categoryId}`;
+               }
+               try {
+                    const response = await axios.get(url);
+                    this.posts = response.data;
+               } catch (error) {
+                    console.error("Lỗi khi lấy bài viết:", error);
+               } finally {
+                    this.isLoading = false; // Kết thúc loading
+               }
+          },
+          formatDate(dateString) {
+               return dateString.split('T')[0]; // Lấy phần YYYY-MM-DD
+          }
+
+     },
      mounted() {
           new Swiper('.home-slider', {
                loop: false,
@@ -1033,6 +989,7 @@ export default {
 
                }, 500);
           });
+          this.fetchPosts();
      },
 }
 

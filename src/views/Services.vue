@@ -8,7 +8,7 @@
                 </div>
                 <ul class="breadcrumb">
                     <li class="home">
-                        <a href="index.html"><span>Trang chủ</span></a>
+                        <router-link to="/"><span>Trang chủ</span></router-link>
                         <span class="mr_lr">&nbsp;<svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512" class="svg-inline--fa fa-chevron-right fa-w-10">
@@ -27,7 +27,7 @@
             <div class="container-fluid">
                 <div class="block-title">
                     <span class="top-title">Dịch vụ của chúng tôi</span>
-                    <h2><a href="dich-vu.html" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</a>
+                    <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</router-link>
                     </h2>
                 </div>
                 <div class="row">

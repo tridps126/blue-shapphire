@@ -8,7 +8,7 @@
                 </div>
                 <ul class="breadcrumb">
                     <li class="home">
-                        <a href="index.html"><span>Trang chủ</span></a>
+                        <router-link t="/"><span>Trang chủ</span></router-link>
                         <span class="mr_lr">&nbsp;<svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512" class="svg-inline--fa fa-chevron-right fa-w-10">
@@ -247,7 +247,8 @@
                                                 chăm sóc khách hàng và telesale hiệu quả.
                                             </p>
                                             <div class="ctas">
-                                                <router-link to="/service/contact-content" class="btn-viewmore">Xem Thêm</router-link>
+                                                <router-link to="/service/contact-content" class="btn-viewmore">Xem
+                                                    Thêm</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -266,7 +267,8 @@
                                                 nâng cao sự hiện diện trực tuyến của bạn.
                                             </p>
                                             <div class="ctas">
-                                                <router-link to="/service/website" class="btn-viewmore">Xem Thêm</router-link>
+                                                <router-link to="/service/website" class="btn-viewmore">Xem
+                                                    Thêm</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -285,7 +287,8 @@
                                                 tối đa hóa hiệu quả chi phí.
                                             </p>
                                             <div class="ctas">
-                                                <router-link to="/service/marketing" class="btn-viewmore">Xem Thêm</router-link>
+                                                <router-link to="/service/marketing" class="btn-viewmore">Xem
+                                                    Thêm</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -300,7 +303,7 @@
                 <div class="container-fluid">
                     <div class="block-title">
                         <span class="top-title">Tận tâm, chuyên nghiệp</span>
-                        <h2><a href="doi-ngu.html">Đội ngũ của chúng tôi</a></h2>
+                        <h2><router-link to="/">Đội ngũ của chúng tôi</router-link></h2>
                     </div>
                     <div class="block-content">
                         <div class="swiper-container swiper-team">
@@ -308,7 +311,7 @@
                                 <div class="swiper-slide item">
                                     <div class="team-item">
                                         <div class="team-image">
-                                            <a href="le-gia-long.html" title="Lê Gia Long" class="thumb">
+                                            <a href="/" title="Lê Gia Long" class="thumb">
 
                                                 <img width="540" height="600" class="lazyload"
                                                     src="../assets/css/themes/team-image-1.webp?v=1702523936450"
@@ -318,8 +321,8 @@
                                         </div>
                                         <div class="team-info">
                                             <div class="name">
-                                                <a class="line-clamp line-clamp-1" href="le-gia-long.html"
-                                                    title="Lê Gia Long">Lê Gia Long</a>
+                                                <a class="line-clamp line-clamp-1" href="/" title="Lê Gia Long">Lê Gia
+                                                    Long</a>
                                             </div>
                                             <div class="department">
                                                 Tổng Giám Đốc
@@ -384,7 +387,7 @@
                                 <div class="swiper-slide item">
                                     <div class="team-item">
                                         <div class="team-image">
-                                            <a href="luu-phuong-huyen.html" title="Lưu Phương Huyền" class="thumb">
+                                            <a href="/" title="Lưu Phương Huyền" class="thumb">
 
                                                 <img width="540" height="600" class="lazyload"
                                                     src="../assets/css/themes/team-image-2.webp?v=1702524324723"
@@ -395,8 +398,8 @@
                                         </div>
                                         <div class="team-info">
                                             <div class="name">
-                                                <a class="line-clamp line-clamp-1" href="luu-phuong-huyen.html"
-                                                    title="Lưu Phương Huyền">Lưu Phương Huyền</a>
+                                                <a class="line-clamp line-clamp-1" href="/" title="Lưu Phương Huyền">Lưu
+                                                    Phương Huyền</a>
                                             </div>
                                             <div class="department">
                                                 Trưởng phòng kế toán
@@ -458,7 +461,7 @@
                                 <div class="swiper-slide item">
                                     <div class="team-item">
                                         <div class="team-image">
-                                            <a href="le-thi-huong.html" title="Lê Thị Hương" class="thumb">
+                                            <a href="/" title="Lê Thị Hương" class="thumb">
 
                                                 <img width="540" height="600" class="lazyload"
                                                     src="../assets/css/themes/team-image-3.webp?v=1702524418773"
@@ -469,8 +472,8 @@
                                         </div>
                                         <div class="team-info">
                                             <div class="name">
-                                                <a class="line-clamp line-clamp-1" href="le-thi-huong.html"
-                                                    title="Lê Thị Hương">Lê Thị Hương</a>
+                                                <a class="line-clamp line-clamp-1" href="/" title="Lê Thị Hương">Lê Thị
+                                                    Hương</a>
                                             </div>
                                             <div class="department">
                                                 Giám đốc truyền thông
@@ -524,7 +527,7 @@
                                 <div class="swiper-slide item">
                                     <div class="team-item">
                                         <div class="team-image">
-                                            <a href="dao-van-hieu.html" title="Đào Văn Hiếu" class="thumb">
+                                            <a href="/" title="Đào Văn Hiếu" class="thumb">
 
                                                 <img width="540" height="600" class="lazyload"
                                                     src="../assets/css/themes/team-image-4.webp?v=1702524176197"
@@ -535,8 +538,8 @@
                                         </div>
                                         <div class="team-info">
                                             <div class="name">
-                                                <a class="line-clamp line-clamp-1" href="dao-van-hieu.html"
-                                                    title="Đào Văn Hiếu">Đào Văn Hiếu</a>
+                                                <a class="line-clamp line-clamp-1" href="/" title="Đào Văn Hiếu">Đào Văn
+                                                    Hiếu</a>
                                             </div>
                                             <div class="department">
                                                 Giám sát thi công

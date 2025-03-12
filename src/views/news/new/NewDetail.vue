@@ -58,8 +58,8 @@
                                     <ul class="navbar-pills">
                                         <li v-for="otherNew in otherNews" class="nav-item relative"
                                             :class="{ active: $route.params.id == otherNew.id }">
-                                            <router-link :to="`/new/${otherNew.id}`" class="nav-link">{{
-                                                otherNew.title.rendered }}</router-link>
+                                            <router-link :to="`/new/${otherNew.id}`" class="nav-link"
+                                                v-html="otherNew.title.rendered"></router-link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -96,7 +96,7 @@ export default {
                 .catch(error => console.error('Lỗi:', error));
         },
         fetchPost(postId) {
-            
+
             fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts/${postId}`)
                 .then(response => response.json())
                 .then(data => {
@@ -112,9 +112,9 @@ export default {
         console.log(postId);
     },
     watch: {
-    "$route.params.id"(newId) {
-      this.fetchPost(newId); // Gọi lại API khi ID thay đổi
+        "$route.params.id"(newId) {
+            this.fetchPost(newId); // Gọi lại API khi ID thay đổi
+        }
     }
-  }
 }
 </script>
