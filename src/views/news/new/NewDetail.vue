@@ -5,7 +5,7 @@
             >
             <div class="container">
                 <div class="title-breadcrumb">
-                    Contact Center
+                    Tin Tức
                 </div>
                 <ul class="breadcrumb">
                     <li class="home">
@@ -52,24 +52,14 @@
                         <div class="page_services col-lg-4 col-12">
                             <div class="aside-content-menu">
                                 <div class="title">
-                                    Các dịch vụ khác
+                                    Các tin tức khác
                                 </div>
                                 <nav class="nav-category">
                                     <ul class="navbar-pills">
-                                        <li class="nav-item relative"
-                                            :class="{ active: $route.path === '/service/contact-center' }">
-                                            <router-link to="/service/contact-center" class="nav-link">Contact
-                                                Center</router-link>
-                                        </li>
-                                        <li class="nav-item  relative"
-                                            :class="{ active: $route.path === '/service/website' }">
-                                            <router-link to="/service/website" class="nav-link">Phát triển
-                                                website</router-link>
-                                        </li>
-                                        <li class="nav-item  relative"
-                                            :class="{ active: $route.path === '/service/marketing' }">
-                                            <router-link to="/service/marketing" class="nav-link">Chiến lược
-                                                Marketing</router-link>
+                                        <li v-for="otherNew in otherNews" class="nav-item relative"
+                                            :class="{ active: $route.params.id == otherNew.id }">
+                                            <router-link :to="`/new/${otherNew.id}`" class="nav-link">{{
+                                                otherNew.title.rendered }}</router-link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -245,16 +235,39 @@ export default {
         return {
             searchTerm: '',
             post: null,
+            otherNews: [],
+            otherNewsId: 4,
         };
+    },
+    methods: {
+        fetchOtherNews() {
+            fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?categories=4`)
+                .then(response => response.json())
+                .then(data => {
+                    this.otherNews = data;
+                })
+                .catch(error => console.error('Lỗi:', error));
+        },
+        fetchPost(postId) {
+            
+            fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts/${postId}`)
+                .then(response => response.json())
+                .then(data => {
+                    this.post = data;
+                })
+                .catch(error => console.error('Lỗi:', error));
+        }
     },
     mounted() {
         const postId = this.$route.params.id;
-        fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts/${postId}`)
-            .then(response => response.json())
-            .then(data => {
-                this.post = data;
-            })
-            .catch(error => console.error('Lỗi:', error));
+        this.fetchOtherNews();
+        this.fetchPost(postId);
+        console.log(postId);
+    },
+    watch: {
+    "$route.params.id"(newId) {
+      this.fetchPost(newId); // Gọi lại API khi ID thay đổi
     }
+  }
 }
 </script>

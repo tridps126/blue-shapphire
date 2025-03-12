@@ -35,72 +35,20 @@
                                     Tin tức tiêu biểu
                                 </div>
                                 <nav class="nav-category">
-                                    <ul class="navbar-pills">
+                                    <ul v-if="cateNews.length > 0" class="navbar-pills">
                                         <li class="nav-item  relative">
-                                            <a title="Trang chủ" class="nav-link" href="index.html">Trang chủ</a>
+                                            <a title="Trang chủ" class="nav-link" style="cursor: pointer;"
+                                                @click="fetchPosts()">Tất cả</a>
                                         </li>
+                                        <li v-for="cateNew in cateNews" :key="cateNew.id" class="nav-item  relative">
+                                            <a title="Trang chủ" class="nav-link" style="cursor: pointer;"
+                                                @click="fetchPosts(cateNew.id)">{{
+                                                    cateNew.name }}</a>
+                                        </li>
+                                    </ul>
+                                    <ul v-else class="navbar-pills">
                                         <li class="nav-item  relative">
-                                            <a title="Giới thiệu" class="nav-link" href="gioi-thieu.html">Giới thiệu</a>
-                                        </li>
-                                        <li class="nav-item active relative">
-                                            <a title="Dự án" href="du-an.html" class="nav-link pr-5">Dự án</a>
-                                            <i class="open_mnu down_icon"></i>
-                                            <ul class="menu_down" style="display:none;">
-                                                <li class="nav-item">
-                                                    <a title="Dự án biệt thự" class="nav-link"
-                                                        href="du-an-biet-thu.html">Dự
-                                                        án biệt thự</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a title="Dự án nhà phố" class="nav-link"
-                                                        href="du-an-nha-pho.html">Dự
-                                                        án nhà phố</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a title="Dự án văn phòng" class="nav-link"
-                                                        href="du-an-van-phong.html">Dự án văn phòng</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a title="Dự án quán cafe, nhà hàng" class="nav-link"
-                                                        href="du-an-quan-cafe-nha-hang.html">Dự án quán cafe, nhà
-                                                        hàng</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item  relative">
-                                            <a title="Dịch vụ" href="dich-vu.html" class="nav-link pr-5">Dịch vụ</a>
-                                            <i class="open_mnu down_icon"></i>
-                                            <ul class="menu_down" style="display:none;">
-                                                <li class="nav-item">
-                                                    <a title="Thiết kế nội thất" class="nav-link"
-                                                        href="thiet-ke-noi-that.html">Thiết kế nội thất</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a title="Tư vấn dự án" class="nav-link" href="tu-van-du-an.html">Tư
-                                                        vấn dự án</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a title="Cải tạo nhà cửa" class="nav-link"
-                                                        href="cai-tao-nha-cua.html">Cải tạo nhà cửa</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a title="Sơn sửa công trình" class="nav-link"
-                                                        href="son-sua-cong-trinh.html">Sơn sửa công trình</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item  relative">
-                                            <a title="Sản phẩm" class="nav-link" href="collections/all.html">Sản
-                                                phẩm</a>
-                                        </li>
-                                        <li class="nav-item  relative">
-                                            <a title="Đội ngũ" class="nav-link" href="doi-ngu.html">Đội ngũ</a>
-                                        </li>
-                                        <li class="nav-item  relative">
-                                            <a title="Tin tức" class="nav-link" href="tin-tuc.html">Tin tức</a>
-                                        </li>
-                                        <li class="nav-item  relative">
-                                            <a title="Liên hệ" class="nav-link" href="lien-he.html">Liên hệ</a>
+                                            Đang tải ...
                                         </li>
                                     </ul>
                                 </nav>
@@ -119,25 +67,27 @@
                                 </h2>
                                 <div class="blog_content">
 
-                                    <div class="item clearfix">
+                                    <div v-if="arrFeaturedNews.length > 0" v-for="feaNew in arrFeaturedNews"
+                                        class="item clearfix">
                                         <div class="post-thumb">
-                                            <a class="image-blog scale_hover" href="vinhome-grand-park.html"
-                                                title="Vinhome Grand Park">
-
+                                            <router-link :to="`/new/${feaNew.id}`">
                                                 <img class="img-fluid lazyload"
                                                     src="../../assets/css/themes/lazy7e7a.jpg?1715757113942"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
                                                     alt="Vinhome Grand Park">
-
-                                            </a>
+                                            </router-link>
                                         </div>
                                         <div class="contentright">
-                                            <h3><a title="Vinhome Grand Park" href="vinhome-grand-park.html">Vinhome
-                                                    Grand Park</a></h3>
+                                            <h3>
+                                                <router-link :to="`/new/${feaNew.id}`"
+                                                    v-html="feaNew.title.rendered"></router-link>
+                                            </h3>
 
                                         </div>
                                     </div>
-
+                                    <div v-if="arrFeaturedNews.length === 0">
+                                        Đang tải ...
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -147,8 +97,8 @@
                         <div class="list-blogs">
 
                             <div class="row row-fix">
-
-                                <div v-for="post in posts" :key="post.id" class="col-12 col-md-6 col-lg-4 col-fix">
+                                <div v-if="!isLoading && posts.length > 0" v-for="post in posts" :key="post.id"
+                                    class="col-12 col-md-6 col-lg-4 col-fix">
                                     <div class="item-blog">
                                         <div class="block-thumb">
                                             <router-link :to="`/new/${post.id}`">
@@ -183,15 +133,15 @@
                                                 </div>
                                             </div>
                                             <h3>
-                                                <router-link :to="`/new/${post.id}`">{{ post.title.rendered
-                                                    }}</router-link>
+                                                <router-link :to="`/new/${post.id}`"
+                                                    v-html="post.title.rendered"></router-link>
                                             </h3>
 
                                             <div class="article-content" v-html="post.excerpt.rendered"></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div v-if="posts.length === 0" style="text-align: center;">loading...</div>
+                                <div v-if="isLoading" style="text-align: center;">⏳ Đang tải dữ liệu...</div>
                             </div>
                             <div class="text-center">
 
@@ -216,15 +166,44 @@ export default {
         return {
             searchTerm: '',
             posts: [],
+            cateNews: [],
+            cate: null,
+            isLoading: false,
+            featuredNews: 6,
+            arrFeaturedNews: []
             // consumer_key: consumer_key,
             // consumer_secret: consumer_secret
         };
     },
     methods: {
-        async fetchPosts() {
+        async fetchPosts(categoryId = null) {
+            this.isLoading = true;
+            let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts"
+            if (categoryId) {
+                url += `?categories=${categoryId}`;
+            }
             try {
-                const response = await axios.get(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts`);
+                const response = await axios.get(url);
                 this.posts = response.data;
+                console.log(this.posts);
+            } catch (error) {
+                console.error("Lỗi khi lấy bài viết:", error);
+            } finally {
+                this.isLoading = false; // Kết thúc loading
+            }
+        },
+        async fetchCateNews() {
+            try {
+                const response = await axios.get(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/categories?parent=4`);
+                this.cateNews = response.data;
+            } catch (error) {
+                console.error("Lỗi khi tải sản phẩm:", error);
+            }
+        },
+        async fetchFeaturedNews() {
+            try {
+                const response = await axios.get(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?categories=${this.featuredNews}`);
+                this.arrFeaturedNews = response.data;
             } catch (error) {
                 console.error("Lỗi khi tải sản phẩm:", error);
             }
@@ -232,9 +211,29 @@ export default {
         formatDate(dateString) {
             return dateString.split('T')[0]; // Lấy phần YYYY-MM-DD
         }
+
     },
     mounted() {
         this.fetchPosts();
+        this.fetchCateNews()
+        this.fetchFeaturedNews()
     },
 }
 </script>
+
+<style scoped>
+.contentright {
+    h3 {
+        a {
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 25px;
+            -webkit-line-clamp: 1;
+            /* height: 75px; */
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+</style>
