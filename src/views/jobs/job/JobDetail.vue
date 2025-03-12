@@ -35,7 +35,6 @@
                 </ul>
             </div>
         </section>
-
         <section class="page">
             <div class="container">
                 <div class="pg_page">
@@ -45,6 +44,7 @@
                                 <h1 class="title-head" style="color: #006ac0;" v-html="post.title.rendered"></h1>
                             </div>
                             <div class="content-page rte" v-html="post.content.rendered"></div>
+                            <router-link to="/contact" class="btn-recruitment">Đăng kí Ngay</router-link>
                         </div>
                         <div v-else class="right-content col-lg-8 col-12">
                             <p>Đang tải...</p>
@@ -52,13 +52,13 @@
                         <div class="page_services col-lg-4 col-12">
                             <div class="aside-content-menu">
                                 <div class="title">
-                                    Các tin tức khác
+                                    Các Vị Trí Khác
                                 </div>
                                 <nav class="nav-category">
                                     <ul class="navbar-pills">
                                         <li v-for="otherNew in otherNews" class="nav-item relative"
                                             :class="{ active: $route.params.id == otherNew.id }">
-                                            <router-link :to="`/new/${otherNew.id}`" class="nav-link">{{
+                                            <router-link :to="`/recruitment/${otherNew.id}`" class="nav-link">{{
                                                 otherNew.title.rendered }}</router-link>
                                         </li>
                                     </ul>
@@ -77,7 +77,7 @@
 
 <script>
 export default {
-    name: 'NewDetail',
+    name: 'JobDetail',
     data() {
         return {
             searchTerm: '',
@@ -88,7 +88,7 @@ export default {
     },
     methods: {
         fetchOtherNews() {
-            fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?categories=4`)
+            fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?categories=5`)
                 .then(response => response.json())
                 .then(data => {
                     this.otherNews = data;
@@ -96,7 +96,6 @@ export default {
                 .catch(error => console.error('Lỗi:', error));
         },
         fetchPost(postId) {
-            
             fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts/${postId}`)
                 .then(response => response.json())
                 .then(data => {
@@ -109,12 +108,11 @@ export default {
         const postId = this.$route.params.id;
         this.fetchOtherNews();
         this.fetchPost(postId);
-        console.log(postId);
     },
     watch: {
-    "$route.params.id"(newId) {
-      this.fetchPost(newId); // Gọi lại API khi ID thay đổi
+        "$route.params.id"(newId) {
+            this.fetchPost(newId); // Gọi lại API khi ID thay đổi
+        }
     }
-  }
 }
 </script>

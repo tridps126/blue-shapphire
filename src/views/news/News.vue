@@ -176,7 +176,7 @@ export default {
         };
     },
     methods: {
-        async fetchPosts(categoryId = null) {
+        async fetchPosts(categoryId = 4) {
             this.isLoading = true;
             let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts"
             if (categoryId) {
@@ -185,7 +185,6 @@ export default {
             try {
                 const response = await axios.get(url);
                 this.posts = response.data;
-                console.log(this.posts);
             } catch (error) {
                 console.error("Lỗi khi lấy bài viết:", error);
             } finally {

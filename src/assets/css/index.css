@@ -62,3 +62,19 @@ p {
         line-height: 1.7em;
     }
 }
+
+.btn-recruitment {
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 15px 35px;
+    border: 0;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2
+}

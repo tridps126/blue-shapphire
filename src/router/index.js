@@ -15,8 +15,9 @@ import Website from '@/views/Service/Website.vue';
 import Partner from '@/views/Partners.vue';
 import GalaxyAccess from '@/views/partners/GalaxyAccess.vue';
 import GalaxyVisaExpress from '@/views/partners/GalaxyVisaExpress.vue';
-import Recruitment from '@/views/Recruitment.vue';
+import Recruitment from '@/views/jobs/Recruitment.vue';
 import NewDetail from '@/views/news/new/NewDetail.vue';
+import JobDetail from '@/views/jobs/job/JobDetail.vue';
 
 Vue.use(Router);
 
@@ -32,6 +33,7 @@ export default new Router({
     { path: '/news', name: 'News', component: News },
     { path: '/new/:id', component: NewDetail },
     { path: '/recruitment', name: 'Recruitment', component: Recruitment },
+    { path: '/recruitment/:id', component: JobDetail },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/service/contact-center', name: 'ContactCenter', component: ContactCenter },
     { path: '/service/marketing', name: 'Marketing', component: Marketing },
