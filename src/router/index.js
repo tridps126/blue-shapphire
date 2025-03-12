@@ -43,5 +43,8 @@ export default new Router({
     { path: '/partners/galaxy-visa-express', name: 'GalaxyVisaExpress', component: GalaxyVisaExpress },
     { path: '/partner', name: 'Partner', component: Partner },
     { path: '*', redirect: '/' } // Redirect nếu không tìm thấy trang
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }; // Cuộn lên đầu trang khi chuyển route
+  }
 });
