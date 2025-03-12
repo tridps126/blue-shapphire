@@ -9,7 +9,7 @@
                 </div>
                 <ul class="breadcrumb">
                     <li class="home">
-                        <a href="index.html"><span>Trang chủ</span></a>
+                        <router-link to="/"><span>Trang chủ</span></router-link>
                         <span class="mr_lr">&nbsp;<svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512" class="svg-inline--fa fa-chevron-right fa-w-10">
@@ -44,7 +44,7 @@
                                 <h1 class="title-head" style="color: #006ac0;" v-html="post.title.rendered"></h1>
                             </div>
                             <div class="content-page rte" v-html="post.content.rendered"></div>
-                            <router-link to="/contact" class="btn-recruitment">Đăng kí Ngay</router-link>
+                            <a href="mailTo:support@sapo.vn" class="btn-recruitment">Đăng kí Ngay</a>
                         </div>
                         <div v-else class="right-content col-lg-8 col-12">
                             <p>Đang tải...</p>
