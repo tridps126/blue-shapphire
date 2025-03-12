@@ -8,7 +8,7 @@
                 </div>
                 <ul class="breadcrumb">
                     <li class="home">
-                        <router-link t="/"><span>Trang chủ</span></router-link>
+                        <router-link to="/"><span>Trang chủ</span></router-link>
                         <span class="mr_lr">&nbsp;<svg aria-hidden="true" focusable="false" data-prefix="fas"
                                 data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512" class="svg-inline--fa fa-chevron-right fa-w-10">
