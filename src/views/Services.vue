@@ -27,7 +27,8 @@
             <div class="container-fluid">
                 <div class="block-title">
                     <span class="top-title">Dịch vụ của chúng tôi</span>
-                    <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</router-link>
+                    <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất
+                            lượng</router-link>
                     </h2>
                 </div>
                 <div class="row">
@@ -36,15 +37,14 @@
                             <div class="image">
                                 <div class="image_thumb">
                                     <img class="img-fluid" width="800" height="563"
-                                        src="../assets/css/themes/service_image_17e7a.jpg?1715757113942"
-                                        alt="Lofi Construction">
+                                        src="../assets/images/dichvu//dich.vu.chung.toi_4.jpg" alt="Lofi Construction">
                                 </div>
                             </div>
                             <div class="main">
                                 <div class="main-body">
                                     <div class="icon">
                                         <span><img class="img-fluid"
-                                                src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
+                                                src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
                                     <h3><router-link to="/service/contact-center">Telesale &
@@ -63,15 +63,14 @@
                             <div class="image">
                                 <div class="image_thumb">
                                     <img class="img-fluid" width="800" height="563"
-                                        src="../assets/css/themes/service_image_27e7a.jpg?1715757113942"
-                                        alt="Lofi Construction">
+                                        src="../assets/images/dichvu/dich.vu.chung.toi_3.jpg" alt="Lofi Construction">
                                 </div>
                             </div>
                             <div class="main">
                                 <div class="main-body">
                                     <div class="icon">
                                         <span><img class="img-fluid"
-                                                src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
+                                                src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
                                                 alt="Lofi Construction" width="65" height="65"></span>
                                     </div>
                                     <h3><router-link to="/service/website">Các giải pháp phát
@@ -89,8 +88,7 @@
                             <div class="image">
                                 <div class="image_thumb">
                                     <img class="img-fluid" width="800" height="563"
-                                        src="../assets/css/themes/service_image_37e7a.jpg?1715757113942"
-                                        alt="Lofi Construction">
+                                        src="../assets/images/dichvu/dich.vu.chung.toi_2.jpg" alt="Lofi Construction">
                                 </div>
                             </div>
                             <div class="main">

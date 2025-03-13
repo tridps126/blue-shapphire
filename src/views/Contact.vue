@@ -45,19 +45,8 @@
                                             d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
                                             class=""></path>
                                     </svg>
-                                    <b>Địa chỉ:</b>
-
-                                    <ul>
-                                        <li><strong>Trụ Sở Chính </strong>Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị Minh
-                                            Khai, Phường 05, Quận 3, TP. Hồ Chí Minh</li>
-                                        <li><strong>VPĐD Nha Trang: </strong> 238 Ngô Gia Tự, P. Phước Tiến, TP. Nha
-                                            Trang, Khánh Hòa
-                                        </li>
-                                        <li><Strong>VPĐD Đà Nẵng: </Strong> 29-31 Bình Minh 1, Phường Bình Thuận, Quận
-                                            Hải Châu, Thành phố Đà Nẵng</li>
-                                        <li><Strong>VPĐD Quy Nhơn: </Strong> 2307 Nguyễn Thị Minh Khai, P. Nguyễn Văn
-                                            Cừ, TP. Quy Nhơn, Bình Định</li>
-                                    </ul>
+                                    <p><b>Địa chỉ: </b>Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị Minh
+                                        Khai, Phường 05, Quận 3, TP. Hồ Chí Minh</p>
                                 </div>
                                 <div class="item">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
@@ -91,7 +80,8 @@
                             <div id="pagelogin">
                                 <div id="contact">
                                     <div class="group_contact">
-                                        <a class="btn-lienhe" style="padding: 10px 20px;" href="mailTo:support@sapo.vn">Gửi Thông tin</a>
+                                        <a class="btn-lienhe" style="padding: 10px 20px;"
+                                            href="mailTo:support@sapo.vn">Gửi Thông tin</a>
                                     </div>
                                 </div>
                             </div>

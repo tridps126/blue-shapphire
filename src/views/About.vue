@@ -33,7 +33,7 @@
                         <div class="col-lg-6 col-12 col-left">
                             <div class="about-image">
                                 <img class="lazyload img-fluid" width="676" height="683"
-                                    src="../assets/css/themes/about-image.webp"
+                                    src="../assets/images/otther_2.jpg"
                                     data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
                                     alt="Lofi Construction" />
                                 <div class="block_video_play">
@@ -237,7 +237,7 @@
                                     <div class="item">
                                         <div class="image">
                                             <img class="img-fluid"
-                                                src="../assets/css/themes/service_image_17e7a.jpg?1715757113942"
+                                                src="../assets/images/dichvu//dich.vu.chung.toi_4.jpg"
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
@@ -257,7 +257,7 @@
                                     <div class="item">
                                         <div class="image">
                                             <img class="img-fluid"
-                                                src="../assets/css/themes/service_image_27e7a.jpg?1715757113942"
+                                                src="../assets/images/dichvu//dich.vu.chung.toi_3.jpg"
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
@@ -277,7 +277,7 @@
                                     <div class="item">
                                         <div class="image">
                                             <img class="img-fluid"
-                                                src="../assets/css/themes/service_image_37e7a.jpg?1715757113942"
+                                                src="../assets/images/dichvu//dich.vu.chung.toi_2.jpg"
                                                 alt="Lofi Construction">
                                         </div>
                                         <div class="main">
@@ -677,7 +677,7 @@
                                             </div>
                                             <div class="details-info">
                                                 <h5>Trang Lou</h5>
-                                                <span>Người mẫu</span>
+                                                <span>Admin</span>
                                             </div>
                                         </div>
                                     </div>

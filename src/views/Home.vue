@@ -7,15 +7,15 @@
                               <div class="clearfix" title="Slider 1">
                                    <picture>
                                         <source media="(min-width: 1200px)"
-                                             srcset="../assets/css/themes/slider_17e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner1.jpg">
                                         <source media="(min-width: 992px)"
-                                             srcset="../assets/css/themes/slider_17e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner1.jpg">
                                         <source media="(min-width: 569px)"
-                                             srcset="../assets/css/themes/slider_17e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner1.jpg">
                                         <source media="(max-width: 567px)"
-                                             srcset="../assets/css/thumb/large/100/503/218/themes/931576/assets/slider_17e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner1.jpg">
                                         <img width="1920" height="800"
-                                             src="../assets/css/themes/slider_17e7a.jpg?1715757113942" alt="Slider 1"
+                                             src="../assets/images/banner1.jpg" alt="Slider 1"
                                              class="img-fluid" />
                                    </picture>
                               </div>
@@ -34,15 +34,15 @@
                               <div class="clearfix" title="Slider 2">
                                    <picture>
                                         <source media="(min-width: 1200px)"
-                                             srcset="../assets/css/themes/slider_27e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner2.jpg">
                                         <source media="(min-width: 992px)"
-                                             srcset="../assets/css/themes/slider_27e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner2.jpg">
                                         <source media="(min-width: 569px)"
-                                             srcset="../assets/css/themes/slider_27e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner2.jpg">
                                         <source media="(max-width: 567px)"
-                                             srcset="../assets/css/thumb/large/100/503/218/themes/931576/assets/slider_27e7a.jpg?1715757113942">
+                                             srcset="../assets/images/banner2.jpg">
                                         <img width="1920" height="800"
-                                             src="../assets/css/themes/slider_27e7a.jpg?1715757113942" alt="Slider 2"
+                                             src="../assets/images/banner2.jpg" alt="Slider 2"
                                              class="img-fluid" />
                                    </picture>
                               </div>
@@ -66,7 +66,7 @@
                          <div class="col-lg-6 col-12 col-left">
                               <div class="about-image">
                                    <img class="lazyload img-fluid" width="676" height="683"
-                                        src="../assets/css/themes/about-image.webp"
+                                        src="../assets/images/otther_2.jpg"
                                         data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
                                         alt="Lofi Construction" />
                                    <div class="block_video_play">
@@ -225,7 +225,7 @@
                                    <div class="image">
                                         <div class="image_thumb">
                                              <img class="img-fluid" width="800" height="563"
-                                                  src="../assets/css/themes/service_image_17e7a.jpg?1715757113942"
+                                                  src="../assets/images/dichvu//dich.vu.chung.toi_4.jpg"
                                                   alt="Lofi Construction">
                                         </div>
                                    </div>
@@ -233,7 +233,7 @@
                                         <div class="main-body">
                                              <div class="icon">
                                                   <span><img class="img-fluid"
-                                                            src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
+                                                            src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
                                                             alt="Lofi Construction" width="65" height="65"></span>
                                              </div>
                                              <h3><router-link to="/service/contact-center">Telesale &
@@ -252,7 +252,7 @@
                                    <div class="image">
                                         <div class="image_thumb">
                                              <img class="img-fluid" width="800" height="563"
-                                                  src="../assets/css/themes/service_image_27e7a.jpg?1715757113942"
+                                                  src="../assets/images/dichvu/dich.vu.chung.toi_3.jpg"
                                                   alt="Lofi Construction">
                                         </div>
                                    </div>
@@ -260,7 +260,7 @@
                                         <div class="main-body">
                                              <div class="icon">
                                                   <span><img class="img-fluid"
-                                                            src="../assets/css/themes/service_icon_27e7a.png?1715757113942"
+                                                            src="../assets/css/themes/service_icon_17e7a.png?1715757113942"
                                                             alt="Lofi Construction" width="65" height="65"></span>
                                              </div>
                                              <h3><router-link to="/service/website">Các giải pháp phát
@@ -278,7 +278,7 @@
                                    <div class="image">
                                         <div class="image_thumb">
                                              <img class="img-fluid" width="800" height="563"
-                                                  src="../assets/css/themes/service_image_37e7a.jpg?1715757113942"
+                                                  src="../assets/images/dichvu/dich.vu.chung.toi_2.jpg"
                                                   alt="Lofi Construction">
                                         </div>
                                    </div>
@@ -813,7 +813,7 @@
                                                   <div class="block-thumb">
                                                        <router-link class="thumb" :to="`/new/${post.id}`">
                                                             <img class="lazyload"
-                                                                 src="../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                                 :src="post._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.full?.source_url"
                                                                  data-src="//bizweb.dktcdn.net/thumb/large/100/503/218/articles/nhung-mau-son-du-kien-tro-nen-loi-thoi-vao-nam-2023-265-16841272761201703310274-ezgif-com-webp-to-jpg-converter.jpg?v=1711979548457"
                                                                  alt="Những màu sơn sẽ lỗi thời năm 2024 và những lợi ích khi sơn nhà màu trắng">
                                                        </router-link>
@@ -889,9 +889,9 @@ export default {
      methods: {
           async fetchPosts(categoryId = 4) {
                this.isLoading = true;
-               let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts"
+               let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?_embed"
                if (categoryId) {
-                    url += `?categories=${categoryId}`;
+                    url += `&categories=${categoryId}`;
                }
                try {
                     const response = await axios.get(url);

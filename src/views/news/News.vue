@@ -103,7 +103,7 @@
                                         <div class="block-thumb">
                                             <router-link :to="`/new/${post.id}`">
                                                 <img class="lazyload"
-                                                    src="../../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                    :src="post._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.full?.source_url"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
                                                     alt="Vinhome Grand Park">
                                             </router-link>
@@ -178,9 +178,9 @@ export default {
     methods: {
         async fetchPosts(categoryId = 4) {
             this.isLoading = true;
-            let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts"
+            let url = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?_embed"
             if (categoryId) {
-                url += `?categories=${categoryId}`;
+                url += `&categories=${categoryId}`;
             }
             try {
                 const response = await axios.get(url);

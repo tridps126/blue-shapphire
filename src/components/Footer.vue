@@ -30,7 +30,7 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>Trụ Sở chính: </strong> Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị
+                                        <span>Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị
                                             Minh Khai, Phường 05, Quận 3, TP. Hồ Chí Minh
                                         </span>
                                     </a>
@@ -47,13 +47,11 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>VPĐD Nha Trang: </strong> 238 Ngô Gia Tự, P. Phước Tiến, TP. Nha
-                                            Trang, Khánh Hòa
-                                        </span>
+                                        <span>VP Nha Trang</span>
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="https://maps.app.goo.gl/RDaF25WfD9U5GPz9A"
+                                    <a href="https://maps.app.goo.gl/RDaF25WfD9U5GPz9A" style="font-weight: 300 !important;"
                                         title="266 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội" target="_blank">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
@@ -64,9 +62,7 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>VPĐD Đà Nẵng: </strong> 9-31 Bình Minh 1, Phường Bình Thuận, Quận
-                                            Hải Châu, Thành phố Đà Nẵng
-                                        </span>
+                                        <span >VP Đà Nẵng</span>
                                     </a>
                                 </div>
                                 <div class="item">
@@ -81,9 +77,7 @@
                                                 <circle fill="none" stroke="#fff" cx="10" cy="6.8" r="2.3"></circle>
                                             </svg>
                                         </span>
-                                        <span><strong>VPĐD Quy Nhơn: </strong> 307 Nguyễn Thị Minh Khai, P. Nguyễn Văn
-                                            Cừ, TP. Quy Nhơn, Bình Định
-                                        </span>
+                                        <span>VP Quy Nhơn</span>
                                     </a>
                                 </div>
                                 <div class="item">
