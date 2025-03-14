@@ -6,16 +6,11 @@
                          <div class="swiper-slide">
                               <div class="clearfix" title="Slider 1">
                                    <picture>
-                                        <source media="(min-width: 1200px)"
-                                             srcset="../assets/images/banner1.jpg">
-                                        <source media="(min-width: 992px)"
-                                             srcset="../assets/images/banner1.jpg">
-                                        <source media="(min-width: 569px)"
-                                             srcset="../assets/images/banner1.jpg">
-                                        <source media="(max-width: 567px)"
-                                             srcset="../assets/images/banner1.jpg">
-                                        <img width="1920" height="800"
-                                             src="../assets/images/banner1.jpg" alt="Slider 1"
+                                        <source media="(min-width: 1200px)" srcset="../assets/images/banner1.jpg">
+                                        <source media="(min-width: 992px)" srcset="../assets/images/banner1.jpg">
+                                        <source media="(min-width: 569px)" srcset="../assets/images/banner1.jpg">
+                                        <source media="(max-width: 567px)" srcset="../assets/images/banner1.jpg">
+                                        <img width="1920" height="800" src="../assets/images/banner1.jpg" alt="Slider 1"
                                              class="img-fluid" />
                                    </picture>
                               </div>
@@ -33,16 +28,11 @@
                          <div class="swiper-slide">
                               <div class="clearfix" title="Slider 2">
                                    <picture>
-                                        <source media="(min-width: 1200px)"
-                                             srcset="../assets/images/banner2.jpg">
-                                        <source media="(min-width: 992px)"
-                                             srcset="../assets/images/banner2.jpg">
-                                        <source media="(min-width: 569px)"
-                                             srcset="../assets/images/banner2.jpg">
-                                        <source media="(max-width: 567px)"
-                                             srcset="../assets/images/banner2.jpg">
-                                        <img width="1920" height="800"
-                                             src="../assets/images/banner2.jpg" alt="Slider 2"
+                                        <source media="(min-width: 1200px)" srcset="../assets/images/banner2.jpg">
+                                        <source media="(min-width: 992px)" srcset="../assets/images/banner2.jpg">
+                                        <source media="(min-width: 569px)" srcset="../assets/images/banner2.jpg">
+                                        <source media="(max-width: 567px)" srcset="../assets/images/banner2.jpg">
+                                        <img width="1920" height="800" src="../assets/images/banner2.jpg" alt="Slider 2"
                                              class="img-fluid" />
                                    </picture>
                               </div>
@@ -68,10 +58,11 @@
                                    <img class="lazyload img-fluid" width="676" height="683"
                                         src="../assets/images/otther_2.jpg"
                                         data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
-                                        alt="Lofi Construction" />
-                                   <div class="block_video_play">
-                                        <a href="https://www.youtube.com/watch?v=jf2fmaKutLQ"
-                                             class="video_play popup-youtube" title="Lofi Construction">
+                                        alt="Blue Shapphire" />
+                                   <div ref="gallery" class="block_video_play">
+                                        <a href="javascript:void(0);"
+                                             data-src="https://www.youtube.com/watch?v=d85cZ60gg4Q"
+                                             class="video_play popup-youtube video-item" title="Blue Shapphire">
                                              <span class="video-icon">
                                                   <svg aria-hidden="true" focusable="false" data-prefix="fas"
                                                        data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +207,8 @@
                <div class="container-fluid">
                     <div class="block-title">
                          <span class="top-title">Dịch vụ của chúng tôi</span>
-                         <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất lượng</router-link>
+                         <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất
+                                   lượng</router-link>
                          </h2>
                     </div>
                     <div class="row">
@@ -571,8 +563,7 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="/" title="Lưu Phương Huyền"
-                                                       class="thumb">
+                                                  <a href="/" title="Lưu Phương Huyền" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/css/themes/team-image-2.webp?v=1702524324723"
@@ -802,7 +793,8 @@
                <div class="container">
                     <div class="block-title">
                          <span class="top-title">Tin tức</span>
-                         <h2 class="title"><router-link to="/" title="Bài viết mới nhất">Bài viết mới nhất</router-link></h2>
+                         <h2 class="title"><router-link to="/" title="Bài viết mới nhất">Bài viết mới nhất</router-link>
+                         </h2>
                     </div>
                     <div class="block-blog relative">
                          <div class="row">
@@ -878,6 +870,10 @@ import 'swiper/swiper-bundle.css';
 import $ from "jquery";
 import "counterup/jquery.counterup.min.js";
 import axios from 'axios';
+import lightGallery from "lightgallery";
+import lgVideo from "lightgallery/plugins/video";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-video.css"; // Import CSS cho plugin video
 // import counterUp from "counterup2";
 export default {
      name: 'Home',
@@ -904,8 +900,27 @@ export default {
           },
           formatDate(dateString) {
                return dateString.split('T')[0]; // Lấy phần YYYY-MM-DD
-          }
-
+          },
+          initLightGallery() {
+               if (this.$refs.gallery) {
+                    this.$nextTick(() => {
+                         lightGallery(this.$refs.gallery, {
+                              plugins: [lgVideo], // Kích hoạt plugin video
+                              selector: ".video-item", // Chỉ áp dụng cho video
+                              thumbnail: true, // Hiển thị ảnh thumbnail
+                              download: false, // Tắt tải xuống
+                              autoplayFirstVideo: false, // Không tự động phát
+                              zoomFromOrigin: false, // Fix lỗi màn hình đen
+                              videojs: true, // Bật hỗ trợ video nâng cao
+                              mobileSettings: {
+                                   controls: true,
+                                   showCloseIcon: true,
+                                   download: false,
+                              },
+                         });
+                    });
+               }
+          },
      },
      mounted() {
           new Swiper('.home-slider', {
@@ -965,9 +980,6 @@ export default {
                     }
                }
           });
-          $(document).ready(function () {
-               $(".block_video_play").lightGallery();
-          });
           if ($(".counter-number").length === 0) {
                console.error("❌ Không tìm thấy .counter-number!");
                return;
@@ -990,8 +1002,20 @@ export default {
                }, 500);
           });
           this.fetchPosts();
+          this.initLightGallery();
+     },
+     beforeDestroy() {
+          if (this.$refs.gallery) {
+               this.$refs.gallery.lgDestroy && this.$refs.gallery.lgDestroy();
+          }
      },
 }
 
 
 </script>
+
+
+<style>
+/* Include LightGallery styles if not already added */
+@import "lightgallery/css/lightgallery.css";
+</style>
