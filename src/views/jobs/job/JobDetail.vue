@@ -41,7 +41,7 @@
                     <div class="row">
                         <div class="right-content col-lg-8 col-12" v-if="post">
                             <div class="page-title category-title">
-                                <h1 class="title-head" style="color: #006ac0;" v-html="post.title.rendered"></h1>
+                                <h1 class="title-head" style="color: #191919;" v-html="post.title.rendered"></h1>
                             </div>
                             <div class="content-page rte" v-html="post.content.rendered"></div>
                             <a href="mailTo:support@sapo.vn" class="btn-recruitment">Đăng kí Ngay</a>

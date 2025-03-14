@@ -391,7 +391,7 @@ button.close {
 }
 
 .block-title h2 a {
-    color: #006ac0
+    color: var(--textColor)
 }
 
 /* .block-title h2 a:hover {

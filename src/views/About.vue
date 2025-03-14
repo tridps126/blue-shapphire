@@ -58,7 +58,7 @@
                         <div class="col-lg-6 col-12 col-right">
                             <div class="about-content">
                                 <span class="top-title">Chúng tôi là ai</span>
-                                <h2 class="title" style="color: #006ac0;">Cam kết chất lượng và kết quả vượt trội</h2>
+                                <h2 class="title">Cam kết chất lượng và kết quả vượt trội</h2>
                                 <p class="desc">Với hơn 10 năm kinh nghiệm hoạt động tại thị trường Việt Nam, Blue
                                     Sapphire đã trở thành đối tác chiến lược đáng tin cậy của nhiều doanh nghiệp
                                     trong việc cung cấp các giải pháp công nghệ và nhân sự. Chúng tôi chuyên cung
