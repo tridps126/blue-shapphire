@@ -73,7 +73,7 @@
 }
 
 .layout-contact .form-contact .group_contact .btn-lienhe {
-    background: var(--mainColor);
+    background: var(--bgColorButton);
     color: #fff;
     border: initial;
     padding: 0 20px;

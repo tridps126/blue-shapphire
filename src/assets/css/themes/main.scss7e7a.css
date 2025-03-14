@@ -25,7 +25,7 @@ body.search-active {
 
 svg {
     width: 20px;
-    height: 20px
+    height: 20px;
 }
 
 @media (min-width: 1366px) {
@@ -391,7 +391,7 @@ button.close {
 }
 
 .block-title h2 a {
-    color: var(--textColor)
+    color: var(--mainColor)
 }
 
 /* .block-title h2 a:hover {
@@ -529,7 +529,7 @@ button.close {
 }
 
 .top-bar .ul-control .top-social .top-social-box a svg {
-    fill: var(--mainColor);
+    fill: var(--iconColor);
     width: 24px;
     height: 24px
 }
@@ -622,7 +622,7 @@ button.close {
 }
 
 .top-bar .top-bar-left li a svg {
-    fill: var(--mainColor)
+    fill: var(--iconColor)
 }
 
 .top-bar .top-bar-left li:first-child {
@@ -1738,7 +1738,7 @@ button.close {
     padding: 8px 16px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    background-color: var(--mainColor)
+    background-color: var(--bgColorButton)
 }
 
 .footer .mid-footer .module-mailchimp .btn:hover {
@@ -3374,7 +3374,7 @@ ul.tabs li.current {
     overflow: hidden;
     position: relative;
     z-index: 2;
-    background-color: var(--mainColor)
+    background-color: var(--bgColorButton)
 }
 
 .section_service .service-ctas .btn-viewmore:after {

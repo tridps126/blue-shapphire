@@ -81,7 +81,7 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="mailto:support@sapo.vn" title="support@sapo.vn">
+                                    <a href="mailto:blueShapphire@gmail.com" title="support@sapo.vn">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span>support@sapo.vn</span>
+                                        <span>blueShapphire@gmail.com</span>
                                     </a>
                                 </div>
                                 <div class="item">

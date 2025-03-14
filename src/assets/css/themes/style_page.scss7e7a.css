@@ -169,7 +169,7 @@
 }
 
 .section_banner .banner-content .banner-ctas .cta {
-    background-color: var(--mainColor);
+    background-color: var(--bgColorButton);
     color: #fff;
     padding: 15px 35px;
     border: 0;
