@@ -51,70 +51,70 @@ $(window).on('scroll mousemove touchstart',function(){
 					let data2 = '';
 					var resultbox = '';
 					var resultbox2 = '';
-					if(term.length > 0) {
-						$('.search-suggest').addClass('open');
-						async function goawaySearch() {
+					// if(term.length > 0) {
+					// 	$('.search-suggest').addClass('open');
+					// 	async function goawaySearch() {
 
-							data = await getItemSearch(term, 'smartjson');
-							data2 = await getItemSearch2(term, 'smartjsonar');
-
-
-							setTimeout(function(){
-								var sizeData = Object.keys(data).length;
-								var sizeData2 = Object.keys(data2).length;
-								var check1 = data.searchResultCount;
-								var check2 = data2.searchResultCount;
-								if(sizeData > 0) {	
-									resultbox +=`<div class="title-search"><span>Sản phẩm</span></div>`
-
-									Object.keys(data).forEach(function(key) {
-
-										if (data[key].url == undefined){
-
-										} else {
-											if (data[key].compare_price != 0 ) {
-												resultbox += `<div class="product-smart"><a class="image_thumb" href="${data[key].url}" title="${data[key].name}"><img width="370" height="480" class="lazyload loaded" src="${data[key].image}" data-src="${data[key].image}" alt="${data[key].name}" data-was-processed="true"></a><div class="product-info"><h3 class="product-name line-clamp line-clamp-1"><a href="${data[key].url}" title="${data[key].name}">${data[key].name}</a></h3><div class="price-box"><span class="price">${data[key].price}</span><span class="compare-price">${data[key].compare_price}</span></div></div></div>`
-											} else {
-												resultbox += `<div class="product-smart"><a class="image_thumb" href="${data[key].url}" title="${data[key].name}"><img width="370" height="480" class="lazyload loaded" src="${data[key].image}" data-src="${data[key].image}" alt="${data[key].name}" data-was-processed="true"></a><div class="product-info"><h3 class="product-name line-clamp line-clamp-1"><a href="${data[key].url}" title="${data[key].name}">${data[key].name}</a></h3><div class="price-box"><span class="price">${data[key].price}</span></div></div></div>`
-											}
-										}
-									});
-									resultbox +=`<a class="see-more" href="/search?q=name:(*${term}*)&type=product"  title="Xem thêm ${check1} sản phẩm">Xem thêm ${check1} sản phẩm</a>`
-
-									$('.list-search').html(resultbox);
-								} else {
-
-									$('.list-search').html('<span></span>');
-								}
-
-								if(sizeData2 > 0 ) {
-									resultbox2 +=`<div class="title-search"><span>Tin tức</span></div>`
+					// 		data = await getItemSearch(term, 'smartjson');
+					// 		data2 = await getItemSearch2(term, 'smartjsonar');
 
 
-									Object.keys(data2).forEach(function(key) {
-										if (data2[key].url == undefined){
+					// 		setTimeout(function(){
+					// 			// var sizeData = Object.keys(data).length;
+					// 			// var sizeData2 = Object.keys(data2).length;
+					// 			// var check1 = data.searchResultCount;
+					// 			// var check2 = data2.searchResultCount;
+					// 			// if(sizeData > 0) {	
+					// 			// 	resultbox +=`<div class="title-search"><span>Sản phẩm</span></div>`
 
-										}else{
-											resultbox2 += `<div class="art-smart"><a class="image_thumb" href="${data2[key].url}" title="${data2[key].name}"><img width="370" height="480" class="lazyload loaded" src="${data2[key].image}" data-src="${data2[key].image}" alt="${data2[key].name}" data-was-processed="true"></a><div class="product-info"><h3 class="product-name"><a href="${data2[key].url}" title="${data2[key].name}">${data2[key].name}</a></h3></div></div>`
-										}
-									});
-									resultbox2 +=`<a class="see-more" href="/search?query=(*${term}*)&type=article"  title="Xem thêm ${check2} tin tức">Xem thêm ${check2} tin tức</a></div>`
-									$('.list-search2').html(resultbox2);
+					// 			// 	Object.keys(data).forEach(function(key) {
 
-								} else {
-									$('.list-search2').html('<span></span>');
-								}
-								if(sizeData == 0 && sizeData2 == 0 ){
-									$('.list-search').html('<div class="not-pro">Không có thấy kết quả tìm kiếm</div>');
-								}
-							}, 200);
-						}
-						goawaySearch();
-					}else {
-						$('.search-suggest').removeClass('open');
-						$('.list-search').html('');
-						$('.list-search2').html('');
-					}
+					// 			// 		if (data[key].url == undefined){
+
+					// 			// 		} else {
+					// 			// 			if (data[key].compare_price != 0 ) {
+					// 			// 				resultbox += `<div class="product-smart"><a class="image_thumb" href="${data[key].url}" title="${data[key].name}"><img width="370" height="480" class="lazyload loaded" src="${data[key].image}" data-src="${data[key].image}" alt="${data[key].name}" data-was-processed="true"></a><div class="product-info"><h3 class="product-name line-clamp line-clamp-1"><a href="${data[key].url}" title="${data[key].name}">${data[key].name}</a></h3><div class="price-box"><span class="price">${data[key].price}</span><span class="compare-price">${data[key].compare_price}</span></div></div></div>`
+					// 			// 			} else {
+					// 			// 				resultbox += `<div class="product-smart"><a class="image_thumb" href="${data[key].url}" title="${data[key].name}"><img width="370" height="480" class="lazyload loaded" src="${data[key].image}" data-src="${data[key].image}" alt="${data[key].name}" data-was-processed="true"></a><div class="product-info"><h3 class="product-name line-clamp line-clamp-1"><a href="${data[key].url}" title="${data[key].name}">${data[key].name}</a></h3><div class="price-box"><span class="price">${data[key].price}</span></div></div></div>`
+					// 			// 			}
+					// 			// 		}
+					// 			// 	});
+					// 			// 	resultbox +=`<a class="see-more" href="/search?q=name:(*${term}*)&type=product"  title="Xem thêm ${check1} sản phẩm">Xem thêm ${check1} sản phẩm</a>`
+
+					// 			// 	$('.list-search').html(resultbox);
+					// 			// } else {
+
+					// 			// 	$('.list-search').html('<span></span>');
+					// 			// }
+
+					// 			// if(sizeData2 > 0 ) {
+					// 			// 	resultbox2 +=`<div class="title-search"><span>Tin tức</span></div>`
+
+
+					// 			// 	Object.keys(data2).forEach(function(key) {
+					// 			// 		if (data2[key].url == undefined){
+
+					// 			// 		}else{
+					// 			// 			resultbox2 += `<div class="art-smart"><a class="image_thumb" href="${data2[key].url}" title="${data2[key].name}"><img width="370" height="480" class="lazyload loaded" src="${data2[key].image}" data-src="${data2[key].image}" alt="${data2[key].name}" data-was-processed="true"></a><div class="product-info"><h3 class="product-name"><a href="${data2[key].url}" title="${data2[key].name}">${data2[key].name}</a></h3></div></div>`
+					// 			// 		}
+					// 			// 	});
+					// 			// 	resultbox2 +=`<a class="see-more" href="/search?query=(*${term}*)&type=article"  title="Xem thêm ${check2} tin tức">Xem thêm ${check2} tin tức</a></div>`
+					// 			// 	$('.list-search2').html(resultbox2);
+
+					// 			// } else {
+					// 			// 	$('.list-search2').html('<span></span>');
+					// 			// }
+					// 			// if(sizeData == 0 && sizeData2 == 0 ){
+					// 			// 	$('.list-search').html('<div class="not-pro">Không có thấy kết quả tìm kiếm</div>');
+					// 			// }
+					// 		}, 200);
+					// 	}
+					// 	// goawaySearch();
+					// }else {
+					// 	$('.search-suggest').removeClass('open');
+					// 	$('.list-search').html('');
+					// 	$('.list-search2').html('');
+					// }
 				});
 			});
 			$('.header-search-form').submit(function(e){
