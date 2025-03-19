@@ -454,7 +454,7 @@
                          <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                               <div class="whychoose-image">
                                    <img class="img-fluid" width="935" height="806"
-                                        src="../assets/css/themes/whychoose-image7e7a.jpg?1715757113942"
+                                        src="../assets/images//sections-5.jpg"
                                         alt="Lý do lựa chọn chúng tôi" />
                               </div>
                          </div>

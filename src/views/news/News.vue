@@ -72,7 +72,7 @@
                                         <div class="post-thumb">
                                             <router-link :to="`/new/${feaNew.id}`">
                                                 <img class="img-fluid lazyload"
-                                                    src="../../assets/css/themes/lazy7e7a.jpg?1715757113942"
+                                                    :src="feaNew._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.full?.source_url"
                                                     data-src="https://bizweb.dktcdn.net/100/503/218/articles/vinhomes4-3875d154d1e3409b82a1f1974e5a288f-master.jpg?v=1712581890203"
                                                     alt="Vinhome Grand Park">
                                             </router-link>
@@ -201,7 +201,7 @@ export default {
         },
         async fetchFeaturedNews() {
             try {
-                const response = await axios.get(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?categories=${this.featuredNews}`);
+                const response = await axios.get(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts?_embed&categories=${this.featuredNews}`);
                 this.arrFeaturedNews = response.data;
             } catch (error) {
                 console.error("Lỗi khi tải sản phẩm:", error);
