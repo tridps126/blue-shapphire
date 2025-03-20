@@ -44,7 +44,51 @@
                                 <h1 class="title-head" style="color: #006ac0;" v-html="post.title.rendered"></h1>
                             </div>
                             <div class="content-page rte" v-html="post.content.rendered"></div>
-                            <a href="mailTo:support@sapo.vn" class="btn-recruitment">Đăng kí Ngay</a>
+                            <div id="boxut" class="boxut">
+                                <h4 class="mt-4">Nộp đơn ứng tuyển</h4>
+                                <form ref="jobForm" @submit.prevent="sendEmail">
+
+                                    <div class="namedd1">
+                                        <p><span class="wpcf7-form-control-wrap" data-name="your-name">
+                                                <input v-model="formData.name" size="40"
+                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                    autocomplete="name" aria-required="true" aria-invalid="false"
+                                                    placeholder="Họ và tên" value="" type="text"
+                                                    name="your-name" /></span>
+                                        </p>
+                                    </div>
+                                    <div class="telldd1">
+                                        <p><span class="wpcf7-form-control-wrap" data-name="tel-344"><input size="40"
+                                                    v-model="formData.phone"
+                                                    class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel"
+                                                    aria-required="true" aria-invalid="false"
+                                                    placeholder="Số Điện Thoại" value="" type="tel"
+                                                    name="tel-344" /></span>
+                                        </p>
+                                    </div>
+                                    <div class="emaildd1">
+                                        <p><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40"
+                                                    v-model="formData.email"
+                                                    class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                                                    autocomplete="email" aria-required="true" aria-invalid="false"
+                                                    placeholder="Email" value="" type="email"
+                                                    name="your-email" /></span>
+                                        </p>
+                                    </div>
+                                    <!-- <div class="txxtdf1">
+                                        <p>Tải lên CV của bạn<br />
+                                            <span class="wpcf7-form-control-wrap" data-name="file-45"><input size="40"
+                                                    @change="handleFileUpload"
+                                                    class="wpcf7-form-control wpcf7-file upfilecvbn"
+                                                    accept=".jpg,.jpeg,.png,.gif,.txt,.pdf" aria-invalid="false"
+                                                    type="file" name="file-45" /></span>
+                                        </p>
+                                    </div> -->
+
+                                    <button type="submit" class="btn-recruitment">ĐĂNG KÝ</button>
+                                </form>
+                            </div>
+
                         </div>
                         <div v-else class="right-content col-lg-8 col-12">
                             <p>Đang tải...</p>
@@ -68,14 +112,16 @@
                     </div>
                 </div>
             </div>
+            <p v-if="responseMessage">{{ responseMessage }}</p>
         </section>
-
     </div>
 
 </template>
 
 
 <script>
+import emailjs from '@emailjs/browser';
+import axios from 'axios';
 export default {
     name: 'JobDetail',
     data() {
@@ -84,6 +130,13 @@ export default {
             post: null,
             otherNews: [],
             otherNewsId: 4,
+            formData: {
+                name: '',
+                phone: '',
+                email: '',
+                // cvFile: null,
+            },
+            responseMessage: ""
         };
     },
     methods: {
@@ -102,6 +155,85 @@ export default {
                     this.post = data;
                 })
                 .catch(error => console.error('Lỗi:', error));
+        },
+        handleFileUpload(event) {
+            this.formData.cvFile = event.target.files[0];
+        },
+        // async uploadToWordPress(file) {
+
+        //     if (!file) {
+        //         this.errorMessage = "Vui lòng chọn một file!";
+        //         return;
+        //     }
+
+        //     let formData = new FormData();
+        //     formData.append("file", file);
+
+        //     const username = "glxaccess20"; // Tài khoản có quyền upload
+        //     const appPassword = "gaL@XiacC3ss!2024"; // Application Password từ WordPress
+        //     const apiUrl = "https://api-blue-shappire.trialweb.us/wp-json/wp/v2/media";
+
+        //     try {
+        //         const response = await axios.post(apiUrl, formData, {
+        //             headers: {
+        //                 "Authorization": "Basic " + btoa(`${username}:${appPassword}`),
+        //                 "Content-Type": "multipart/form-data",
+        //             },
+        //         });
+        //         console.log(response);
+
+        //         // return response.data.source_url;
+        //     } catch (error) {
+        //         console.error("Lỗi upload file:", error);
+        //         this.errorMessage = "Lỗi upload file. Kiểm tra lại API và quyền truy cập.";
+        //     }
+        // },
+        // async sendEmail() {
+        //     // const cvUrl = await this.uploadToWordPress(this.formData.cvFile);
+        //     // console.log(cvUrl);
+
+        //     // if (!cvUrl) {
+        //     //     alert("Upload CV thất bại!");
+        //     //     return;
+        //     // }
+
+        //     const templateParams = {
+        //         name: this.formData.name,
+        //         phone: this.formData.phone,
+        //         email: this.formData.email,
+        //         // cvFile: cvUrl, // Gửi link thay vì file
+        //     };
+
+        //     console.log(this.$refs.jobForm);
+
+
+        //     try {
+        //         await emailjs.sendForm(
+        //             "service_xbjvyf1",  // Thay bằng service ID từ EmailJS
+        //             "template_95sdxar", // Thay bằng template ID
+        //             this.$refs.jobForm,
+        //             "HLMwRC_NipCYzU9LE"  // Thay bằng public key từ EmailJS
+        //         );
+        //         alert("Gửi email thành công!");
+        //     } catch (error) {
+        //         console.error("Lỗi khi gửi email:", error);
+        //         alert("Gửi email thất bại, vui lòng thử lại!");
+        //     }
+        // },
+        async sendEmail() {
+            try {
+                const response = await axios.post("https://api-blue-shappire.trialweb.us/wp-json/myplugin/v1/send-mail/", this.formData);
+                this.responseMessage = response.data.message;
+            } catch (error) {
+                if (error.response) {
+                    // Hiển thị lỗi từ API WordPress
+                    this.responseMessage = `Lỗi: ${error.response.data.message}`;
+                } else if (error.request) {
+                    this.responseMessage = "Lỗi: Không thể kết nối đến server!";
+                } else {
+                    this.responseMessage = "Đã xảy ra lỗi không xác định!";
+                }
+            }
         }
     },
     mounted() {
