@@ -84,6 +84,7 @@
 
                                     <button type="submit" class="btn-recruitment">ĐĂNG KÝ</button>
                                 </form>
+                                <p v-if="responseMessage" style="text-align: center;">{{ responseMessage }}</p>
                             </div>
 
                         </div>
@@ -109,7 +110,6 @@
                     </div>
                 </div>
             </div>
-            <p v-if="responseMessage">{{ responseMessage }}</p>
         </section>
     </div>
 </template>
