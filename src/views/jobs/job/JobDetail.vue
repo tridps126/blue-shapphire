@@ -116,7 +116,6 @@
 
 
 <script>
-import emailjs from '@emailjs/browser';
 import axios from 'axios';
 export default {
     name: 'JobDetail',
