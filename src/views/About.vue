@@ -1,7 +1,7 @@
 <template>
     <div class="bg-home">
         <section class="bread-crumb"
-            :style="{ backgroundImage: `url(${require('@/assets/css/themes/breadcrumb-bg.webp')})` }">
+            :style="{ backgroundImage: `url(${require('@/assets/css/themes/banner-page.webp')})` }">
             <div class="container">
                 <div class="title-breadcrumb">
                     Giới thiệu
