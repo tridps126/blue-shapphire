@@ -35,10 +35,10 @@
                                 <img class="lazyload img-fluid" width="676" height="683"
                                     src="../assets/images/otther_2.jpg"
                                     data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
-                                    alt="Lofi Construction" />
-                                <div class="block_video_play">
-                                    <a href="https://www.youtube.com/watch?v=jf2fmaKutLQ"
-                                        class="video_play popup-youtube" title="Lofi Construction">
+                                    alt="Blue Shapphire" />
+                                <div ref="gallery" class="block_video_play">
+                                    <a href="javascript:void(0);" data-src="https://www.youtube.com/watch?v=d85cZ60gg4Q"
+                                        class="video_play popup-youtube video-item" title="Blue Shapphire">
                                         <span class="video-icon">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play"
                                                 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -58,7 +58,8 @@
                         <div class="col-lg-6 col-12 col-right">
                             <div class="about-content">
                                 <span class="top-title">Chúng tôi là ai</span>
-                                <h2 class="title" style="color: #006ac0;">Cam kết chất lượng và kết quả vượt trội</h2>
+                                <h2 class="title" style="color: #006ac0;">Cam kết chất lượng và kết quả vượt trội
+                                </h2>
                                 <p class="desc">Với hơn 10 năm kinh nghiệm hoạt động tại thị trường Việt Nam, Blue
                                     Sapphire đã trở thành đối tác chiến lược đáng tin cậy của nhiều doanh nghiệp
                                     trong việc cung cấp các giải pháp công nghệ và nhân sự. Chúng tôi chuyên cung
@@ -646,13 +647,6 @@
                                     </div>
                                 </div>
 
-
-
-
-
-
-
-
                                 <div class="swiper-slide">
                                     <div class="testimonials">
                                         <div class="icon">
@@ -682,12 +676,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
 
 
                                 <div class="swiper-slide">
@@ -738,6 +726,10 @@ import 'swiper/swiper-bundle.css';
 import $ from "jquery";
 // import counterUp from "counterup2";
 import "counterup/jquery.counterup.min.js";
+import lightGallery from "lightgallery";
+import lgVideo from "lightgallery/plugins/video";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-video.css"; // Import CSS cho plugin video
 export default {
     name: 'About',
     mounted() {
@@ -886,29 +878,34 @@ export default {
                 }
             }
         });
-        $(document).ready(function () {
-            $(".block_video_play").lightGallery();
-        });
-        if ($(".counter-number").length === 0) {
-            console.error("❌ Không tìm thấy .counter-number!");
-            return;
-        }
-        this.$nextTick(() => {
-            setTimeout(() => {
-                if ($(".counter-number").length > 0) {
-                    if (typeof $.fn.counterUp !== "undefined") {
-                        $(".counter-number").counterUp({
-                            delay: 10,
-                            time: 1000
-                        });
-                    } else {
-                        console.error("Không tìm thấy phần tử .counter!");
-                    }
-                } else {
-                    console.error("❌ Không tìm thấy phần tử .counter-number!");
-                }
-            }, 500);
-        });
+        this.initLightGallery();
+    },
+    methods: {
+        initLightGallery() {
+            if (this.$refs.gallery) {
+                this.$nextTick(() => {
+                    lightGallery(this.$refs.gallery, {
+                        plugins: [lgVideo], // Kích hoạt plugin video
+                        selector: ".video-item", // Chỉ áp dụng cho video
+                        thumbnail: true, // Hiển thị ảnh thumbnail
+                        download: false, // Tắt tải xuống
+                        autoplayFirstVideo: false, // Không tự động phát
+                        zoomFromOrigin: false, // Fix lỗi màn hình đen
+                        videojs: true, // Bật hỗ trợ video nâng cao
+                        mobileSettings: {
+                            controls: true,
+                            showCloseIcon: true,
+                            download: false,
+                        },
+                    });
+                });
+            }
+        },
+        beforeDestroy() {
+            if (this.$refs.gallery) {
+                this.$refs.gallery.lgDestroy && this.$refs.gallery.lgDestroy();
+            }
+        },
     }
 }
 
@@ -916,6 +913,8 @@ export default {
 </script>
 
 <style scoped>
+@import "lightgallery/css/lightgallery.css";
+
 .cus-swiper {
     .swiper-slide {
         display: flex;

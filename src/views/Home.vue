@@ -332,7 +332,7 @@
                          <div class="col-lg-4 d-none d-lg-block col-12">
                               <div class="image">
                                    <img class="img-fluid"
-                                        src="../assets/css/themes/progress-image7e7a.png?1715757113942" alt=""
+                                        src="../assets/css/themes/chi-phi.png" alt=""
                                         title="" />
                               </div>
                          </div>
@@ -1018,4 +1018,8 @@ export default {
 <style>
 /* Include LightGallery styles if not already added */
 @import "lightgallery/css/lightgallery.css";
+
+.section_progress {
+     padding: 80px 0px 80px;
+}
 </style>
