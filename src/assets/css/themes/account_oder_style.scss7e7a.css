@@ -1119,7 +1119,7 @@ div#social_login {
 
 .checkbox.style input:checked+label:after {
     content: "\f00c";
-    font-family: FontAwesome;
+    /* font-family: FontAwesome; */
     font-size: 20px;
     color: var(--mainColor);
     position: absolute;

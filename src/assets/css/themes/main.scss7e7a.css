@@ -16,7 +16,7 @@ html::-webkit-scrollbar-thumb {
 body {
     font-size: 14px;
     color: var(--textColor);
-    font-family: Arial, sans-serif
+    /* font-family: Arial, sans-serif */
 }
 
 body.search-active {

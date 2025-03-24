@@ -354,7 +354,7 @@
 
 .layout-product .swatch .color input:checked+label:after {
     content: "\f00c";
-    font-family: FontAwesome;
+    /* font-family: FontAwesome; */
     display: none
 }
 
@@ -494,7 +494,7 @@
 }
 
 .layout-product .swatch.error code {
-    font-family: monospace
+    /* font-family: monospace */
 }
 
 .layout-product .selector-wrapper {
