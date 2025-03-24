@@ -264,11 +264,11 @@
                                         <router-link to="/team">Đội ngũ</router-link>
                                     </li> -->
 
-                                    <li class="nav-item ">
+                                    <li class="nav-item " :class="{ active: $route.path === '/news' }">
                                         <router-link to="/news">Tin tức</router-link>
                                     </li>
 
-                                    <li class="nav-item ">
+                                    <li class="nav-item " :class="{ active: $route.path === '/contact' }">
                                         <router-link to="/contact">Liên hệ</router-link>
                                     </li>
                                 </ul>
@@ -403,5 +403,10 @@ export default {
 
 .top-bar ul {
     margin-bottom: 0px !important;
+}
+
+.top-bar-left span {
+    font-weight: 200;
+    color: #595959;
 }
 </style>

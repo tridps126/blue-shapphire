@@ -148,7 +148,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 d-none d-lg-block col-12">
                         <div class="image">
-                            <img class="img-fluid" src="../assets/css/themes/progress-image7e7a.png?1715757113942"
+                            <img class="img-fluid" src="../assets/css/themes/progress.webp"
                                 alt="" title="" />
                         </div>
                     </div>

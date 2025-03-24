@@ -51,7 +51,7 @@
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 20px;
     border-radius: 5px;
     overflow: hidden;
@@ -66,7 +66,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--mainColor2);
+    background-color: var(--mainColor);
     z-index: -1;
     -webkit-transform-origin: right top;
     transform-origin: right top;
@@ -258,7 +258,7 @@
 .section_about .about-content .top-title {
     color: var(--mainColor2);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 300;
     display: block;
     letter-spacing: 3px;
     margin-bottom: 10px;
@@ -282,7 +282,7 @@
     color: var(--textColor);
     font-size: 16px;
     margin-bottom: 15px;
-    line-height: 24px
+    line-height: 27px
 }
 
 .section_about .about-content .single-about {
@@ -357,7 +357,7 @@
 .section_statistic .item .content .static-title {
     color: var(--textColor);
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase
 }
 
@@ -378,7 +378,7 @@
 
 .section_banner .banner-content {
     width: 100%;
-    max-width: 768px;
+    max-width: 830px;
     position: relative;
     margin: 0px auto;
     text-align: center
@@ -440,7 +440,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--mainColor2);
+    background-color: var(--mainColor);
     z-index: -1;
     -webkit-transform-origin: right top;
     transform-origin: right top;
@@ -503,7 +503,8 @@
 .section_progress .block-title p {
     color: #fff;
     font-size: 16px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-weight: 300;
 }
 
 .section_progress:before {
@@ -560,7 +561,8 @@
 
 .section_whychoose .block-title p {
     color: var(--textColor);
-    font-size: 16px
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .section_whychoose .whychoose-content .why-box {
@@ -698,7 +700,8 @@
     font-size: 14px;
     color: #989898;
     padding-top: 6px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 @media (max-width: 1199px) {
@@ -830,7 +833,7 @@
 .section_view_product .col-right a {
     color: var(--mainColor);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 15px 30px;
     border: 0;
     display: inline-block;
@@ -927,7 +930,7 @@
 .section_blog .item-blog .block-content h3 a {
     font-size: 15px;
     font-weight: bold;
-    color: var(--mainColor2);
+    color: var(--mainColor);
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -945,8 +948,8 @@
 .section_blog .item-blog .block-content .time-post {
     position: relative;
     font-size: 14px;
-    font-weight: 600;
-    color: var(--textColor);
+    font-weight: 300;
+    color: #595959;
     margin: 0 0 10px
 }
 

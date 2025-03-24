@@ -111,9 +111,9 @@
 }
 
 .section_about .about-content .top-title {
-    color: var(--mainColor2);
+    color: var(--textColor);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 300;
     display: block;
     letter-spacing: 3px;
     margin-bottom: 10px;
@@ -131,7 +131,7 @@
     color: var(--textColor);
     font-size: 16px;
     margin-bottom: 15px;
-    line-height: 24px
+    line-height: 27px
 }
 
 .section_about .about-content .single-about {
@@ -206,7 +206,7 @@
 .section_statistic .item .content .static-title {
     color: var(--textColor);
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase
 }
 
@@ -569,7 +569,7 @@
 .about_service .item .main .ctas a.btn-viewmore {
     color: #fff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 15px 35px;
     border: 0;
     display: inline-block;
