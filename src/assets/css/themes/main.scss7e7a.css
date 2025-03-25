@@ -1879,7 +1879,7 @@ button.close {
     }
 
     .header-menu .header-menu-des .header-nav>ul.item_big>li.nav-item:hover>a {
-        color: var(--mainColor)
+        color: var(--textColor)
     }
 
     .header-menu .header-menu-des .header-nav>ul.item_big>li.nav-item:hover>a.caret-down:after {
