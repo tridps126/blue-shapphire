@@ -329,14 +329,14 @@
           <section class="section_progress">
                <div class="container">
                     <div class="row align-items-center">
-                         <div class="col-lg-4 d-none d-lg-block col-12">
+                         <div class="col-lg-5 d-none d-lg-block col-12">
                               <div class="image">
                                    <img class="img-fluid"
                                         src="../assets/css/themes/progress.webp" alt=""
                                         title="" />
                               </div>
                          </div>
-                         <div class="col-lg-2 d-none d-lg-block col-12">
+                         <div class="col-lg-1 d-none d-lg-block col-12">
 
                          </div>
                          <div class="col-lg-6 col-md-12 col-12">
@@ -468,7 +468,7 @@
                               <p>Các sản phẩm/dịch vụ chúng tôi đang cung cấp</p>
                          </div>
                          <div class="col-lg-3 col-md-3 col-12 col-right">
-                              <router-link to="/" target="_blank">Xem thêm</router-link>
+                              <router-link to="/services">Xem thêm</router-link>
                          </div>
                     </div>
                </div>
@@ -485,13 +485,13 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="/" title="Lê Gia Long" class="thumb">
+                                                  <router-link to="/" title="Lê Gia Long" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/images//cty/NHA-TRANG.webp"
                                                             data-src="../assets/css/themes/team-image-1.webp?v=1702523936450"
                                                             alt="Lê Gia Long">
-                                                  </a>
+                                                  </router-link>
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
@@ -563,14 +563,14 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="/" title="Lưu Phương Huyền" class="thumb">
+                                                  <router-link to="/" title="Lưu Phương Huyền" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/images/cty/SAI-GON.webp"
                                                             data-src="../assets/css/themes/team-image-2.webp?v=1702524324723"
                                                             alt="Lưu Phương Huyền">
 
-                                                  </a>
+                                                  </router-link>
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
@@ -639,14 +639,14 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="/" title="Lê Thị Hương" class="thumb">
+                                                  <router-link to="/" title="Lê Thị Hương" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/images/cty/QUY-NHON.webp"
                                                             data-src="../assets/css/themes/team-image-3.webp?v=1702524418773"
                                                             alt="Lê Thị Hương">
 
-                                                  </a>
+                                                  </router-link>
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">
@@ -707,14 +707,14 @@
                                    <div class="swiper-slide item">
                                         <div class="team-item">
                                              <div class="team-image">
-                                                  <a href="/" title="Đào Văn Hiếu" class="thumb">
+                                                  <router-link to="/" title="Đào Văn Hiếu" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
                                                             src="../assets/images/cty/DA-NANG.webp"
                                                             data-src="../assets/css/themes/team-image-4.webp?v=1702524176197"
                                                             alt="Đào Văn Hiếu">
 
-                                                  </a>
+                                                  </router-link>
                                              </div>
                                              <div class="team-info">
                                                   <div class="name">

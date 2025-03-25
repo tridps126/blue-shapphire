@@ -5,8 +5,8 @@ import Home from '@/views/Home.vue';
 import About from '@/views/About.vue';
 import Projects from '@/views/Projects.vue';
 import Services from '@/views/Services.vue';
-import Products from '@/views/Products.vue';
-import Team from '@/views/Team.vue';
+// import Products from '@/views/Products.vue';
+// import Team from '@/views/Team.vue';
 import News from '@/views/news/News.vue';
 import Contact from '@/views/Contact.vue';
 import ContactCenter from '@/views/Service/ContactCenter.vue';
@@ -30,8 +30,8 @@ export default new Router({
     { path: '/about', name: 'About', component: About },
     { path: '/projects', name: 'Projects', component: Projects },
     { path: '/services', name: 'Services', component: Services },
-    { path: '/products', name: 'Products', component: Products },
-    { path: '/team', name: 'Team', component: Team },
+    // { path: '/products', name: 'Products', component: Products },
+    // { path: '/team', name: 'Team', component: Team },
     { path: '/news', name: 'News', component: News },
     { path: '/new/:id', component: NewDetail },
     { path: '/recruitment', name: 'Recruitment', component: Recruitment },

@@ -67,7 +67,7 @@
                                     <div class="item-bannerdtfx ent-flex ">
                                         <div class="item-bannerdtfx-ll ent-flex" @click="clickActivethqt(3)"
                                             :class="{ activethqt: activethqt === 3 }">
-                                            <img class="obd" src="../../assets/images//icon/icon-1.png">
+                                            <img class="obd" src="../../assets/images//icon/icon-3.png">
                                             <div class="ocd"></div>
                                         </div>
                                         <div class="item-bannerdtfx-rl">
