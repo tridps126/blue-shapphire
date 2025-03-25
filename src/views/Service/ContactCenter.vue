@@ -1,7 +1,7 @@
 <template>
     <div class="bg-home">
         <section class="bread-crumb"
-            :style="{ backgroundImage: `url(${require('@/assets/css/themes/banner-page.webp')})` }">
+            :style="{ backgroundImage: `url(${require('@/assets/images/banner_page-contac.center.webp')})` }">
             >
             <div class="container">
                 <div class="title-breadcrumb">
@@ -85,7 +85,7 @@
                                     độ phục vụ tận tâm. Điều này giúp doanh nghiệp của bạn luôn nhận được dịch vụ chăm
                                     sóc khách hàng và telesales vượt trội, góp phần nâng cao hiệu quả công việc.
                                 </p>
-                                <p><strong>TĐảm bảo hiệu quả hoạt động: </strong>Chúng tôi hiểu rằng hiệu quả hoạt động
+                                <p><strong>Đảm bảo hiệu quả hoạt động: </strong>Chúng tôi hiểu rằng hiệu quả hoạt động
                                     là yếu tố then chốt trong mỗi chiến lược phát triển. Với hệ thống công nghệ hiện đại
                                     và quy trình làm việc tối ưu, Blue Sapphire đảm bảo mang lại hiệu quả tối đa trong
                                     việc chăm sóc khách hàng, nâng cao tỷ lệ chuyển đổi và gia tăng doanh thu cho doanh

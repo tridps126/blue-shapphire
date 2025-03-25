@@ -81,7 +81,7 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="mailto:blueShapphire@gmail.com" title="support@sapo.vn">
+                                    <a href="mailto:recruit@bluesapphire.vn" title="support@sapo.vn">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -91,11 +91,11 @@
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span>blueShapphire@gmail.com</span>
+                                        <span>recruit@bluesapphire.vn</span>
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a class="tel" href="tel:19006750" title="19006750">
+                                    <a class="tel" href="tel:0976159787" title="19006750">
                                         <span class="icon">
                                             <svg width="20" height="20" viewBox="0 0 20 20"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span>1900 6750</span>
+                                        <span>0976.159.787</span>
                                     </a>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                                         tin tức hoặc thông tin chi tiết.</div>
                                     <div class="mailchimp">
                                         <div class="email">
-                                            <a class="btn btn-default" type="submit" href="mailTo:support@sapo.vn"
+                                            <a class="btn btn-default" type="submit" href="mailTo:recruit@bluesapphire.vn"
                                                 aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</a>
 
                                             <div class="mailchimp-alerts ">

@@ -1,7 +1,7 @@
 <template>
     <div class="bg-home">
         <section class="bread-crumb"
-            :style="{ backgroundImage: `url(${require('@/assets/css/themes/banner-page.webp')})` }">
+            :style="{ backgroundImage: `url(${require('@/assets/images/banner-recrui.webp')})` }">
             >
             <div class="container">
                 <div class="title-breadcrumb">
@@ -53,15 +53,17 @@
                                                 <input v-model="form.name" size="40"
                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                     autocomplete="name" aria-required="true" aria-invalid="false"
-                                                    placeholder="Họ và tên" value="" type="text" name="your-name" /></span>
+                                                    placeholder="Họ và tên" value="" type="text"
+                                                    name="your-name" /></span>
                                         </p>
                                     </div>
                                     <div class="telldd1">
                                         <p><span class="wpcf7-form-control-wrap" data-name="tel-344"><input size="40"
                                                     v-model="form.phone"
                                                     class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel"
-                                                    aria-required="true" aria-invalid="false" placeholder="Số Điện Thoại"
-                                                    value="" type="tel" name="tel-344" /></span>
+                                                    aria-required="true" aria-invalid="false"
+                                                    placeholder="Số Điện Thoại" value="" type="tel"
+                                                    name="tel-344" /></span>
                                         </p>
                                     </div>
                                     <div class="emaildd1">
@@ -69,7 +71,8 @@
                                                     v-model="form.email"
                                                     class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
                                                     autocomplete="email" aria-required="true" aria-invalid="false"
-                                                    placeholder="Email" value="" type="email" name="your-email" /></span>
+                                                    placeholder="Email" value="" type="email"
+                                                    name="your-email" /></span>
                                         </p>
                                     </div>
                                     <div class="txxtdf1">
@@ -77,8 +80,8 @@
                                             <span class="wpcf7-form-control-wrap" data-name="file-45"><input size="40"
                                                     @change="handleFileUpload"
                                                     class="wpcf7-form-control wpcf7-file upfilecvbn"
-                                                    accept=".jpg,.jpeg,.png,.gif,.txt,.pdf" aria-invalid="false" type="file"
-                                                    name="file-45" /></span>
+                                                    accept=".jpg,.jpeg,.png,.gif,.txt,.pdf" aria-invalid="false"
+                                                    type="file" name="file-45" /></span>
                                         </p>
                                     </div>
 

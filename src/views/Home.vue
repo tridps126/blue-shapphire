@@ -488,7 +488,7 @@
                                                   <a href="/" title="Lê Gia Long" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
-                                                            src="../assets/css/themes/team-image-1.webp?v=1702523936450"
+                                                            src="../assets/images//cty/NHA-TRANG.webp"
                                                             data-src="../assets/css/themes/team-image-1.webp?v=1702523936450"
                                                             alt="Lê Gia Long">
                                                   </a>
@@ -496,11 +496,11 @@
                                              <div class="team-info">
                                                   <div class="name">
                                                        <a class="line-clamp line-clamp-1" href="/"
-                                                            title="Lê Gia Long">Lê Gia Long</a>
+                                                            title="Lê Gia Long">Office - Nha Trang</a>
                                                   </div>
-                                                  <div class="department">
+                                                  <!-- <div class="department">
                                                        Tổng Giám Đốc
-                                                  </div>
+                                                  </div> -->
 
                                              </div>
 
@@ -566,7 +566,7 @@
                                                   <a href="/" title="Lưu Phương Huyền" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
-                                                            src="../assets/css/themes/team-image-2.webp?v=1702524324723"
+                                                            src="../assets/images/cty/SAI-GON.webp"
                                                             data-src="../assets/css/themes/team-image-2.webp?v=1702524324723"
                                                             alt="Lưu Phương Huyền">
 
@@ -575,11 +575,11 @@
                                              <div class="team-info">
                                                   <div class="name">
                                                        <a class="line-clamp line-clamp-1" href="/"
-                                                            title="Lưu Phương Huyền">Lưu Phương Huyền</a>
+                                                            title="Lưu Phương Huyền">Office - Sài Gòn</a>
                                                   </div>
-                                                  <div class="department">
+                                                  <!-- <div class="department">
                                                        Trưởng phòng kế toán
-                                                  </div>
+                                                  </div> -->
                                              </div>
                                              <div class="social">
                                                   <ul>
@@ -642,7 +642,7 @@
                                                   <a href="/" title="Lê Thị Hương" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
-                                                            src="../assets/css/themes/team-image-3.webp?v=1702524418773"
+                                                            src="../assets/images/cty/QUY-NHON.webp"
                                                             data-src="../assets/css/themes/team-image-3.webp?v=1702524418773"
                                                             alt="Lê Thị Hương">
 
@@ -651,11 +651,11 @@
                                              <div class="team-info">
                                                   <div class="name">
                                                        <a class="line-clamp line-clamp-1" href="/"
-                                                            title="Lê Thị Hương">Lê Thị Hương</a>
+                                                            title="Lê Thị Hương">Office - Quy Nhơn</a>
                                                   </div>
-                                                  <div class="department">
+                                                  <!-- <div class="department">
                                                        Giám đốc truyền thông
-                                                  </div>
+                                                  </div> -->
 
                                              </div>
                                              <div class="social">
@@ -710,7 +710,7 @@
                                                   <a href="/" title="Đào Văn Hiếu" class="thumb">
 
                                                        <img width="540" height="600" class="lazyload"
-                                                            src="../assets/css/themes/team-image-4.webp?v=1702524176197"
+                                                            src="../assets/images/cty/DA-NANG.webp"
                                                             data-src="../assets/css/themes/team-image-4.webp?v=1702524176197"
                                                             alt="Đào Văn Hiếu">
 
@@ -719,11 +719,11 @@
                                              <div class="team-info">
                                                   <div class="name">
                                                        <a class="line-clamp line-clamp-1" href="/"
-                                                            title="Đào Văn Hiếu">Đào Văn Hiếu</a>
+                                                            title="Đào Văn Hiếu">Office - Đà Nẵng</a>
                                                   </div>
-                                                  <div class="department">
+                                                  <!-- <div class="department">
                                                        Giám sát thi công
-                                                  </div>
+                                                  </div> -->
 
                                              </div>
 

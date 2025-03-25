@@ -1,7 +1,7 @@
 <template>
     <div class="bg-home">
         <section class="bread-crumb"
-            :style="{ backgroundImage: `url(${require('@/assets/css/themes/banner-page.webp')})` }">
+            :style="{ backgroundImage: `url(${require('@/assets/images/banner_page-doi-tac.webp')})` }">
             >
             <div class="container">
                 <div class="title-breadcrumb">
@@ -46,7 +46,8 @@
                             <div class="content-page rte">
                                 <h4 style="color: #006ac0;"><strong>Các Dịch Vụ Hợp Tác Cụ Thể</strong></h4>
 
-                                <p class="mt-4"><strong style="color: #006ac0;">Dịch Vụ Chăm Sóc Khách Hàng & Telesales:</strong></p>
+                                <p class="mt-4"><strong style="color: #006ac0;">Dịch Vụ Chăm Sóc Khách Hàng &
+                                        Telesales:</strong></p>
                                 <p>Blue Sapphire đã hỗ trợ
                                     Galaxy Access trong việc xây dựng và triển khai dịch vụ chăm sóc
                                     khách hàng và telesales, giúp tạo dựng mối quan hệ bền vững với khách hàng. Đội
@@ -58,7 +59,8 @@
                                     cao tỷ lệ chuyển đổi.</p>
 
 
-                                <p><strong style="color: #006ac0;">Thiết Kế Website Chuyên Nghiệp & Thiết Kế Hình Ảnh Cho Hệ Thống POS, Máy Cà
+                                <p><strong style="color: #006ac0;">Thiết Kế Website Chuyên Nghiệp & Thiết Kế Hình Ảnh
+                                        Cho Hệ Thống POS, Máy Cà
                                         Thẻ:</strong></p>
                                 <p>Blue Sapphire đã thiết kế một <strong>website chuyên nghiệp</strong> cho Galaxy
                                     Access, giúp khách
@@ -95,7 +97,8 @@
                                 </p>
 
                                 <p><strong style="color: #006ac0;">Thông tin doanh nghiệp</strong></p>
-                                <p>Website: <a href="https://galaxyaccess.us/" target="_blank">https://galaxyaccess.us/</a>
+                                <p>Website: <a href="https://galaxyaccess.us/"
+                                        target="_blank">https://galaxyaccess.us/</a>
                                 </p>
 
                                 <p>Điện thoại: (770) 284-8888</p>

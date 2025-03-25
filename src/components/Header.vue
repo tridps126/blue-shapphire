@@ -6,7 +6,7 @@
                     <div class="col-lg-6 d-none d-lg-block">
                         <ul class="top-bar-left">
                             <li>
-                                <a href="tel:19006750" title="tel:19006750" style="color:#231f20">
+                                <a href="tel:0976159787" title="tel:19006750" style="color:#231f20">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         height="24" width="24" viewBox="0 0 60 60">
                                         <g id="Layer_2" data-name="Layer 2">
@@ -16,11 +16,11 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <span style="margin-left: 10px;">1900 6750</span>
+                                    <span style="margin-left: 10px;">0976.159.787</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:blueShapphire@gmail.com" title="blueShapphire@gmail.com"
+                                <a href="mailto:recruit@bluesapphire.vn" title="blueShapphire@gmail.com"
                                     style="color:#231f20">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         height="24" width="24" viewBox="0 0 60 60">
@@ -31,7 +31,7 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <span style="margin-left: 10px;">blueShapphire@gmail.com</span>
+                                    <span style="margin-left: 10px;">recruit@bluesapphire.vn</span>
                                 </a>
                             </li>
                         </ul>

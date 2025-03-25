@@ -85,7 +85,7 @@
 }
 
 .layout-contact .form-contact .group_contact .btn-lienhe:hover {
-    background: var(--mainColor2)
+    background: var(--mainColor)
 }
 
 .layout-contact #contact_map iframe {
