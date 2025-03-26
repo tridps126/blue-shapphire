@@ -2295,8 +2295,9 @@ button.close {
         padding: 10px 15px;
         display: flex;
         align-items: center;
-        background-color: var(--mainColor);
-        margin-bottom: 5px
+        /* background-color: var(--mainColor); */
+        margin-bottom: 5px;
+        border-bottom: 1px solid var(--mainColor);
     }
 
     .header-nav .user-menu .user-icon {

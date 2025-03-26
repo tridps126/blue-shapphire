@@ -130,7 +130,7 @@
                                     </a>
                                 </div>
                             </li>
-                            <li class="header-search d-md-none d-block">
+                            <!-- <li class="header-search d-md-none d-block">
                                 <div class="button-search">
                                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                         viewBox="0 0 48 48">
@@ -139,7 +139,7 @@
                                         </path>
                                     </svg>
                                 </div>
-                            </li>
+                            </li> -->
                             <!-- <li class="account d-md-inline-block d-none">
                                 <a href="account/logina3b1.html" title="Tài khoản của bạn" rel="nofollow">
                                     <img src="../assets/css/themes/account7e7a.png?1715757113942"
@@ -174,15 +174,15 @@
                             <nav class="header-nav">
                                 <div class="user-menu d-lg-none">
                                     <div class="user-icon">
-                                        <img src="../assets/css/themes/icon-user7e7a.png?1715757113942"
+                                        <img src="../assets/css/themes/favicon_32x32.png"
                                             alt="Lofi Construction">
                                     </div>
-                                    <div class="user-account">
+                                    <!-- <div class="user-account">
 
                                         <a class="btnx" href="account/login.html">Đăng nhập</a>
                                         <small><a href="account/register.html">Đăng ký</a></small>
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <ul class="item_big">
 
