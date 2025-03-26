@@ -27,8 +27,7 @@
             <div class="container-fluid">
                 <div class="block-title">
                     <span class="top-title">Dịch vụ của chúng tôi</span>
-                    <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất
-                            lượng</router-link>
+                    <h2 style="color: #006ac0;">Cung cấp dịch vụ chất lượng
                     </h2>
                 </div>
                 <div class="row">
@@ -144,65 +143,62 @@
             </div>
         </section>
         <section class="section_progress">
-               <div class="container">
-                    <div class="row align-items-center">
-                         <div class="col-lg-5 d-none d-lg-block col-12">
-                              <div class="image">
-                                   <img class="img-fluid"
-                                        src="../assets/css/themes/progress.webp" alt=""
-                                        title="" />
-                              </div>
-                         </div>
-                         <div class="col-lg-1 d-none d-lg-block col-12">
-
-                         </div>
-                         <div class="col-lg-6 col-md-12 col-12">
-                              <div class="skills-content">
-                                   <div class="block-title">
-                                        <span class="top-title">Đội ngũ chuyên nghiệp</span>
-                                        <h2>Hiệu quả của công ty chúng tôi</h2>
-                                        <p>Chúng Tôi Tạo Dựng Trải Nghiệm Khách Hàng Tuyệt Vời, Đảm Bảo Mỗi Cuộc Gọi Là
-                                             Một Cơ Hội Để Doanh Nghiệp Vươn Tới Thành Công</p>
-                                   </div>
-                              </div>
-                              <div class="all-skill-bar">
-                                   <div class="progress skill-bar">
-                                        <div class="progress-bar" role="progressbar" style="width: 95%"
-                                             aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                             95%
-                                        </div>
-                                   </div>
-                                   <div class="progress-title line-clamp line-clamp-1" title="Máy móc công ty">
-                                        Công nghệ tối ưu
-                                   </div>
-                              </div>
-                              <div class="all-skill-bar">
-                                   <div class="progress skill-bar">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%"
-                                             aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                                             90%
-                                        </div>
-                                   </div>
-                                   <div class="progress-title line-clamp line-clamp-1" title="Kỹ sư có trình độ">
-                                        Nhân viên có trình độ
-                                   </div>
-                              </div>
-                              <div class="all-skill-bar">
-                                   <div class="progress skill-bar">
-                                        <div class="progress-bar" role="progressbar" style="width: 100%"
-                                             aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                             100%
-                                        </div>
-                                   </div>
-                                   <div class="progress-title line-clamp line-clamp-1"
-                                        title="Sự hài lòng của khách hàng">
-                                        Sự hài lòng của khách hàng
-                                   </div>
-                              </div>
-                         </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 d-none d-lg-block col-12">
+                        <div class="image">
+                            <img class="img-fluid" src="../assets/css/themes/progress.webp" alt="" title="" />
+                        </div>
                     </div>
-               </div>
-          </section>
+                    <div class="col-lg-1 d-none d-lg-block col-12">
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="skills-content">
+                            <div class="block-title">
+                                <span class="top-title">Đội ngũ chuyên nghiệp</span>
+                                <h2>Hiệu quả của công ty chúng tôi</h2>
+                                <p>Chúng Tôi Tạo Dựng Trải Nghiệm Khách Hàng Tuyệt Vời, Đảm Bảo Mỗi Cuộc Gọi Là
+                                    Một Cơ Hội Để Doanh Nghiệp Vươn Tới Thành Công</p>
+                            </div>
+                        </div>
+                        <div class="all-skill-bar">
+                            <div class="progress skill-bar">
+                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    95%
+                                </div>
+                            </div>
+                            <div class="progress-title line-clamp line-clamp-1" title="Máy móc công ty">
+                                Công nghệ tối ưu
+                            </div>
+                        </div>
+                        <div class="all-skill-bar">
+                            <div class="progress skill-bar">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    90%
+                                </div>
+                            </div>
+                            <div class="progress-title line-clamp line-clamp-1" title="Kỹ sư có trình độ">
+                                Nhân viên có trình độ
+                            </div>
+                        </div>
+                        <div class="all-skill-bar">
+                            <div class="progress skill-bar">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    100%
+                                </div>
+                            </div>
+                            <div class="progress-title line-clamp line-clamp-1" title="Sự hài lòng của khách hàng">
+                                Sự hài lòng của khách hàng
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section_whychoose">
             <div class="container">
                 <div class="row">
@@ -270,8 +266,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="whychoose-image">
-                            <img class="img-fluid" width="935" height="806"
-                                src="../assets/images/sections-5.jpg"
+                            <img class="img-fluid" width="935" height="806" src="../assets/images/sections-5.jpg"
                                 alt="Lý do lựa chọn chúng tôi" />
                         </div>
                     </div>

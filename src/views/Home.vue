@@ -19,7 +19,7 @@
                                         <div class="slider-content">
                                              <span class="sup-title">Blue Shapphire</span>
                                              <h2 class="title">Công Nghệ Đổi Mới, Nhân Sự Tạo Dựng Thành Công</h2>
-                                             <router-link class="button" to="/" title="Xem chi tiết">Xem chi
+                                             <router-link class="button" to="/services" title="Xem chi tiết">Xem chi
                                                   tiết</router-link>
                                         </div>
                                    </div>
@@ -41,7 +41,8 @@
                                         <div class="slider-content">
                                              <span class="sup-title">Blue Shapphire</span>
                                              <h2 class="title">Tech Solutions, Empowered Talent, Lasting Success</h2>
-                                             <a class="button" href="#" title="Xem chi tiết">Xem chi tiết</a>
+                                             <router-link class="button" to="/services" title="Xem chi tiết">Xem chi
+                                                  tiết</router-link>
                                         </div>
                                    </div>
                               </div>
@@ -207,8 +208,9 @@
                <div class="container-fluid">
                     <div class="block-title">
                          <span class="top-title">Dịch vụ của chúng tôi</span>
-                         <h2><router-link to="/" title="Cung cấp dịch vụ chất lượng">Cung cấp dịch vụ chất
-                                   lượng</router-link>
+                         <h2 style="color: #006ac0;">
+                              Cung cấp dịch vụ chất
+                              lượng
                          </h2>
                     </div>
                     <div class="row">
@@ -331,9 +333,7 @@
                     <div class="row align-items-center">
                          <div class="col-lg-5 d-none d-lg-block col-12">
                               <div class="image">
-                                   <img class="img-fluid"
-                                        src="../assets/css/themes/progress.webp" alt=""
-                                        title="" />
+                                   <img class="img-fluid" src="../assets/css/themes/progress.webp" alt="" title="" />
                               </div>
                          </div>
                          <div class="col-lg-1 d-none d-lg-block col-12">
@@ -454,8 +454,7 @@
                          <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                               <div class="whychoose-image">
                                    <img class="img-fluid" width="935" height="806"
-                                        src="../assets/images//sections-5.jpg"
-                                        alt="Lý do lựa chọn chúng tôi" />
+                                        src="../assets/images//sections-5.jpg" alt="Lý do lựa chọn chúng tôi" />
                               </div>
                          </div>
                     </div>
@@ -477,7 +476,7 @@
                <div class="container-fluid">
                     <div class="block-title">
                          <span class="top-title">Tận tâm, chuyên nghiệp</span>
-                         <h2><router-link to="/">Đội ngũ của chúng tôi</router-link></h2>
+                         <h2 style="color: #006ac0;">Đội ngũ của chúng tôi</h2>
                     </div>
                     <div class="block-content">
                          <div class="swiper-container swiper-team">
@@ -793,7 +792,8 @@
                <div class="container">
                     <div class="block-title">
                          <span class="top-title">Tin tức</span>
-                         <h2 class="title"><router-link to="/" title="Bài viết mới nhất">Bài viết mới nhất</router-link>
+                         <h2 class="title" style="color: #006ac0;">
+                              Bài viết mới nhất
                          </h2>
                     </div>
                     <div class="block-blog relative">

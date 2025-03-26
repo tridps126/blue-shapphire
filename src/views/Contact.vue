@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="contact">
-                            <h4>Blue Shapphire</h4>
+                            <h4 style="color: #006ac0;">Blue Shapphire</h4>
                             <div class="time_work">
                                 <div class="item">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas"
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div class="form-contact">
-                            <h4>Liên hệ với chúng tôi</h4>
+                            <h4 style="color: #006ac0;">Liên hệ với chúng tôi</h4>
                             <span class="content-form">
                                 Nếu bạn có thắc mắc gì, có thể gửi yêu cầu cho chúng tôi, và chúng tôi sẽ liên lạc lại
                                 với bạn sớm nhất có thể .

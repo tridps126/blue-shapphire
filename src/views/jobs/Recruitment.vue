@@ -200,7 +200,8 @@
 
                 <div class="block-title mx-auto mb-4">
                     <span class="top-title"></span>
-                    <h2><a href="dich-vu.html" title="Cung cấp dịch vụ chất lượng">Vị Trí Tuyển Dụng</a>
+                    <h2 style="color: #006ac0;">
+                        Vị Trí Tuyển Dụng
                     </h2>
                     <p style="text-align: center;">Đội ngũ tuyệt vời bắt đầu từ những con người xuất sắc. Vì vậy, hãy
                         ứng tuyển ngay ngày hôm nay để cùng nhau tạo nên sự khác biệt!</p>
