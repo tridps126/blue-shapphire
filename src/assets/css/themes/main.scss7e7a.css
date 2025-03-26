@@ -2325,7 +2325,7 @@ button.close {
 
     .header-nav .item_big .nav-item a {
         padding: 0 30px 0 10px !important;
-        color: #000;
+        color: (--mainColor);
         height: unset;
         line-height: 30px;
         display: block;

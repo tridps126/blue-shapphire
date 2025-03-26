@@ -60,7 +60,7 @@
         </button>
         <ul class="addThis_listing">
           <li class="addThis_item">
-            <a class="addThis_item--icon" href="tel:19006750" rel="nofollow" aria-label="phone"
+            <a class="addThis_item--icon" href="tel:0976.159.787" rel="nofollow" aria-label="phone"
               title="Gọi ngay cho chúng tôi">
               <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="22" cy="22" r="22" fill="url(#paint2_linear)" />

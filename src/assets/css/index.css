@@ -1,4 +1,3 @@
-
 @import './themes/bootstrap-4-3-min7e7a.css?1715757113942';
 @import './themes/swiper.scss7e7a.css';
 @import './themes/main.scss7e7a.css?1715757113942';
@@ -79,4 +78,39 @@ p {
     overflow: hidden;
     position: relative;
     z-index: 2
+}
+
+.router-link-exact-active {
+    color: #191919 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .section_banner{
+        h2 {
+            font-size: 20px !important;
+        }
+    }
+
+    .section_view_product {
+        p {
+            font-size: 20px!important;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .section_banner{
+        h2 {
+            font-size: 18px !important;
+        }
+    }
+
+    .section_view_product {
+        p {
+            font-size: 16px!important;
+            padding-bottom: 10px;
+        }
+    }
 }
