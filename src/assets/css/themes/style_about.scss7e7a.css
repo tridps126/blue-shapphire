@@ -113,11 +113,12 @@
 .section_about .about-content .top-title {
     color: var(--textColor);
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     display: block;
     letter-spacing: 3px;
     margin-bottom: 10px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .section_about .about-content .title {
