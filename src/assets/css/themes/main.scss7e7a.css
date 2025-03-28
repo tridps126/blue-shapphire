@@ -3066,7 +3066,7 @@ ul.tabs li.current {
 
 .aside-content-menu .nav-category ul .nav-item.active>.nav-link,
 .aside-content-menu .nav-category ul .nav-item:hover>.nav-link {
-    color: var(--mainColor)
+    color: var(--mainColor) !important;
 }
 
 .aside-content-menu .nav-category ul .nav-item.active>.down_icon:after,
