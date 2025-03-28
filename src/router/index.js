@@ -36,7 +36,7 @@ export default new Router({
     { path: '/new/:id', component: NewDetail },
     { path: '/recruitment', name: 'Recruitment', component: Recruitment },
     { path: '/recruitment/:id', component: JobDetail },
-    { path: '/contact', name: 'Contact', component: Contact },
+    { path: '/contact', name: 'Contact', component: Contact, meta: { keepAlive: false  }, },
     { path: '/search', name: 'Search', component: Search },
     { path: '/search/:id', component: SearchDetail },
     { path: '/service/contact-center', name: 'ContactCenter', component: ContactCenter },

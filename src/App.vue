@@ -4,7 +4,9 @@
     <div class="opacity_menu"></div>
     <Header :isSearchActive="isSearchActive" :openSearch="openSearch"></Header>
     <main>
-      <router-view />
+      <keep-alive :exclude="['Contact']">
+        <router-view />
+      </keep-alive>
     </main>
     <Footer></Footer>
     <a href="#" class="backtop" title="Lên đầu trang">
