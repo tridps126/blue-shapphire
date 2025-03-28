@@ -35,7 +35,7 @@ svg {
 }
 
 a {
-    color: var(--textColor);
+    /* color: var(--textColor); */
     transition: all .3s
 }
 
