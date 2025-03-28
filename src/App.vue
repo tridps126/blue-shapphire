@@ -4,9 +4,7 @@
     <div class="opacity_menu"></div>
     <Header :isSearchActive="isSearchActive" :openSearch="openSearch"></Header>
     <main>
-      <keep-alive>
-        <router-view />
-      </keep-alive>
+      <router-view />
     </main>
     <Footer></Footer>
     <a href="#" class="backtop" title="Lên đầu trang">
