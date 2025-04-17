@@ -40,14 +40,50 @@
             <div class="container">
                 <div class="pg_page">
                     <div class="row">
-                        <div class="right-content col-lg-8 col-12" v-if="post">
+                        <div class="right-content col-lg-8 col-12" v-if="isLoading">
+                            <content-loader :height="620" :width="'100%'" style="width: 100%; height: auto;">
+                                <!-- Tiêu đề -->
+                                <rect x="0" y="10" rx="4" ry="4" width="40%" height="28" />
+
+                                <!-- Mô tả công việc -->
+                                <rect x="0" y="50" rx="4" ry="4" width="30%" height="20" />
+                                <rect x="0" y="80" rx="3" ry="3" width="95%" height="16" />
+                                <rect x="0" y="100" rx="3" ry="3" width="98%" height="16" />
+                                <rect x="0" y="120" rx="3" ry="3" width="96%" height="16" />
+                                <rect x="0" y="140" rx="3" ry="3" width="90%" height="16" />
+
+                                <!-- Yêu cầu ứng viên -->
+                                <rect x="0" y="180" rx="4" ry="4" width="35%" height="20" />
+                                <rect x="0" y="210" rx="3" ry="3" width="95%" height="16" />
+                                <rect x="0" y="230" rx="3" ry="3" width="90%" height="16" />
+                                <rect x="0" y="250" rx="3" ry="3" width="93%" height="16" />
+                                <rect x="0" y="270" rx="3" ry="3" width="88%" height="16" />
+                                <rect x="0" y="290" rx="3" ry="3" width="80%" height="16" />
+
+                                <!-- Quyền lợi -->
+                                <rect x="0" y="330" rx="4" ry="4" width="25%" height="20" />
+                                <rect x="0" y="360" rx="3" ry="3" width="95%" height="16" />
+                                <rect x="0" y="380" rx="3" ry="3" width="90%" height="16" />
+                                <rect x="0" y="400" rx="3" ry="3" width="95%" height="16" />
+                                <rect x="0" y="420" rx="3" ry="3" width="96%" height="16" />
+                                <rect x="0" y="440" rx="3" ry="3" width="92%" height="16" />
+                                <rect x="0" y="460" rx="3" ry="3" width="93%" height="16" />
+                                <rect x="0" y="480" rx="3" ry="3" width="88%" height="16" />
+                                <rect x="0" y="500" rx="3" ry="3" width="85%" height="16" />
+
+                                <!-- Cách thức ứng tuyển -->
+                                <rect x="0" y="540" rx="4" ry="4" width="35%" height="20" />
+                                <rect x="0" y="570" rx="3" ry="3" width="98%" height="16" />
+                                <rect x="0" y="590" rx="3" ry="3" width="85%" height="16" />
+                                <rect x="0" y="610" rx="3" ry="3" width="50%" height="16" />
+                            </content-loader>
+
+                        </div>
+                        <div class="right-content col-lg-8 col-12" v-else>
                             <div class="page-title category-title">
                                 <h1 class="title-head" style="color: #006ac0;" v-html="post.title.rendered"></h1>
                             </div>
                             <div class="content-page rte" v-html="post.content.rendered"></div>
-                        </div>
-                        <div v-else class="right-content col-lg-8 col-12">
-                            <p>Đang tải...</p>
                         </div>
                         <div class="page_services col-lg-4 col-12">
                             <div class="aside-content-menu">
@@ -90,8 +126,12 @@
 
 
 <script>
+import ContentLoader from 'vue-content-loading';
 export default {
     name: 'SearchDetail',
+    components: {
+        ContentLoader,
+    },
     data() {
         return {
             searchTerm: '',
@@ -99,6 +139,7 @@ export default {
             otherNews: [],
             otherJobs: [],
             otherNewsId: 4,
+            isLoading: false
         };
     },
     methods: {
@@ -118,15 +159,18 @@ export default {
                 })
                 .catch(error => console.error('Lỗi:', error));
         },
-        fetchPost(postId) {
-
-            fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts/${postId}`)
-                .then(response => response.json())
-                .then(data => {
-                    this.post = data;
-                })
-                .catch(error => console.error('Lỗi:', error));
-        }
+        async fetchPost(postId) {
+            this.isLoading = true;
+            try {
+                const response = await fetch(`https://api-blue-shappire.trialweb.us/wp-json/wp/v2/posts/${postId}`);
+                const data = await response.json();
+                this.post = data;
+            } catch (error) {
+                console.error("Lỗi khi tải bài viết:", error);
+            } finally {
+                this.isLoading = false;
+            }
+        },
     },
     mounted() {
         const postId = this.$route.params.id;
