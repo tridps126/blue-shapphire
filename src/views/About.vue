@@ -640,7 +640,7 @@
                                             </svg>
                                         </div>
                                         <div class="content">Sự chuyên nghiệp và tận tâm của đội ngũ đã tạo ra một không
-                                            gian sống tuyệt vời cho gia đình tôi.</div>
+                                            gian làm việc tuyệt vời cho tôi.</div>
                                         <div class="info">
                                             <div class="avatar">
                                                 <img width="80" height="80" class="img-fluid"
@@ -670,7 +670,7 @@
                                             </svg>
                                         </div>
                                         <div class="content">Công ty đã mang lại cho tôi trải nghiệm tuyệt vời nhất
-                                            trong quá trình cải tạo nhà cửa của mình.</div>
+                                            trong quá trình làm việc của mình.</div>
                                         <div class="info">
                                             <div class="avatar">
                                                 <img width="80" height="80" class="img-fluid"
@@ -701,7 +701,7 @@
                                             </svg>
                                         </div>
                                         <div class="content">Tôi đã làm việc với nhiều công ty thiết kế trước đây, nhưng
-                                            đội ngũ Lofi thực sự nổi bật với sự chất lượng và hiệu quả.</div>
+                                            đội ngũ Blue Shapphire thực sự nổi bật với sự chất lượng và hiệu quả.</div>
                                         <div class="info">
                                             <div class="avatar">
                                                 <img width="80" height="80" class="img-fluid"
