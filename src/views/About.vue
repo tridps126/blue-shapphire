@@ -679,7 +679,7 @@
                                             </div>
                                             <div class="details-info">
                                                 <h5>Trang Lou</h5>
-                                                <span>Admin</span>
+                                                <span>Designer</span>
                                             </div>
                                         </div>
                                     </div>
@@ -710,7 +710,7 @@
                                             </div>
                                             <div class="details-info">
                                                 <h5>Hanna Jena</h5>
-                                                <span>Nhân viên văn phòng</span>
+                                                <span>Nhân viên</span>
                                             </div>
                                         </div>
                                     </div>
