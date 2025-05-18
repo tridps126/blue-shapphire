@@ -20,7 +20,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:recruit@bluesapphire.vn" title="blueShapphire@gmail.com"
+                                <a href="mailto:recruit@bluesapphire.vn" title="blueSapphire@gmail.com"
                                     style="color:#231f20">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         height="24" width="24" viewBox="0 0 60 60">

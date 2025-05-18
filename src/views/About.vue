@@ -35,10 +35,10 @@
                                 <img class="lazyload img-fluid" width="676" height="683"
                                     src="../assets/images/otther_2.jpg"
                                     data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
-                                    alt="Blue Shapphire" />
+                                    alt="Blue Sapphire" />
                                 <div ref="gallery" class="block_video_play">
                                     <a href="javascript:void(0);" data-src="https://www.youtube.com/watch?v=d85cZ60gg4Q"
-                                        class="video_play popup-youtube video-item" title="Blue Shapphire">
+                                        class="video_play popup-youtube video-item" title="Blue Sapphire">
                                         <span class="video-icon">
                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play"
                                                 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -701,7 +701,7 @@
                                             </svg>
                                         </div>
                                         <div class="content">Tôi đã làm việc với nhiều công ty thiết kế trước đây, nhưng
-                                            đội ngũ Blue Shapphire thực sự nổi bật với sự chất lượng và hiệu quả.</div>
+                                            đội ngũ Blue Sapphire thực sự nổi bật với sự chất lượng và hiệu quả.</div>
                                         <div class="info">
                                             <div class="avatar">
                                                 <img width="80" height="80" class="img-fluid"

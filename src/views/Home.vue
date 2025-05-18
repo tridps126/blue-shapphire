@@ -17,7 +17,7 @@
                               <div class="slider-text d-none d-lg-block">
                                    <div class="container">
                                         <div class="slider-content">
-                                             <span class="sup-title">Blue Shapphire</span>
+                                             <span class="sup-title">Blue Sapphire</span>
                                              <h2 class="title">Công Nghệ Đổi Mới, Nhân Sự Tạo Dựng Thành Công</h2>
                                              <router-link class="button" to="/services" title="Xem chi tiết">Xem chi
                                                   tiết</router-link>
@@ -39,7 +39,7 @@
                               <div class="slider-text d-none d-lg-block">
                                    <div class="container">
                                         <div class="slider-content">
-                                             <span class="sup-title">Blue Shapphire</span>
+                                             <span class="sup-title">Blue Sapphire</span>
                                              <h2 class="title">Tech Solutions, Empowered Talent, Lasting Success</h2>
                                              <router-link class="button" to="/services" title="Xem chi tiết">Xem chi
                                                   tiết</router-link>
@@ -59,11 +59,11 @@
                                    <img class="lazyload img-fluid" width="676" height="683"
                                         src="../assets/images/otther_2.jpg"
                                         data-src="//bizweb.dktcdn.net/100/503/218/themes/931576/assets/about-image.jpg?1715757113942"
-                                        alt="Blue Shapphire" />
+                                        alt="Blue Sapphire" />
                                    <div ref="gallery" class="block_video_play">
                                         <a href="javascript:void(0);"
                                              data-src="https://www.youtube.com/watch?v=d85cZ60gg4Q"
-                                             class="video_play popup-youtube video-item" title="Blue Shapphire">
+                                             class="video_play popup-youtube video-item" title="Blue Sapphire">
                                              <span class="video-icon">
                                                   <svg aria-hidden="true" focusable="false" data-prefix="fas"
                                                        data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -824,7 +824,7 @@
                                                                            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
                                                                            class=""></path>
                                                                  </svg>
-                                                                 <span>Team Blue Shapphire</span>
+                                                                 <span>Team Blue Sapphire</span>
                                                             </div>
                                                             <div class="date-post f">
 

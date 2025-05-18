@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="contact">
-                            <h4 style="color: #006ac0;">Blue Shapphire</h4>
+                            <h4 style="color: #006ac0;">Blue Sapphire</h4>
                             <div class="time_work">
                                 <div class="item">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas"

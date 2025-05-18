@@ -181,12 +181,12 @@
         <div id="copyright" class="copyright">
             <div class="container">
                 <div class="wsp">
-                    © Bản quyền thuộc về <b>Blue Shapphire</b>
+                    © Bản quyền thuộc về <b>Blue Sapphire</b>
                     <!-- <span class="center">|</span> -->
                     <!-- <span class="opacity1">
                         Cung cấp bởi
                         <router-link to="/">
-                            Blue Shapphire
+                            Blue Sapphire
                         </router-link>
                     </span> -->
                 </div>
